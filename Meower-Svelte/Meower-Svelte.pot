@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: meower\n"
+"Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "Last-Translator: \n"
 "Language: \n"
