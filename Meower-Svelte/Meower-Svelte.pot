@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Meower-Svelte\n"
+"Project-Id-Version: meower\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "Last-Translator: \n"
 "Language: \n"
@@ -54,11 +54,11 @@ msgstr ""
 msgid "Too many requests! Please try again later."
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173
 #: src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
-msgid "Unexpected %s error!"
+msgid "Unexpected {error} error!"
 msgstr ""
 
 #: src/lib/Setup.svelte:201
@@ -86,9 +86,9 @@ msgstr ""
 msgid "(You need to be logged in for this page.)"
 msgstr ""
 
-#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.6.3). Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
-msgid "Meower Svelte v%s"
+msgid "Meower Svelte v{version}"
 msgstr ""
 
 #: src/lib/Setup.svelte:267
@@ -108,6 +108,8 @@ msgstr ""
 #: src/lib/modals/Signup.svelte:86
 #: src/lib/modals/chats/AddMember.svelte:62
 #: src/lib/modals/chats/AddMember.svelte:66
+#: src/lib/modals/chats/AddMember_Search.svelte:24
+#: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
 msgstr ""
 
@@ -142,10 +144,10 @@ msgstr ""
 msgid "Creating account..."
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:346
 #: src/lib/modals/Signup.svelte:59
-msgid "%s is taken!"
+msgid "{username} is taken!"
 msgstr ""
 
 #: src/lib/Setup.svelte:364
@@ -185,9 +187,9 @@ msgstr ""
 msgid "Somehow, you got to a page that doesn't exist..."
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:426
-msgid "(Current page: %s)"
+msgid "(Current page: {page})"
 msgstr ""
 
 #: src/lib/modals/AddImage.svelte:91
@@ -219,11 +221,11 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/AddImage.svelte:161
 #: src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
-msgid "%s's profile picture"
+msgid "{username}'s profile picture"
 msgstr ""
 
 #: src/lib/modals/AddImage.svelte:210
@@ -239,9 +241,9 @@ msgstr ""
 msgid "External Link"
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/ConfirmHyperlink.svelte:15
-msgid "Are you sure you wish to go to %s? If you confirm this action, it will be opened in a new tab."
+msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
 msgstr ""
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
@@ -249,6 +251,8 @@ msgstr ""
 #: src/lib/modals/Logout.svelte:15
 #: src/lib/modals/ServerSelector.svelte:77
 #: src/lib/modals/chats/AddMember.svelte:85
+#: src/lib/modals/chats/AddMember_Search.svelte:42
+#: src/lib/modals/chats/ChangeChatNickname.svelte:80
 msgid "Cancel"
 msgstr ""
 
@@ -288,11 +292,12 @@ msgstr ""
 msgid "Stores"
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{code}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/DeletePost.svelte:39
 #: src/lib/modals/chats/AddMember.svelte:47
 #: src/lib/modals/chats/AddMember_Profile.svelte:51
-msgid "Response code is not OK; code is %s"
+#: src/lib/modals/chats/ChangeChatNickname.svelte:48
+msgid "Response code is not OK; code is {code}"
 msgstr ""
 
 #: src/lib/modals/DeletePost.svelte:49
@@ -398,25 +403,29 @@ msgstr ""
 #: src/lib/modals/chats/AddMember.svelte:14
 #: src/lib/modals/chats/AddMember_Mode.svelte:11
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
+#: src/lib/modals/chats/AddMember_Search.svelte:14
 msgid "Add Member"
 msgstr ""
 
-#. TRANSLATORS: Do not modify the "%s" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:33
 #: src/lib/modals/chats/AddMember_Profile.svelte:43
-msgid "Someone's privacy settings are preventing you from adding %s to %s"
+msgid "Someone's privacy settings are preventing you from adding {username} to {nickname}"
 msgstr ""
 
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:36
-msgid "%s not found."
+msgid "{username} not found."
 msgstr ""
 
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:39
-msgid "%s is already a member of %s."
+msgid "{username} is already a member of {nickname}."
 msgstr ""
 
 #: src/lib/modals/chats/AddMember.svelte:43
 #: src/lib/modals/chats/AddMember_Profile.svelte:47
+#: src/lib/modals/chats/ChangeChatNickname.svelte:44
 msgid "Too many requests! Try again later."
 msgstr ""
 
@@ -432,3 +441,23 @@ msgstr ""
 msgid "Search for Users"
 msgstr ""
 
+#: src/lib/modals/chats/AddMember_Search.svelte:44
+msgid "Search"
+msgstr ""
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:21
+msgid "Change Nickname"
+msgstr ""
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:62
+#: src/lib/modals/chats/ChangeChatNickname.svelte:69
+msgid "Chat Nickname"
+msgstr ""
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
+msgid "Change Nickname"
+msgstr ""
+
+#: src/lib/modals/chats/CreateChat.svelte:14
+msgid "Create Chat"
+msgstr ""
