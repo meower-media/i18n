@@ -1,3 +1,3 @@
 # i18n
 
-Translation files for Meower Svelte
+Translation files for Meower
