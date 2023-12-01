@@ -286,7 +286,7 @@ msgstr ""
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr ""
+msgstr "रिकनेक्ट"
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
@@ -459,17 +459,17 @@ msgstr "खोज"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
 msgid "Change Nickname"
-msgstr ""
+msgstr "उपनाम बदलें"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:62
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
-msgstr ""
+msgstr "बातचीत का उपनाम"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
-msgstr ""
+msgstr "उपनाम बदलें"
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
