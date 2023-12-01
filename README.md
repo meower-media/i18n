@@ -4,13 +4,17 @@ Translation files for Meower
 
 ## Projects
 
+Languages marked with **[EL]** means that it is an esolang (esoteric language, or a easter egg language).
+
 ### Meower Svelte
 
-Currently has no translations.
+#### Cat Language [EL]
+
+Maintained by **[@meltland2002](https://github.com/meltland2002)**
 
 ### Meower Website
 
-Currently has no translations.
+Currently has no maintainers maintaining translations.
 
 ## Contributing translations
 
