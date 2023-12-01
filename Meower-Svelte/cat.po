@@ -1,0 +1,695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meower-Svelte\n"
+"Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
+"Last-Translator: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language-Team: The Meower Translators Team\n"
+"PO-Revision-Date: \n"
+"X-Generator: \n"
+
+#: src/lib/Setup.svelte:75
+msgid "Connecting..."
+msgstr "Meow..."
+
+#: src/lib/Setup.svelte:135
+msgid "Logging in..."
+msgstr "Meow meow..."
+
+#: src/lib/Setup.svelte:152
+#: src/lib/modals/Login.svelte:43
+msgid "Invalid username!"
+msgstr "Meow meow!"
+
+#: src/lib/Setup.svelte:155
+#: src/lib/modals/Login.svelte:46
+msgid "This account has been deleted!"
+msgstr "Meow meow meow meow meow!"
+
+#: src/lib/Setup.svelte:159
+msgid "Session expired! Please login again."
+msgstr "Meow meow! Meow meow meow."
+
+#: src/lib/Setup.svelte:160
+#: src/lib/modals/Login.svelte:49
+msgid "Invalid password!"
+msgstr "Meow meow!"
+
+#: src/lib/Setup.svelte:167
+#: src/lib/Setup.svelte:350
+#: src/lib/modals/Login.svelte:55
+#: src/lib/modals/Signup.svelte:63
+msgid "Usernames must not have spaces or other special characters!"
+msgstr "Meow meow meow meow meow meow meow meow meow!"
+
+#: src/lib/Setup.svelte:170
+#: src/lib/Setup.svelte:354
+#: src/lib/modals/DeletePost.svelte:35
+#: src/lib/modals/Login.svelte:59
+#: src/lib/modals/Signup.svelte:67
+msgid "Too many requests! Please try again later."
+msgstr "Meow meow meow! Meow meow meow meow."
+
+#. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:173
+#: src/lib/Setup.svelte:370
+#: src/lib/modals/Signup.svelte:79
+msgid "Unexpected {error} error!"
+msgstr "Meow {error} meow!"
+
+#: src/lib/Setup.svelte:201
+msgid "Reconnecting..."
+msgstr "Meow..."
+
+#: src/lib/Setup.svelte:220
+#: src/lib/modals/Login.svelte:105
+msgid "Log in"
+msgstr "Meow meow"
+
+#: src/lib/Setup.svelte:224
+msgid "Create an account"
+msgstr "Meow meow meow"
+
+#: src/lib/Setup.svelte:248
+msgid "Skip"
+msgstr "Meow"
+
+#: src/lib/Setup.svelte:251
+msgid "(Several features will be unavailable while not logged in.)"
+msgstr "(Meow meow meow meow meow meow meow meow meow.)"
+
+#: src/lib/Setup.svelte:256
+msgid "(You need to be logged in for this page.)"
+msgstr "(Meow meow meow meow meow meow meow meow meow.)"
+
+#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:260
+msgid "Meower Svelte v{version}"
+msgstr "Meower meow v{version}"
+
+#: src/lib/Setup.svelte:267
+#: src/lib/modals/Login.svelte:17
+#: src/lib/modals/Signup.svelte:153
+msgid "Login to Meower"
+msgstr "Meow meow Meower"
+
+#: src/lib/Setup.svelte:274
+msgid "You must specify a username and a password to login!"
+msgstr "Meow meow meow meow meow meow meow meow meow meow!"
+
+#: src/lib/Setup.svelte:281
+#: src/lib/Setup.svelte:375
+#: src/lib/modals/Login.svelte:72
+#: src/lib/modals/Login.svelte:78
+#: src/lib/modals/Signup.svelte:86
+#: src/lib/modals/chats/AddMember.svelte:62
+#: src/lib/modals/chats/AddMember.svelte:66
+#: src/lib/modals/chats/AddMember_Search.svelte:24
+#: src/lib/modals/chats/AddMember.svelte:28
+msgid "Username"
+msgstr "Meow"
+
+#: src/lib/Setup.svelte:282
+#: src/lib/Setup.svelte:378
+#: src/lib/modals/Login.svelte:86
+#: src/lib/modals/Login.svelte:92
+#: src/lib/modals/Signup.svelte:101
+msgid "Password"
+msgstr "Meow"
+
+#: src/lib/Setup.svelte:291
+#: src/lib/Setup.svelte:411
+#: src/lib/Setup.svelte:429
+msgid "Go back"
+msgstr "Meow meow"
+
+#: src/lib/Setup.svelte:293
+msgid "Log in"
+msgstr "Meow meow"
+
+#: src/lib/Setup.svelte:309
+msgid "You must specify a username and a password to create an account!"
+msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow!"
+
+#: src/lib/Setup.svelte:314
+#: src/lib/modals/Signup.svelte:29
+msgid "Passwords do not match! Make sure you have entered your password correctly."
+msgstr "Meow meow meow meow! Meow meow meow meow meow meow meow meow."
+
+#: src/lib/Setup.svelte:318
+msgid "Creating account..."
+msgstr "Meow meow..."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:346
+#: src/lib/modals/Signup.svelte:59
+msgid "{username} is taken!"
+msgstr "{username} meow meow!"
+
+#: src/lib/Setup.svelte:364
+#: src/lib/modals/Signup.svelte:74
+msgid "Registration Disabled"
+msgstr "Meow meow"
+
+#: src/lib/Setup.svelte:365
+#: src/lib/modals/Signup.svelte:75
+msgid "Unfortunately, you may not create a new account at this time. An administrator has disabled registration. Please try again later."
+msgstr "Meow, meow meow meow meow meow meow meow meow meow meow. Meow meow meow meow meow. Meow meow meow meow."
+
+#: src/lib/Setup.svelte:384
+#: src/lib/modals/Signup.svelte:118
+msgid "Confirm password"
+msgstr "Meow meow"
+
+#: src/lib/Setup.svelte:395
+#: src/lib/modals/Signup.svelte:137
+msgid "I agree to"
+msgstr "Meow meow meow"
+
+#: src/lib/Setup.svelte:399
+#: src/lib/modals/Signup.svelte:147
+msgid "Meower's Terms of Service and Privacy Policy"
+msgstr "Meower meow meow meow meow meow meow"
+
+#: src/lib/Setup.svelte:413
+msgid "Join!"
+msgstr "Meow!"
+
+#: src/lib/Setup.svelte:420
+msgid "Let's go!"
+msgstr "Meow meow!"
+
+#: src/lib/Setup.svelte:424
+msgid "Somehow, you got to a page that doesn't exist..."
+msgstr "Meow, meow meow meow meow meow meow meow meow..."
+
+#. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:426
+msgid "(Current page: {page})"
+msgstr "(Meow meow: {page})"
+
+#: src/lib/modals/AddImage.svelte:91
+#: src/lib/modals/AddImage.svelte:127
+msgid "The image must have a name!"
+msgstr "Meow meow meow meow meow meow!"
+
+#: src/lib/modals/AddImage.svelte:95
+msgid "The image URL must start with https://!"
+msgstr "Meow meow meow meow meow meow meow://!"
+
+#: src/lib/modals/AddImage.svelte:118
+msgid "This image is not on the image host whitelist! Allowed image hosts are:"
+msgstr "Meow meow meow meow meow meow meow meow meow! Meow meow meow meow:"
+
+#: src/lib/modals/AddImage.svelte:131
+msgid "Add Image to Post"
+msgstr "Meow meow meow meow"
+
+#: src/lib/modals/AddImage.svelte:137
+msgid "Image Name"
+msgstr "Meow meow"
+
+#: src/lib/modals/AddImage.svelte:147
+msgid "Image URL"
+msgstr "Meow meow"
+
+#: src/lib/modals/AddImage.svelte:153
+msgid "Preview"
+msgstr "Meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/AddImage.svelte:161
+#: src/lib/modals/AddImage.svelte:167
+#: src/lib/modals/AddImage.svelte:173
+msgid "{username}'s profile picture"
+msgstr "{username} meow meow"
+
+#: src/lib/modals/AddImage.svelte:210
+#: src/lib/modals/Basic.svelte:16
+msgid "Close"
+msgstr "Meow"
+
+#: src/lib/modals/AddImage.svelte:219
+msgid "Add"
+msgstr "Meow"
+
+#: src/lib/modals/ConfirmHyperlink.svelte:12
+msgid "External Link"
+msgstr "Meow meow"
+
+#. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/ConfirmHyperlink.svelte:15
+msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
+msgstr "Meow meow meow meow meow meow meow meow {url}? Meow meow meow meow meow, meow meow meow meow meow meow meow meow."
+
+#: src/lib/modals/ConfirmHyperlink.svelte:19
+#: src/lib/modals/DeletePost.svelte:67
+#: src/lib/modals/Logout.svelte:15
+#: src/lib/modals/ServerSelector.svelte:77
+#: src/lib/modals/chats/AddMember.svelte:85
+#: src/lib/modals/chats/AddMember_Search.svelte:42
+#: src/lib/modals/chats/ChangeChatNickname.svelte:80
+#: src/lib/modals/chats/CreateChat.svelte:72
+#: src/lib/modals/chats/LeaveChat.svelte:55
+#: src/lib/modals/chats/RemoveMember.svelte:69
+#: src/lib/modals/chats/TransferChatOwnership.svelte:70
+msgid "Cancel"
+msgstr "Meow"
+
+#: src/lib/modals/ConfirmHyperlink.svelte:24
+msgid "Yes"
+msgstr "Meow"
+
+#: src/lib/modals/ConnectionFailed.svelte:22
+msgid "Connection Failed"
+msgstr "Meow meow"
+
+#: src/lib/modals/ConnectionFailed.svelte:26
+msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
+msgstr "Meower meow meow meow meow meow. Meow meow meow meow-meow-meow meow meow meow meow meow meow meow meow meow"
+
+#: src/lib/modals/ConnectionFailed.svelte:35
+msgid "Your IP address has been blocked because it was used to violate Meower's Terms of Service or is likely to cause spam."
+msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow Meower meow meow meow meow meow meow meow meow meow."
+
+#: src/lib/modals/ConnectionFailed.svelte:38
+msgid "If you think this is a mistake, please email"
+msgstr "Meow meow meow meow meow meow meow, meow meow"
+
+#: src/lib/modals/ConnectionFailed.svelte:47
+msgid "Failed connecting to server. View console for more information or try again later."
+msgstr "Meow meow meow meow. Meow meow meow meow meow meow meow meow meow."
+
+#: src/lib/modals/ConnectionFailed.svelte:53
+msgid "Reconnect"
+msgstr "Meow"
+
+#: src/lib/modals/Debug.svelte:21
+msgid "Debug"
+msgstr "Meow"
+
+#: src/lib/modals/Debug.svelte:23
+msgid "Stores"
+msgstr "Meow"
+
+#. TRANSLATORS: Do not modify the "{code}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/DeletePost.svelte:39
+#: src/lib/modals/chats/AddMember.svelte:47
+#: src/lib/modals/chats/AddMember_Profile.svelte:51
+#: src/lib/modals/chats/ChangeChatNickname.svelte:48
+#: src/lib/modals/chats/CreateChat.svelte:36
+#: src/lib/modals/chats/LeaveChat.svelte:35
+#: src/lib/modals/chats/RemoveMember.svelte:46
+#: src/lib/modals/chats/TransferChatOwnership.svelte:47
+msgid "Response code is not OK; code is {code}"
+msgstr "Meow meow meow meow meow; meow meow {code}"
+
+#: src/lib/modals/DeletePost.svelte:49
+msgid "Are you sure you would like to delete this post?"
+msgstr "Meow meow meow meow meow meow meow meow meow meow?"
+
+#: src/lib/modals/DeletePost.svelte:54
+msgid "Report to Meower Moderators"
+msgstr "Meow meow Meower meow"
+
+#: src/lib/modals/DeletePost.svelte:70
+msgid "Delete"
+msgstr "Meow"
+
+#: src/lib/modals/LoggedOut.svelte:8
+msgid "Logged Out"
+msgstr "Meow meow"
+
+#: src/lib/modals/LoggedOut.svelte:10
+msgid "You have been logged out. Please login again."
+msgstr "Meow meow meow meow meow. Meow meow meow."
+
+#: src/lib/modals/LoggedOut.svelte:13
+#: src/lib/modals/Logout.svelte:10
+#: src/lib/modals/Logout.svelte:16
+msgid "Logout"
+msgstr "Meow"
+
+#: src/lib/modals/Login.svelte:23
+#: src/lib/modals/Signup.svelte:24
+msgid "You must specify a username and password!"
+msgstr "Meow meow meow meow meow meow meow!"
+
+#: src/lib/modals/Login.svelte:103
+#: src/lib/modals/Signup.svelte:18
+msgid "Join Meower"
+msgstr "Meow Meower"
+
+#: src/lib/modals/Logout.svelte:12
+msgid "Are you sure you would like to logout?"
+msgstr "Meow meow meow meow meow meow meow meow?"
+
+#: src/lib/modals/SearchResults.svelte:14
+msgid "Results"
+msgstr "Meow"
+
+#: src/lib/modals/SearchResults.svelte:25
+msgid "Error loading results. Please try again."
+msgstr "Meow meow meow. Meow meow meow."
+
+#: src/lib/modals/SearchResults.svelte:28
+msgid "No results found."
+msgstr "Meow meow meow."
+
+#: src/lib/modals/ServerSelector.svelte:15
+msgid "Server Selector"
+msgstr "Meow meow"
+
+#: src/lib/modals/ServerSelector.svelte:38
+msgid "WARNING!"
+msgstr "MEOW!"
+
+#: src/lib/modals/ServerSelector.svelte:39
+msgid "Connecting to a custom server can be dangerous! They will get your IP address and some details about your device upon connecting. They may also be running custom code to log passwords or other sensitive information."
+msgstr "Meow meow meow meow meow meow meow meow! Meow meow meow meow meow meow meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow meow meow meow meow meow meow."
+
+#: src/lib/modals/ServerSelector.svelte:44
+msgid "This feature is intended for developers."
+msgstr "Meow meow meow meow meow meow."
+
+#: src/lib/modals/ServerSelector.svelte:47
+msgid "Cloudlink URL"
+msgstr "Meow meow"
+
+#: src/lib/modals/ServerSelector.svelte:61
+msgid "REST API URL"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/ServerSelector.svelte:85
+msgid "Reset"
+msgstr "Meow"
+
+#: src/lib/modals/ServerSelector.svelte:87
+msgid "Save & Reload"
+msgstr "Meow & meow"
+
+#: src/lib/modals/Signup.svelte:92
+msgid "Username..."
+msgstr "Meow..."
+
+#: src/lib/modals/Signup.svelte:107
+msgid "Password..."
+msgstr "Meow..."
+
+#: src/lib/modals/Signup.svelte:124
+msgid "Confirm password"
+msgstr "Meow meow"
+
+#: src/lib/modals/Signup.svelte:156
+msgid "Join"
+msgstr "Meow"
+
+#: src/lib/modals/chats/AddMember.svelte:14
+#: src/lib/modals/chats/AddMember_Mode.svelte:11
+#: src/lib/modals/chats/AddMember_Profile.svelte:11
+#: src/lib/modals/chats/AddMember_Search.svelte:14
+msgid "Add Member"
+msgstr "Meow meow"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:33
+#: src/lib/modals/chats/AddMember_Profile.svelte:43
+msgid "Someone's privacy settings are preventing you from adding {username} to {nickname}"
+msgstr "Meow meow meow meow meow meow meow meow {username} meow {nickname}"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:36
+msgid "{username} not found."
+msgstr "{username meow meow."
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:39
+msgid "{username} is already a member of {nickname}."
+msgstr "{username} meow meow meow meow meow {nickname}."
+
+#: src/lib/modals/chats/AddMember.svelte:43
+#: src/lib/modals/chats/AddMember_Profile.svelte:47
+#: src/lib/modals/chats/ChangeChatNickname.svelte:44
+#: src/lib/modals/chats/CreateChat.svelte:32
+#: src/lib/modals/chats/LeaveChat.svelte:31
+#: src/lib/modals/chats/RemoveMember.svelte:42
+#: src/lib/modals/chats/TransferChatOwnership.svelte:43
+msgid "Too many requests! Try again later."
+msgstr "Meow meow meow! Meow meow meow."
+
+#: src/lib/modals/chats/AddMember.svelte:88
+msgid "Add member"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/AddMember_Mode.svelte:17
+msgid "Enter Username"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/AddMember_Mode.svelte:23
+msgid "Search for Users"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/chats/AddMember_Search.svelte:44
+msgid "Search"
+msgstr "Meow"
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:21
+msgid "Change Nickname"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:62
+#: src/lib/modals/chats/ChangeChatNickname.svelte:69
+#: src/lib/modals/chats/CreateChat.svelte:54
+msgid "Chat Nickname"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
+msgid "Change Nickname"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/CreateChat.svelte:14
+msgid "Create Chat"
+msgstr "Meow meow"
+
+#: src/lib/modals/chats/CreateChat.svelte:61
+msgid "Chat Nickname..."
+msgstr "Meow meow..."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/GCMember.svelte:21
+msgid "{username}'s Profile"
+msgstr "{username} meow"
+
+#: src/lib/modals/chats/GCMember.svelte:32
+msgid "View full profile"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/chats/GCMember.svelte:40
+msgid "Remove from chat"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/chats/GCMember.svelte:49
+msgid "Make owner of chat"
+msgstr "Meow meow meow meow"
+
+#: src/lib/modals/chats/LeaveChat.svelte:18
+msgid "Leave Chat"
+msgstr "Meow meow"
+
+#. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/LeaveChat.svelte:45
+msgid "Are you sure you want to leave {nickname}?"
+msgstr "Meow meow meow meow meow meow meow {nickname}?"
+
+#: src/lib/modals/chats/LeaveChat.svelte:57
+msgid "Leave"
+msgstr "Meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/RemoveMember.svelte:24
+msgid "Remove {username}"
+msgstr "Meow {username}"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/RemoveMember.svelte:59
+msgid "Are you sure you want to remove {username} from {nickname}?"
+msgstr "Meow meow meow meow meow meow meow {username} meow {nickname}?"
+
+#: src/lib/modals/chats/RemoveMember.svelte:72
+msgid "Remove member"
+msgstr "Meow meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/TransferChatOwnership.svelte:25
+msgid "Transfer Ownership to {username}"
+msgstr "Meow meow meow {username}"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/TransferChatOwnership.svelte:60
+msgid "Are you sure you want to transfer ownership of {nickname} to {username}?"
+msgstr "Meow meow meow meow meow meow meow meow meow {nickname} meow {username}?"
+
+#: src/lib/modals/chats/TransferChatOwnership.svelte:73
+#: src/lib/modals/chats/TransferChatOwnership.svelte:76
+msgid "Transfer Ownership"
+msgstr "Meow meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:16
+msgid "Clear {username}'s Posts"
+msgstr "Meow {username} meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:44
+msgid "Are you sure you wish to delete all of {username}'s posts? Currently, there is no easy way to recover all of their deleted posts!"
+msgstr "Meow meow meow meow meow meow meow meow meow {username} meow? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
+
+#. TRANSLATORS: Do not modify the "{username}" and the "{origin}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:44
+msgid "Are you sure you wish to delete all of {username}'s posts in {origin}? Currently, there is no easy way to recover all of their deleted posts!"
+msgstr "Meow meow meow meow meow meow meow meow meow {username} meow meow {origin}? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
+
+#: src/lib/modals/moderation/ClearPosts.svelte:60
+#: src/lib/modals/moderation/DeleteAccount.svelte:105
+msgid "Confirm"
+msgstr "Meow"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearQuote.svelte:19
+msgid "Clear {username}'s Quote"
+msgstr "Meow {username} meow"
+
+#: src/lib/modals/moderation/ClearQuote.svelte:45
+msgid "Are you sure? This action is irreversible!"
+msgstr "Meow meow meow? Meow meow meow meow!"
+
+#: src/lib/modals/moderation/ClearQuote.svelte:58
+msgid "Clear Quote"
+msgstr "Meow meow"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:19
+#: src/lib/modals/moderation/CreateNetblock.svelte:86
+msgid "Create Netblock"
+msgstr "Meow meow"
+
+#. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/CreateNetblock.svelte:50
+msgid "CIDR"
+msgstr "MEOW"
+
+#. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/CreateNetblock.svelte:57
+msgid "CIDR..."
+msgstr "MEOW..."
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:62
+msgid "Type"
+msgstr "Meow"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:69
+msgid "Full"
+msgstr "Meow"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:70
+msgid "Registration"
+msgstr "Meow"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:73
+msgid "This blocks any connection request to Meower's CloudLink server and blocks any REST API request."
+msgstr "Meow meow meow meow meow meow Meower meow meow meow meow meow meow meow meow."
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:76
+msgid "This blocks new account from being created."
+msgstr "Meow meow meow meow meow meow meow."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteAccount.svelte:19
+msgid "Please confirm the user's username ({username}):"
+msgstr "Meow meow meow meow meow ({username}):"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:19
+msgid "Please confirm the user's username ({username}):"
+msgstr "Meow meow meow meow meow ({username}):"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:26
+msgid "This action can be very destructive! By confirming this, you acknowledge and take responsibility for the consequences of this action. Are you absolutely sure you wish to continue?"
+msgstr "Meow meow meow meow meow meow! Meow meow meow, meow meow meow meow meow meow meow meow meow meow meow. Meow meow meow meow meow meow meow meow?"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:29
+msgid "Cancelled!"
+msgstr "Meow!"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteAccount.svelte:53
+msgid "Delete {username}"
+msgstr "Meow {username}"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:56
+msgid "Mode"
+msgstr "Meow"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:68
+msgid "Cancel scheduled deletion"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:76
+msgid "Immediate deletion"
+msgstr "Meow meow"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:79
+msgid "Purge"
+msgstr "Meow"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:82
+msgid "Cancel scheduled account deletion."
+msgstr "Meow meow meow meow."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:84
+msgid "Schedule account for deletion after 7 days."
+msgstr "Meow meow meow meow meow meow meow"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:86
+msgid "Immediate delete account."
+msgstr "Meow meow meow."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:88
+msgid "Purge everything about the account. It'll be like it never existed."
+msgstr "Meow meow meow meow meow. Meow meow meow meow meow meow."
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteNetblock.svelte:18
+msgid "Delete {cidr} Netblock"
+msgstr "Meow {cidr} meow"
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteNetblock.svelte:43
+msgid "Are you sure you want to delete {cidr} netblock?"
+msgstr "Meow meow meow meow meow meow meow {cidr} meow?"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:17
+msgid "Block home posts"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:18
+msgid "Blocks creating new home posts."
+msgstr "Meow meow meow meow meow."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:22
+msgid "Block chat posts"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:23
+msgid "Blocks creating new chat posts."
+msgstr "Meow meow meow meow meow."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:27
+msgid "Block new chats"
+msgstr "Meow meow meow"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:28
+msgid "Blocks creating new group chats and starting DMs."
+msgstr "Meow meow meow meow meow meow meow meow."
