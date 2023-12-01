@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Language-Team: The Meower Translators Team\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
 "PO-Revision-Date: 2023-11-30 22:10+0400\n"
@@ -68,6 +68,7 @@ msgid "Reconnecting..."
 msgstr "Meow..."
 
 #: src/lib/Setup.svelte:220
+#: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
 msgstr "Meow meow"
@@ -127,10 +128,6 @@ msgstr "Meow"
 #: src/lib/Setup.svelte:411
 #: src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr "Meow meow"
-
-#: src/lib/Setup.svelte:293
-msgid "Log in"
 msgstr "Meow meow"
 
 #: src/lib/Setup.svelte:309
@@ -633,10 +630,6 @@ msgid "This blocks new account from being created."
 msgstr "Meow meow meow meow meow meow meow."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
-#: src/lib/modals/moderation/DeleteAccount.svelte:19
-msgid "Please confirm the user's username ({username}):"
-msgstr "Meow meow meow meow meow ({username}):"
-
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
 msgstr "Meow meow meow meow meow ({username}):"

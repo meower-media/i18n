@@ -16,6 +16,10 @@ Maintained by **[@meltland2002](https://github.com/meltland2002)**
 
 Maintained by **[@mdwalters](https://github.com/mdwalters)**
 
+#### Spanish
+
+Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
+
 ### Meower Website
 
 Currently has no maintainers maintaining translations.
