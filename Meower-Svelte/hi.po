@@ -177,7 +177,7 @@ msgstr ""
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
-msgstr ""
+msgstr "जोड़ना!"
 
 #: src/lib/Setup.svelte:420
 msgid "Let's go!"
@@ -219,7 +219,7 @@ msgstr ""
 
 #: src/lib/modals/AddImage.svelte:153
 msgid "Preview"
-msgstr ""
+msgstr "पूर्वावलोकन"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/AddImage.svelte:161
@@ -231,11 +231,11 @@ msgstr ""
 #: src/lib/modals/AddImage.svelte:210
 #: src/lib/modals/Basic.svelte:16
 msgid "Close"
-msgstr ""
+msgstr "बंद करना"
 
 #: src/lib/modals/AddImage.svelte:219
 msgid "Add"
-msgstr ""
+msgstr "जोड़ना"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:12
 msgid "External Link"
@@ -258,11 +258,11 @@ msgstr ""
 #: src/lib/modals/chats/RemoveMember.svelte:69
 #: src/lib/modals/chats/TransferChatOwnership.svelte:70
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करना"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:24
 msgid "Yes"
-msgstr ""
+msgstr "हां"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
@@ -318,7 +318,7 @@ msgstr ""
 
 #: src/lib/modals/DeletePost.svelte:70
 msgid "Delete"
-msgstr ""
+msgstr "हटाना"
 
 #: src/lib/modals/LoggedOut.svelte:8
 msgid "Logged Out"
@@ -350,15 +350,15 @@ msgstr ""
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
-msgstr ""
+msgstr "परिणाम"
 
 #: src/lib/modals/SearchResults.svelte:25
 msgid "Error loading results. Please try again."
-msgstr ""
+msgstr "परिणाम लोड करने में विफल. पुन प्रयास करें."
 
 #: src/lib/modals/SearchResults.svelte:28
-msgid "कोई परिणाम नहीं मिला."
-msgstr ""
+msgid "No results found."
+msgstr "कोई परिणाम नहीं मिला."
 
 #: src/lib/modals/ServerSelector.svelte:15
 msgid "Server Selector"
