@@ -310,7 +310,7 @@ msgstr ""
 
 #: src/lib/modals/DeletePost.svelte:49
 msgid "Are you sure you would like to delete this post?"
-msgstr ""
+msgstr "क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?"
 
 #: src/lib/modals/DeletePost.svelte:54
 msgid "Report to Meower Moderators"
@@ -346,7 +346,7 @@ msgstr ""
 
 #: src/lib/modals/Logout.svelte:12
 msgid "Are you sure you would like to logout?"
-msgstr ""
+msgstr "क्या आप लॉग आउट करना चाहते हैं?"
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
@@ -498,7 +498,7 @@ msgstr ""
 
 #: src/lib/modals/chats/LeaveChat.svelte:18
 msgid "Leave Chat"
-msgstr ""
+msgstr "निकास बातचीत"
 
 #. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/LeaveChat.svelte:45
