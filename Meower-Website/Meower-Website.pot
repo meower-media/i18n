@@ -101,3 +101,31 @@ msgstr ""
 #: index.html:54
 msgid "Open-Source"
 msgstr ""
+
+#: index.html:55
+msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
+msgstr ""
+
+#: index.html:55
+msgid "GitHub"
+msgstr ""
+
+#: index.html:55
+msgid "repository. Together, we can build a better platform for all."
+msgstr ""
+
+#: index.html:62
+msgid "Join the Community"
+msgstr ""
+
+#: index.html:63
+msgid "Are you ready to join a vibrant community of creators and enthusiasts?"
+msgstr ""
+
+#: index.html:63
+msgid "Sign up"
+msgstr ""
+
+#: index.html:63
+msgid "for a Meower account today and start sharing your ideas, creations and stories with the world. Let your vice be heard and connect with fellow Meowers!"
+msgstr ""
