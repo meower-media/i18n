@@ -19,34 +19,34 @@ msgstr "Konektante..."
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr ""
+msgstr "Arbohakado en..."
 
 #: src/lib/Setup.svelte:152
 #: src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr ""
+msgstr "Nevalida uzantnomo!"
 
 #: src/lib/Setup.svelte:155
 #: src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr ""
+msgstr "Ĉi tio konto havas estis forigita!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr ""
+msgstr "Kunsido eksvalidiĝis! Bonvolu ensalutu denove."
 
 #: src/lib/Setup.svelte:160
 #: src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
-msgstr ""
+msgstr "Nevalida pasvorto!"
 
 #: src/lib/Setup.svelte:167
 #: src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55
 #: src/lib/modals/Signup.svelte:63
 msgid "Usernames must not have spaces or other special characters!"
-msgstr ""
+msgstr "Uzantnomoj devas ne havas spacoj aŭ alia speciala karakteroj!"
 
 #: src/lib/Setup.svelte:170
 #: src/lib/Setup.svelte:354
