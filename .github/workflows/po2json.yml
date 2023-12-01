@@ -1,0 +1,46 @@
+name: Update Translations
+
+on:
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
+      - name: Install Dependencies
+        run: npm install -g po2json
+
+      - name: Update Translations
+        run: |
+          project_folder="[project folder name]"
+          language_code="[language code of the language you are translating to]"
+
+          # Find the .po file in the pushed changes
+          po_file=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep ".po")
+
+          # If a .po file is found, update translations
+          if [ -n "$po_file" ]; then
+            po2json \
+              $project_folder/$language_code.po \
+              $project_folder/$language_code.json \
+              -f jed \
+              -d $language_code \
+              --fallback-to-msgid
+
+            git add .
+            git commit -m "Update translations"
+            git push
+          else
+            echo "No .po file found in the pushed changes. Skipping translation update."
+          fi
