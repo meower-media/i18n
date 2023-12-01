@@ -68,6 +68,7 @@ msgid "Reconnecting..."
 msgstr "Reconectando..."
 
 #: src/lib/Setup.svelte:220
+#: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
 msgstr "Iniciar sesión"
@@ -128,10 +129,6 @@ msgstr "Contraseña"
 #: src/lib/Setup.svelte:429
 msgid "Go back"
 msgstr "Ir atras"
-
-#: src/lib/Setup.svelte:293
-msgid "Log in"
-msgstr "Iniciar sesión"
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"

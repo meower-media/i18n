@@ -68,6 +68,7 @@ msgid "Reconnecting..."
 msgstr "Meow..."
 
 #: src/lib/Setup.svelte:220
+#: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
 msgstr "Meow meow"
@@ -127,10 +128,6 @@ msgstr "Meow"
 #: src/lib/Setup.svelte:411
 #: src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr "Meow meow"
-
-#: src/lib/Setup.svelte:293
-msgid "Log in"
 msgstr "Meow meow"
 
 #: src/lib/Setup.svelte:309

@@ -68,6 +68,7 @@ msgid "Reconnecting..."
 msgstr ""
 
 #: src/lib/Setup.svelte:220
+#: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
 msgstr ""
@@ -127,10 +128,6 @@ msgstr ""
 #: src/lib/Setup.svelte:411
 #: src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr ""
-
-#: src/lib/Setup.svelte:293
-msgid "Log in"
 msgstr ""
 
 #: src/lib/Setup.svelte:309
