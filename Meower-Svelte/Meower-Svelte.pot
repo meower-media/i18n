@@ -232,6 +232,7 @@ msgstr ""
 
 #: src/lib/modals/AddImage.svelte:210
 #: src/lib/modals/Basic.svelte:16
+#: src/lib/modals/moderation/EditRestrictions.svelte:88
 msgid "Close"
 msgstr ""
 
@@ -264,6 +265,8 @@ msgstr ""
 #: src/lib/modals/moderation/CreateNetblock.svelte:83
 #: src/lib/modals/moderation/DeleteAccount.svelte:100
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
+#: src/lib/modals/moderation/EnableRepairMode.svelte:52
+#: src/lib/modals/moderation/KickAllUsers.svelte:44
 msgid "Cancel"
 msgstr ""
 
@@ -318,6 +321,11 @@ msgstr ""
 #: src/lib/modals/moderation/CreateNetblock.svelte:39
 #: src/lib/modals/moderation/DeleteAccount.svelte:40
 #: src/lib/modals/moderation/DeleteNetblock.svelte:33
+#: src/lib/modals/moderation/EnableRepairMode.svelte:29
+#: src/lib/modals/moderation/KickAllUsers.svelte:26
+#: src/lib/modals/moderation/ModPanel.svelte:44
+#: src/lib/modals/moderation/ModPanel.svelte:68
+#: src/lib/modals/moderation/ModPanel.svelte:101
 msgid "Response code is not OK; code is {code}"
 msgstr ""
 
@@ -570,6 +578,10 @@ msgstr ""
 
 #: src/lib/modals/moderation/ClearPosts.svelte:60
 #: src/lib/modals/moderation/DeleteAccount.svelte:105
+#: src/lib/modals/moderation/EnableRepairMode.svelte:55
+#: src/lib/modals/moderation/EnableRepairMode.svelte:57
+#: src/lib/modals/moderation/KickAllUsers.svelte:47
+#: src/lib/modals/moderation/KickAllUsers.svelte:49
 msgid "Confirm"
 msgstr ""
 
@@ -707,4 +719,67 @@ msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:28
 msgid "Blocks creating new group chats and starting DMs."
+msgstr ""
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:32
+msgid "Block editing group chat nicknames"
+msgstr ""
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:33
+msgid "Blocks editing group chat nicknames."
+msgstr ""
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:37
+msgid "Block editing quote"
+msgstr ""
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:38
+msgid "Blocks editing their quote."
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/EditRestrictions.svelte:38
+msgid "{username}'s Restrictions"
+msgstr ""
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:91
+msgid "Save"
+msgstr ""
+
+#: src/lib/modals/moderation/EnableRepairMode.svelte:14
+msgid "Enable Repair Mode"
+msgstr ""
+
+#: src/lib/modals/moderation/EnableRepairMode.svelte:40
+msgid "Are you sure? This will disconnect everyone and prevent anyone from being able to reconnect!"
+msgstr ""
+
+#: src/lib/modals/moderation/KickAllUsers.svelte:14
+msgid "Kick All Users"
+msgstr ""
+
+#: src/lib/modals/moderation/KickAllUsers.svelte:36
+msgid "Are you sure? This will disconnect everyone!"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:51
+msgid "Disabling registration..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:53
+msgid "Enabling registration..."
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{registration}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModPanel.svelte:71
+msgid "Successfully {registration} registration!"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{registration}" or the "{error}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModPanel.svelte:71
+msgid "Failed {registration} registration: {error}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:119
+msgid "Moderation Panel"
 msgstr ""
