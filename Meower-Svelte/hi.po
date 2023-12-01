@@ -203,7 +203,7 @@ msgstr "चित्र URL https:// से शुरू होना चाह�
 
 #: src/lib/modals/AddImage.svelte:118
 msgid "This image is not on the image host whitelist! Allowed image hosts are:"
-msgstr "चित्र श्वेतसूची में नहीं है! "
+msgstr "चित्र श्वेतसूची में नहीं है! अनुमत छवि होस्ट हैं:"
 
 #: src/lib/modals/AddImage.svelte:131
 msgid "Add Image to Post"
