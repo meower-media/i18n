@@ -613,7 +613,7 @@ msgstr "Meow meow meow meow meow ({username}):"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
-msgstr "Meow meow meow meow meow ({username})"
+msgstr "Meow meow meow meow meow ({username}):"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
 msgid "This action can be very destructive! By confirming this, you acknowledge and take responsibility for the consequences of this action. Are you absolutely sure you wish to continue?"
