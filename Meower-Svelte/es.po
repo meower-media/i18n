@@ -634,10 +634,6 @@ msgstr "Esto bloquea nuevas cuentas de ser creadas."
 msgid "Please confirm the user's username ({username}):"
 msgstr "Por favor, confirma el nombre de usuario del usuario ({username}):"
 
-#: src/lib/modals/moderation/DeleteAccount.svelte:19
-msgid "Please confirm the user's username ({username}):"
-msgstr "Por favor, confirma el nombre de usuario del usuario ({username}):"
-
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
 msgid "This action can be very destructive! By confirming this, you acknowledge and take responsibility for the consequences of this action. Are you absolutely sure you wish to continue?"
 msgstr "¡Esta acción puede ser MUY destructiva! Confirmando esto, the haces responsable de las consecuencias de esta acción. ¿Estás completamente seguro de que quieres continuar?"
