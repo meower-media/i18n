@@ -31,12 +31,11 @@ This repo is not managed by any internationalization website, so you must manual
 ### Converting into JSON
 
 If you have chosen to translate an project that is a website, then it must be converted into a JSON file. This process will be automated soon™.
-
 ```sh
 npm install -g po2json
 po2json \
-  [project folder name]/[language code of the language you are translating to].po \
-  [project folder name]/[language code of the language you are translating to].json \
+  [project folder name]/po/[language code of the language you are translating to].po \
+  [project folder name]/json/[language code of the language you are translating to].json \
   -f jed \
   -d [language code of the language you are translating to] \
   --fallback-to-msgid
