@@ -163,12 +163,12 @@ msgstr ""
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
 msgid "Confirm password"
-msgstr ""
+msgstr "पासवर्ड की पुष्टि कीजिये"
 
 #: src/lib/Setup.svelte:395
 #: src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr ""
+msgstr "मैं इसके लिए सहमत हूं"
 
 #: src/lib/Setup.svelte:399
 #: src/lib/modals/Signup.svelte:147
@@ -181,7 +181,7 @@ msgstr "जोड़ना!"
 
 #: src/lib/Setup.svelte:420
 msgid "Let's go!"
-msgstr ""
+msgstr "चलो!"
 
 #: src/lib/Setup.svelte:424
 msgid "Somehow, you got to a page that doesn't exist..."
@@ -402,7 +402,7 @@ msgstr "पासवर्ड..."
 
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr "पासवर्ड की पुष्टि कीजिये..."
+msgstr "पासवर्ड की पुष्टि कीजिये"
 
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
