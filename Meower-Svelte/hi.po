@@ -332,7 +332,7 @@ msgstr ""
 #: src/lib/modals/Logout.svelte:10
 #: src/lib/modals/Logout.svelte:16
 msgid "Logout"
-msgstr ""
+msgstr "लॉग आउट"
 
 #: src/lib/modals/Login.svelte:23
 #: src/lib/modals/Signup.svelte:24
