@@ -12,6 +12,10 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
 
 Maintained by **[@meltland2002](https://github.com/meltland2002)**
 
+#### Esperanto
+
+Maintained by **[@mdwalters](https://github.com/mdwalters)**
+
 ### Meower Website
 
 Currently has no maintainers maintaining translations.
