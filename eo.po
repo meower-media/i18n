@@ -3,50 +3,51 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-02 01:07+0000\n"
+"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
+"eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: \n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr ""
+msgstr "Konektante..."
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr ""
+msgstr "Ensalutis..."
 
 #: src/lib/Setup.svelte:152
 #: src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr ""
+msgstr "Nevalida uzantnomo!"
 
 #: src/lib/Setup.svelte:155
 #: src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr ""
+msgstr "Ĉi tio konto havas estis forigita!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr ""
+msgstr "Kunsido eksvalidiĝis! Bonvolu ensalutu denove."
 
 #: src/lib/Setup.svelte:160
 #: src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
-msgstr ""
+msgstr "Nevalida pasvorto!"
 
 #: src/lib/Setup.svelte:167
 #: src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55
 #: src/lib/modals/Signup.svelte:63
 msgid "Usernames must not have spaces or other special characters!"
-msgstr ""
+msgstr "Uzantnomoj devas ne havas spacoj aŭ alia speciala karakteroj!"
 
 #: src/lib/Setup.svelte:170
 #: src/lib/Setup.svelte:354
@@ -54,55 +55,55 @@ msgstr ""
 #: src/lib/modals/Login.svelte:59
 #: src/lib/modals/Signup.svelte:67
 msgid "Too many requests! Please try again later."
-msgstr ""
+msgstr "Tro multaj petoj! Bonvolu provu denove poste."
 
 #. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173
 #: src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
 msgid "Unexpected {error} error!"
-msgstr ""
+msgstr "Neatendita {error} eraro!"
 
 #: src/lib/Setup.svelte:201
 msgid "Reconnecting..."
-msgstr ""
+msgstr "Rekonektiĝanta..."
 
 #: src/lib/Setup.svelte:220
 #: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
-msgstr ""
+msgstr "Ŝtipo en"
 
 #: src/lib/Setup.svelte:224
 msgid "Create an account"
-msgstr ""
+msgstr "Krei konton"
 
 #: src/lib/Setup.svelte:248
 msgid "Skip"
-msgstr ""
+msgstr "Preterpasi"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr ""
+msgstr "(Pluraj trajtoj volo esti nedesponebla dum ne ensalutis)"
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
-msgstr ""
+msgstr "(Vi bezonas al esti ensalutis por ĉi tio paĝo.)"
 
 #. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
-msgstr ""
+msgstr "Meower Svelte v{version}"
 
 #: src/lib/Setup.svelte:267
 #: src/lib/modals/Login.svelte:17
 #: src/lib/modals/Signup.svelte:153
 msgid "Login to Meower"
-msgstr ""
+msgstr "Ensaluti al Meower"
 
 #: src/lib/Setup.svelte:274
 msgid "You must specify a username and a password to login!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto al ensaluti!"
 
 #: src/lib/Setup.svelte:281
 #: src/lib/Setup.svelte:375
@@ -114,7 +115,7 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
-msgstr ""
+msgstr "Uzantnomo"
 
 #: src/lib/Setup.svelte:282
 #: src/lib/Setup.svelte:378
@@ -122,17 +123,17 @@ msgstr ""
 #: src/lib/modals/Login.svelte:92
 #: src/lib/modals/Signup.svelte:101
 msgid "Password"
-msgstr ""
+msgstr "Pasvorto"
 
 #: src/lib/Setup.svelte:291
 #: src/lib/Setup.svelte:411
 #: src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr ""
+msgstr "Iru reen"
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto al krei konton!"
 
 #: src/lib/Setup.svelte:314
 #: src/lib/modals/Signup.svelte:29
