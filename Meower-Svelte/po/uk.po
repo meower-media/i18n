@@ -10,6 +10,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Language-Team: The Meower Translators Team\n"
 "PO-Revision-Date: 2023-12-01 16:58+0400\n"
+"POT-Creation-Date: 2023-11-29 20:09+0400\n"
 "X-Generator: Human Being 1.0.0\n"
 
 #: src/lib/Setup.svelte:75

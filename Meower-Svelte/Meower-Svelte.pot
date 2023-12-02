@@ -414,6 +414,7 @@ msgid "Save & Reload"
 msgstr ""
 
 #: src/lib/modals/Signup.svelte:92
+#: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
 msgstr ""
 
@@ -777,3 +778,8 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:119
 msgid "Moderation Panel"
 msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:122
+msgid "Moderation User"
+msgstr ""
+
