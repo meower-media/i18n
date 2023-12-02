@@ -16,3 +16,9 @@ jobs:
 
       - name: Move files to their proper folders
         run:  mv ./*.po Meower-Svelte/po
+
+      - name: Commit and push
+      - uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "fix: move `po` files to `Meower-Svelte/po`"
