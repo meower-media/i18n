@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-02 01:06+0000\n"
-"Last-Translator: NotFenixio <103071021+NotFenixio@users.noreply.github.com>\n"
+"PO-Revision-Date: 2023-12-02 15:30+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
 "Language: es\n"
@@ -461,7 +461,7 @@ msgstr "Unirse"
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
 msgid "Add Member"
-msgstr "Añadir miembro"
+msgstr "Añadir un miembro"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:33
@@ -493,7 +493,7 @@ msgstr "¡Demasiadas solicitudes! Por favor, inténtalo de nuevo más tarde."
 
 #: src/lib/modals/chats/AddMember.svelte:88
 msgid "Add member"
-msgstr "Añadir miembro"
+msgstr "Añadir un miembro"
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
 msgid "Enter Username"
@@ -716,7 +716,7 @@ msgstr "Planificar la eliminación de la cuenta para dentro de 7 días."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:86
 msgid "Immediate delete account."
-msgstr "Eliminar cuenta inmediatamente"
+msgstr "Borrar la cuenta inmediatamente."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:88
 msgid "Purge everything about the account. It'll be like it never existed."
@@ -758,7 +758,7 @@ msgstr "Bloquear la creación de nuevos grupos de chats y de empezar DMs."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:32
 msgid "Block editing group chat nicknames"
-msgstr "Bloquear la modificación de los nombres de los grupos de chat."
+msgstr "Bloquear la edición de los nicks del chat de grupo"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:33
 msgid "Blocks editing group chat nicknames."
