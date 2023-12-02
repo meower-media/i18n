@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-02 15:30+0000\n"
-"Last-Translator: notfenixio <josueart40@gmail.com>\n"
+"PO-Revision-Date: 2023-12-03 16:05+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
 "Language: es\n"
@@ -730,7 +730,7 @@ msgstr "Eliminar el Netblock de {cidr}"
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteNetblock.svelte:43
 msgid "Are you sure you want to delete {cidr} netblock?"
-msgstr "¿Estás seguro de que quieres eliminar el Netblock de {cidr}?"
+msgstr "¿Estás seguro de que quieres borrar {cidr} de netblock?"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
 msgid "Block home posts"
