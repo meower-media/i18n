@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-03 23:06+0000\n"
+"PO-Revision-Date: 2023-12-04 00:00+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
@@ -26,28 +26,28 @@ msgstr "Abattage dans..."
 #: src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr "Invalide nom d'utilisateur!"
+msgstr "Invalide nom d'utilisateur !"
 
 #: src/lib/Setup.svelte:155
 #: src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr "Ceci compte a été supprimer!"
+msgstr "Ceci compte a été supprimer !"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr ""
+msgstr "Séance expiré ! S'il te plaît se connecter encore ."
 
 #: src/lib/Setup.svelte:160
 #: src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
-msgstr ""
+msgstr "Invalide mot de passe !"
 
 #: src/lib/Setup.svelte:167
 #: src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55
 #: src/lib/modals/Signup.svelte:63
 msgid "Usernames must not have spaces or other special characters!"
-msgstr ""
+msgstr "Nom d'utilisateur devoir ne avoir espaces ou autre spécial caractères !"
 
 #: src/lib/Setup.svelte:170
 #: src/lib/Setup.svelte:354
