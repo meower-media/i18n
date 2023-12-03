@@ -22,7 +22,13 @@ Currently has no maintainers maintaining translations.
 
 ## Contributing translations
 
-This repo is not managed by any internationalization website, so you must manually edit the `po`/`pot` files by hand. Please **do not** modify the JSON files in the folder, unless if you're trying to [convert the source files into JSON](#converting-into-json).
+<a href="https://hosted.weblate.org/engage/meower/">
+<img src="https://hosted.weblate.org/widget/meower/svelte/multi-auto.svg" alt="Status of translations. Click to collaborate!" />
+</a>
+
+You can start collaborating by clicking the image above. 
+
+Please **do not** modify the JSON files in the folder, unless if you're trying to [convert the source files into JSON](#converting-into-json).
 
 ### Converting into JSON
 

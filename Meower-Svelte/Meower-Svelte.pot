@@ -431,6 +431,7 @@ msgid "Join"
 msgstr ""
 
 #: src/lib/modals/chats/AddMember.svelte:14
+#: src/lib/modals/chats/AddMember.svelte:88
 #: src/lib/modals/chats/AddMember_Mode.svelte:11
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
@@ -461,10 +462,6 @@ msgstr ""
 #: src/lib/modals/chats/RemoveMember.svelte:42
 #: src/lib/modals/chats/TransferChatOwnership.svelte:43
 msgid "Too many requests! Try again later."
-msgstr ""
-
-#: src/lib/modals/chats/AddMember.svelte:88
-msgid "Add member"
 msgstr ""
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
