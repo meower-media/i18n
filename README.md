@@ -12,6 +12,18 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
 
 Maintained by **[@meltland2002](https://github.com/meltland2002)**
 
+#### Esperanto
+
+Maintained by **[@mdwalters](https://github.com/mdwalters)**
+
+#### French
+
+Maintained by **[@mdwalters](https://github.com/mdwalters)**
+
+#### Hindi
+
+Maintained by **[@ajskateboarder](https://github.com/ajskateboarder)**
+
 #### Spanish
 
 Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
