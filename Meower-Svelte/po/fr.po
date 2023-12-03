@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-03 22:59+0000\n"
+"PO-Revision-Date: 2023-12-03 23:06+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
@@ -31,7 +31,7 @@ msgstr "Invalide nom d'utilisateur!"
 #: src/lib/Setup.svelte:155
 #: src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr ""
+msgstr "Ceci compte a été supprimer!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
