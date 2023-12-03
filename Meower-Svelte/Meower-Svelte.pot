@@ -89,7 +89,8 @@ msgstr ""
 msgid "(You need to be logged in for this page.)"
 msgstr ""
 
-#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3).
+#. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
 msgstr ""
