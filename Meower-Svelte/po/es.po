@@ -210,6 +210,7 @@ msgstr "(Página actual: {page})"
 msgid "The image must have a name!"
 msgstr "¡La imagen debe de tener un nombre!"
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
@@ -229,6 +230,7 @@ msgstr "Añadir imagen al Post"
 msgid "Image Name"
 msgstr "Nombre de la imagen"
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
 msgstr "URL de la imagen"
@@ -424,10 +426,12 @@ msgstr ""
 msgid "This feature is intended for developers."
 msgstr "Esta función está dirigida a desarrolladores."
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:47
 msgid "Cloudlink URL"
 msgstr "URL de Cloudlink"
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:61
 msgid "REST API URL"
 msgstr "URL del REST API"
@@ -441,6 +445,7 @@ msgid "Save & Reload"
 msgstr "Guardar & recargar"
 
 #: src/lib/modals/Signup.svelte:92
+#: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
 msgstr "Nombre de usuario..."
 

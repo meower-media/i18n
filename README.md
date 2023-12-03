@@ -34,11 +34,9 @@ Currently has no maintainers maintaining translations.
 
 ## Contributing translations
 
-<a href="https://hosted.weblate.org/engage/meower/">
-<img src="https://hosted.weblate.org/widget/meower/svelte/multi-auto.svg" alt="Status of translations. Click to collaborate!" />
-</a>
+[![Status of translations. Click to collaborate!](https://hosted.weblate.org/widget/meower/svelte/multi-auto.svg)](https://hosted.weblate.org/engage/meower/)
 
-You can start collaborating by clicking the image above. 
+You can start collaborating by clicking the image above to go to our Weblate project.
 
 Please **do not** modify the JSON files in the folder, unless if you're trying to [convert the source files into JSON](#converting-into-json).
 

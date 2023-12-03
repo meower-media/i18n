@@ -197,6 +197,7 @@ msgstr ""
 msgid "The image must have a name!"
 msgstr ""
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
@@ -214,6 +215,7 @@ msgstr ""
 msgid "Image Name"
 msgstr ""
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
 msgstr ""
@@ -398,10 +400,12 @@ msgstr ""
 msgid "This feature is intended for developers."
 msgstr ""
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:47
 msgid "Cloudlink URL"
 msgstr ""
 
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:61
 msgid "REST API URL"
 msgstr ""
@@ -432,6 +436,7 @@ msgid "Join"
 msgstr ""
 
 #: src/lib/modals/chats/AddMember.svelte:14
+#: src/lib/modals/chats/AddMember.svelte:88
 #: src/lib/modals/chats/AddMember_Mode.svelte:11
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
@@ -462,10 +467,6 @@ msgstr ""
 #: src/lib/modals/chats/RemoveMember.svelte:42
 #: src/lib/modals/chats/TransferChatOwnership.svelte:43
 msgid "Too many requests! Try again later."
-msgstr ""
-
-#: src/lib/modals/chats/AddMember.svelte:88
-msgid "Add member"
 msgstr ""
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
@@ -781,5 +782,5 @@ msgid "Moderation Panel"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:122
-msgid "Moderation User"
+msgid "Moderate User"
 msgstr ""
