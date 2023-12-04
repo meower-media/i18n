@@ -28,6 +28,10 @@ Maintained by **[@ajskateboarder](https://github.com/ajskateboarder)**
 
 Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
 
+#### Ukrainian
+
+Maintained by **[@WlodekM](https://github.com/WlodekM)**
+
 ### Meower Website
 
 Currently has no maintainers maintaining translations.
