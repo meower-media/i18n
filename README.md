@@ -48,8 +48,6 @@ Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
 
 ## Contributing translations
 
-[![Status of translations. Click to collaborate!](https://hosted.weblate.org/widget/meower/svelte/multi-auto.svg)](https://hosted.weblate.org/engage/meower/)
-
 You can start collaborating by clicking the image above to go to our Weblate project.
 
 Please **do not** modify the JSON files in the folder, unless if you're trying to [convert the source files into JSON](#converting-into-json).
@@ -66,3 +64,13 @@ po2json \
   -d [language code of the language you are translating to] \
   --fallback-to-msgid
 ```
+
+## Stats
+
+### Meower Svelte
+
+![Status of the Meower Svelte translations](https://hosted.weblate.org/widget/meower/svelte/multi-auto.svg)
+
+### Meower Website
+
+![Status of the Meower Website translations](https://hosted.weblate.org/widget/meower/website/multi-auto.svg)
