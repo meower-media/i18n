@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2023-12-04 17:08+0000\n"
+"PO-Revision-Date: 2023-12-04 17:09+0000\n"
 "Last-Translator: notfenixio <josueart40@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/website/"
 "es/>\n"
@@ -58,7 +58,7 @@ msgstr "Legal"
 
 #: index.html:35
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenido"
 
 #: index.html:36
 msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
