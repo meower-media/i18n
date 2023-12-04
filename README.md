@@ -24,6 +24,10 @@ Maintained by **[@mdwalters](https://github.com/mdwalters)**
 
 Maintained by **[@ajskateboarder](https://github.com/ajskateboarder)**
 
+#### Norwegian Bokmål
+
+Maintained by **[@comradekingu](https://github.com/comradekingu)**
+
 #### Spanish
 
 Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
@@ -34,7 +38,13 @@ Maintained by **[@WlodekM](https://github.com/WlodekM)**
 
 ### Meower Website
 
-Currently has no maintainers maintaining translations.
+#### Esperanto
+
+Maintained by **[@mdwalters](https://github.com/mdwalters)**
+
+#### Spanish
+
+Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
 
 ## Contributing translations
 
