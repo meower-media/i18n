@@ -3,48 +3,50 @@ msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-04 17:09+0000\n"
+"Last-Translator: notfenixio <josueart40@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/meower/website/"
+"es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: \n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #. TRANSLATORS: Do not translate the "|" part of this string. This is used as a divider.
 #: index.html:9
 msgid "Meower | Home"
-msgstr ""
+msgstr "Meower | Página principal"
 
 #: index.html:14
+#, fuzzy
 msgid "Meower Header"
-msgstr ""
+msgstr "Meower Header"
 
 #: index.html:18
 msgid "Home"
-msgstr ""
+msgstr "Página principal"
 
 #: index.html:19
 msgid "Launch"
-msgstr ""
+msgstr "Abrir"
 
 #: index.html:20
 msgid "About Us"
-msgstr ""
+msgstr "Sobre nosotros"
 
 #: index.html:23
 msgid "More"
-msgstr ""
+msgstr "Más"
 
 #: index.html:25
 msgid "Forums"
-msgstr ""
+msgstr "Foros"
 
 #: index.html:26
 msgid "Wiki"
-msgstr ""
+msgstr "Wiki"
 
 #: index.html:27
 msgid "GitHub"
@@ -52,11 +54,11 @@ msgstr ""
 
 #: index.html:28
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
 #: index.html:35
 msgid "Welcome"
-msgstr ""
+msgstr "Bienvenido"
 
 #: index.html:36
 msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
@@ -108,7 +110,7 @@ msgstr ""
 
 #: index.html:55
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: index.html:55
 msgid "repository. Together, we can build a better platform for all."
