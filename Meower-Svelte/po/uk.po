@@ -14,75 +14,75 @@ msgstr ""
 "X-Generator: Human Being 1.0.0\n"
 
 #: src/lib/Setup.svelte:75
-msgstr "Підключяємось..."
 msgid "Connecting..."
+msgstr "Підключяємось..."
 
 #: src/lib/Setup.svelte:135
-msgstr "Заходимо в ваш аккаунт..."
 msgid "Logging in..."
+msgstr "Заходимо в ваш аккаунт..."
 
 #: src/lib/Setup.svelte:152
 #: src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
-msgstr "Неправильний логін!"
 msgid "Invalid username!"
+msgstr "Неправильний логін!"
 
 #: src/lib/Setup.svelte:155
 #: src/lib/modals/Login.svelte:46
-msgstr "Цей аккаунт видалено!"
 msgid "This account has been deleted!"
+msgstr "Цей аккаунт видалено!"
 
 #: src/lib/Setup.svelte:159
-msgstr "Сессія закінчилась! Будь ласка увійдіть в ваш аккаунт знову."
 msgid "Session expired! Please login again."
+msgstr "Сессія закінчилась! Будь ласка увійдіть в ваш аккаунт знову."
 
 #: src/lib/Setup.svelte:160
 #: src/lib/modals/Login.svelte:49
-msgstr "Неправильний пароль!"
 msgid "Invalid password!"
+msgstr "Неправильний пароль!"
 
 #: src/lib/Setup.svelte:167
 #: src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55
 #: src/lib/modals/Signup.svelte:63
-msgstr "Імена акккаунтаі мають не вміщати пробіли або спеціяльні символи!"
 msgid "Usernames must not have spaces or other special characters!"
+msgstr "Імена акккаунтаі мають не вміщати пробіли або спеціяльні символи!"
 
 #: src/lib/Setup.svelte:170
 #: src/lib/Setup.svelte:354
 #: src/lib/modals/DeletePost.svelte:35
 #: src/lib/modals/Login.svelte:59
 #: src/lib/modals/Signup.svelte:67
-msgstr "Занадто багато запитів! Будь ласка спробуйте пізніше."
 msgid "Too many requests! Please try again later."
+msgstr "Занадто багато запитів! Будь ласка спробуйте пізніше."
 
 #. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173
 #: src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
-msgstr "Помилка {error}!"
 msgid "Unexpected {error} error!"
+msgstr "Помилка {error}!"
 
 #: src/lib/Setup.svelte:201
-msgstr "Перепідключаємось..."
 msgid "Reconnecting..."
+msgstr "Перепідключаємось..."
 
 #: src/lib/Setup.svelte:220
 #: src/lib/modals/Login.svelte:105
-msgstr "Увійти"
 msgid "Log in"
+msgstr "Увійти"
 
 #: src/lib/Setup.svelte:224
-msgstr "Створити аккаунт"
 msgid "Create an account"
+msgstr "Створити аккаунт"
 
 #: src/lib/Setup.svelte:248
-msgstr "Пропустити"
 msgid "Skip"
+msgstr "Пропустити"
 
 #: src/lib/Setup.svelte:251
-msgstr "(Деякі функції будуть недоступні, якщо ви не ввійшли.)"
 msgid "(Several features will be unavailable while not logged in.)"
+msgstr "(Деякі функції будуть недоступні, якщо ви не ввійшли.)"
 
 #: src/lib/Setup.svelte:256
 msgstr "(Ви повинні увійти щоб мати доступ до цьої сторінки.)"
