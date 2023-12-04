@@ -3,19 +3,20 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-04 03:03+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/meower/"
+"svelte/nb_NO/>\n"
 "Language: nb_NO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: \n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr ""
+msgstr "Kobler til …"
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
@@ -412,7 +413,7 @@ msgstr ""
 
 #: src/lib/modals/ServerSelector.svelte:85
 msgid "Reset"
-msgstr ""
+msgstr "Tilbakestill"
 
 #: src/lib/modals/ServerSelector.svelte:87
 msgid "Save & Reload"
@@ -421,11 +422,11 @@ msgstr ""
 #: src/lib/modals/Signup.svelte:92
 #: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
-msgstr ""
+msgstr "Brukernavn …"
 
 #: src/lib/modals/Signup.svelte:107
 msgid "Password..."
-msgstr ""
+msgstr "Passord …"
 
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
@@ -441,7 +442,7 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
 msgid "Add Member"
-msgstr ""
+msgstr "Legg til medlem"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:33
@@ -624,7 +625,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:70
 msgid "Registration"
-msgstr ""
+msgstr "Registrering"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:73
 msgid "This blocks any connection request to Meower's CloudLink server and blocks any REST API request."
@@ -654,7 +655,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:56
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:68
 msgid "Cancel scheduled deletion"
@@ -662,7 +663,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:76
 msgid "Immediate deletion"
-msgstr ""
+msgstr "Umiddelbar sletting"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:79
 msgid "Purge"
