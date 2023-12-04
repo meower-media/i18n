@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-04 19:02+0000\n"
+"PO-Revision-Date: 2023-12-04 19:04+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -252,6 +252,8 @@ msgstr "Ekstera Ligo"
 #: src/lib/modals/ConfirmHyperlink.svelte:15
 msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
 msgstr ""
+"Ĉu vi certe vi deziras al iru al {url}? Se vi konfirmi ĉi tio ago, ĝi volo "
+"esti malfermita en nova langeto."
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
 #: src/lib/modals/DeletePost.svelte:67
@@ -272,11 +274,11 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
 msgid "Cancel"
-msgstr ""
+msgstr "Nuligi"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:24
 msgid "Yes"
-msgstr ""
+msgstr "Jes"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
