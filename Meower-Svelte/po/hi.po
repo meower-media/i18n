@@ -2,15 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
-"Last-Translator: ajskateboarder\n"
+"PO-Revision-Date: 2023-12-04 16:38+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/meower/svelte/hi/>"
+"\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language-Team: The Meower Translators Team\n"
-"PO-Revision-Date: 2023-12-03 17:37+0400\n"
-"X-Generator: Human Being 1.0.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -112,7 +113,6 @@ msgstr ""
 #: src/lib/modals/chats/AddMember.svelte:66
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
-
 msgid "Username"
 msgstr "प्रयोक्ता नाम"
 
