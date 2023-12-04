@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2023-12-04 16:51+0000\n"
+"PO-Revision-Date: 2023-12-04 17:02+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/website/"
 "eo/>\n"
@@ -21,23 +21,23 @@ msgstr "Meower | Hejmen"
 
 #: index.html:14
 msgid "Meower Header"
-msgstr ""
+msgstr "Meower Kaplinio"
 
 #: index.html:18
 msgid "Home"
-msgstr ""
+msgstr "Hejmen"
 
 #: index.html:19
 msgid "Launch"
-msgstr ""
+msgstr "Lanĉo"
 
 #: index.html:20
 msgid "About Us"
-msgstr ""
+msgstr "Pri ni"
 
 #: index.html:23
 msgid "More"
-msgstr ""
+msgstr "Pli"
 
 #: index.html:25
 msgid "Forums"
