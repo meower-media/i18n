@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-04 17:08+0000\n"
+"PO-Revision-Date: 2023-12-06 04:02+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
@@ -62,11 +62,11 @@ msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
 #: src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
 msgid "Unexpected {error} error!"
-msgstr ""
+msgstr "Inattendu {error} erreur !"
 
 #: src/lib/Setup.svelte:201
 msgid "Reconnecting..."
-msgstr ""
+msgstr "Reconnexion..."
 
 #: src/lib/Setup.svelte:220
 #: src/lib/Setup.svelte:293
