@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-06 04:02+0000\n"
-"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
+"PO-Revision-Date: 2023-12-07 17:03+0000\n"
+"Last-Translator: \"J. Lavoie\" <j.lavoie@net-c.ca>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
 "Language: fr\n"
@@ -72,23 +72,23 @@ msgstr "Reconnexion..."
 #: src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
-msgstr ""
+msgstr "Se connecter"
 
 #: src/lib/Setup.svelte:224
 msgid "Create an account"
-msgstr ""
+msgstr "Créer un compte"
 
 #: src/lib/Setup.svelte:248
 msgid "Skip"
-msgstr ""
+msgstr "Ignorer"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr ""
+msgstr "(Plusieurs caractéristiques seront indisponibles en étant déconnecté.)"
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
-msgstr ""
+msgstr "(Vous devez être connecté·e pour cette page.)"
 
 #. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
@@ -99,11 +99,13 @@ msgstr ""
 #: src/lib/modals/Login.svelte:17
 #: src/lib/modals/Signup.svelte:153
 msgid "Login to Meower"
-msgstr ""
+msgstr "Se connecter à Meower"
 
 #: src/lib/Setup.svelte:274
 msgid "You must specify a username and a password to login!"
 msgstr ""
+"Vous devez spécifier un nom d'utilisateur et un mot de passe pour vous "
+"connecter !"
 
 #: src/lib/Setup.svelte:281
 #: src/lib/Setup.svelte:375
@@ -115,7 +117,7 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #: src/lib/Setup.svelte:282
 #: src/lib/Setup.svelte:378
@@ -123,42 +125,48 @@ msgstr ""
 #: src/lib/modals/Login.svelte:92
 #: src/lib/modals/Signup.svelte:101
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: src/lib/Setup.svelte:291
 #: src/lib/Setup.svelte:411
 #: src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr ""
+msgstr "Retour"
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"
 msgstr ""
+"Vous devez spécifier un nom d'utilisateur et un mot de passe pour créer un "
+"compte !"
 
 #: src/lib/Setup.svelte:314
 #: src/lib/modals/Signup.svelte:29
 msgid "Passwords do not match! Make sure you have entered your password correctly."
 msgstr ""
+"Les mots de passe ne correspondent pas ! Assurez-vous que vous avez entré "
+"votre mot de passe correctement."
 
 #: src/lib/Setup.svelte:318
 msgid "Creating account..."
-msgstr ""
+msgstr "Création du compte…"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:346
 #: src/lib/modals/Signup.svelte:59
 msgid "{username} is taken!"
-msgstr ""
+msgstr "{username} est pris !"
 
 #: src/lib/Setup.svelte:364
 #: src/lib/modals/Signup.svelte:74
 msgid "Registration Disabled"
-msgstr ""
+msgstr "Inscription désactivée"
 
 #: src/lib/Setup.svelte:365
 #: src/lib/modals/Signup.svelte:75
 msgid "Unfortunately, you may not create a new account at this time. An administrator has disabled registration. Please try again later."
 msgstr ""
+"Malheureusement, vous ne pouvez pas créer un nouveau compte en ce moment. Un "
+"administrateur a une inscription invalide. Veuillez réessayer plus tard."
 
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
@@ -168,87 +176,92 @@ msgstr ""
 #: src/lib/Setup.svelte:395
 #: src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr ""
+msgstr "J'accepte"
 
 #: src/lib/Setup.svelte:399
 #: src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
 msgstr ""
+"les conditions d'utilisation et la politique de confidentialité de Meower"
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
-msgstr ""
+msgstr "Rejoignez-nous !"
 
 #: src/lib/Setup.svelte:420
 msgid "Let's go!"
-msgstr ""
+msgstr "Allons-y !"
 
 #: src/lib/Setup.svelte:424
 msgid "Somehow, you got to a page that doesn't exist..."
-msgstr ""
+msgstr "Vous avez une page qui n'existe pas…"
 
 #. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:426
 msgid "(Current page: {page})"
-msgstr ""
+msgstr "(Page actuelle : {page})"
 
 #: src/lib/modals/AddImage.svelte:91
 #: src/lib/modals/AddImage.svelte:127
 msgid "The image must have a name!"
-msgstr ""
+msgstr "L'image doit avoir un nom !"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr ""
+msgstr "L'URL de l'image doit commencer par https:// !"
 
 #: src/lib/modals/AddImage.svelte:118
 msgid "This image is not on the image host whitelist! Allowed image hosts are:"
 msgstr ""
+"Cette image n'est pas sur la liste blanche d'accueil de l'image ! Les hôtes "
+"d'image autorisés sont :"
 
 #: src/lib/modals/AddImage.svelte:131
 msgid "Add Image to Post"
-msgstr ""
+msgstr "Ajouter une image à publier"
 
 #: src/lib/modals/AddImage.svelte:137
 msgid "Image Name"
-msgstr ""
+msgstr "Nom de l'image"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
-msgstr ""
+msgstr "URL de l'image"
 
 #: src/lib/modals/AddImage.svelte:153
 msgid "Preview"
-msgstr ""
+msgstr "Aperçu"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/AddImage.svelte:161
 #: src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
 msgid "{username}'s profile picture"
-msgstr ""
+msgstr "Image de profil de {username}"
 
 #: src/lib/modals/AddImage.svelte:210
 #: src/lib/modals/Basic.svelte:16
 #: src/lib/modals/moderation/EditRestrictions.svelte:88
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: src/lib/modals/AddImage.svelte:219
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:12
 msgid "External Link"
-msgstr ""
+msgstr "Lien externe"
 
 #. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/ConfirmHyperlink.svelte:15
 msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
 msgstr ""
+"Êtes-vous sûr·e de vouloir aller à {url} ? Si vous confirmez cette action, "
+"elle sera ouverte dans un nouvel onglet."
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
 #: src/lib/modals/DeletePost.svelte:67
@@ -269,28 +282,33 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:24
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
-msgstr ""
+msgstr "Échec de la connexion"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
 msgstr ""
+"Meower est actuellement en panne pour les réparations. Vous pouvez rester à "
+"jour avec l'état actuel de cette panne en vérifiant"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
 msgid "Your IP address has been blocked because it was used to violate Meower's Terms of Service or is likely to cause spam."
 msgstr ""
+"Votre adresse IP a été bloquée parce qu'elle a été utilisée pour violer les "
+"conditions d'utilisation de Meower ou est susceptible de causer de produire "
+"du contenu indésirable."
 
 #: src/lib/modals/ConnectionFailed.svelte:38
 msgid "If you think this is a mistake, please email"
-msgstr ""
+msgstr "Si vous pensez que c'est une erreur, veuillez envoyer un courriel à"
 
 #: src/lib/modals/ConnectionFailed.svelte:47
 msgid "Failed connecting to server. View console for more information or try again later."
@@ -429,7 +447,7 @@ msgstr ""
 
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirmer le mot de passe"
 
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
