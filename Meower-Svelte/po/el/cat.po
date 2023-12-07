@@ -96,17 +96,17 @@ msgstr "Meow"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr "Meow meow meow meow meow meow meow meow meow"
+msgstr "(Meow meow meow meow meow meow meow meow meow.)"
 
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
-msgstr "Meow meow meow meow meow meow meow meow meow"
+msgstr "(Meow meow meow meow meow meow meow meow meow.)"
 
 
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
-msgstr "Meower meow v{version} meow"
+msgstr "Meower meow v{version}"
 
 
 #: src/lib/Setup.svelte:267
@@ -169,7 +169,7 @@ msgstr "Meow meow..."
 #: src/lib/Setup.svelte:346
 #: src/lib/modals/Signup.svelte:59
 msgid "{username} is taken!"
-msgstr "{username} Meow meow meow!"
+msgstr "{username} meow meow!"
 
 
 #: src/lib/Setup.svelte:364
@@ -199,7 +199,7 @@ msgstr "Meow meow meow"
 #: src/lib/Setup.svelte:399
 #: src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
-msgstr "Meow meow meow meow meow meow meow"
+msgstr "Meower meow meow meow meow meow meow"
 
 
 #: src/lib/Setup.svelte:413
@@ -219,7 +219,7 @@ msgstr "Meow, meow meow meow meow meow meow meow meow..."
 
 #: src/lib/Setup.svelte:426
 msgid "(Current page: {page})"
-msgstr "Meow meow: {page}) Meow"
+msgstr "(Meow meow: {page})"
 
 
 #: src/lib/modals/AddImage.svelte:91
@@ -230,7 +230,7 @@ msgstr "Meow meow meow meow meow meow!"
 
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr "Meow meow meow meow meow meow meow!"
+msgstr "Meow meow meow meow meow meow meow://!"
 
 
 #: src/lib/modals/AddImage.svelte:118
@@ -262,7 +262,7 @@ msgstr "Meow"
 #: src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
 msgid "{username}'s profile picture"
-msgstr "{username}'s Meow meow meow"
+msgstr "{username}'s meow meow"
 
 
 #: src/lib/modals/AddImage.svelte:210
@@ -284,7 +284,7 @@ msgstr "Meow meow"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:15
 msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
-msgstr "Meow meow meow meow meow meow meow meow {url}? meow? Meow meow meow meow meow, meow meow meow meow meow meow meow meow."
+msgstr "Meow meow meow meow meow meow meow meow {url}? Meow meow meow meow meow, meow meow meow meow meow meow meow meow."
 
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
@@ -321,12 +321,12 @@ msgstr "Meow meow"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
-msgstr "Meower meow meow meow meow meow. Meow meow meow meow meow meow meow meow meow meow meow meow meow"
+msgstr "Meower meow meow meow meow meow. Meow meow meow meow-meow-meow meow meow meow meow meow meow meow"
 
 
 #: src/lib/modals/ConnectionFailed.svelte:35
 msgid "Your IP address has been blocked because it was used to violate Meower's Terms of Service or is likely to cause spam."
-msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow."
+msgstr "Meow meow meow meow meow meow meow meow meow meow meow meow Meower meow meow meow meow meow meow meow meow meow."
 
 
 #: src/lib/modals/ConnectionFailed.svelte:38
@@ -373,7 +373,7 @@ msgstr "Meow"
 #: src/lib/modals/moderation/ModPanel.svelte:68
 #: src/lib/modals/moderation/ModPanel.svelte:101
 msgid "Response code is not OK; code is {code}"
-msgstr "Meow meow meow meow meow; meow meow {code} meow"
+msgstr "Meow meow meow meow meow; meow meow {code}"
 
 
 #: src/lib/modals/DeletePost.svelte:49
@@ -514,17 +514,17 @@ msgstr "Meow meow"
 #: src/lib/modals/chats/AddMember.svelte:33
 #: src/lib/modals/chats/AddMember_Profile.svelte:43
 msgid "Someone's privacy settings are preventing you from adding {username} to {nickname}"
-msgstr "Meow meow meow meow meow meow meow meow {username} meow meow {nickname} meow"
+msgstr "Meow meow meow meow meow meow meow meow {username} meow {nickname}"
 
 
 #: src/lib/modals/chats/AddMember.svelte:36
 msgid "{username} not found."
-msgstr "{username} Meow meow meow."
+msgstr "{username} meow meow."
 
 
 #: src/lib/modals/chats/AddMember.svelte:39
 msgid "{username} is already a member of {nickname}."
-msgstr "{username} Meow meow meow meow meow meow {nickname}. meow."
+msgstr "{username} meow meow meow meow meow {nickname}."
 
 
 #: src/lib/modals/chats/AddMember.svelte:43
@@ -582,7 +582,7 @@ msgstr "Meow meow..."
 
 #: src/lib/modals/chats/GCMember.svelte:21
 msgid "{username}'s Profile"
-msgstr "{username}'s Meow meow"
+msgstr "{username}'s meow"
 
 
 #: src/lib/modals/chats/GCMember.svelte:32
@@ -607,7 +607,7 @@ msgstr "Meow meow"
 
 #: src/lib/modals/chats/LeaveChat.svelte:45
 msgid "Are you sure you want to leave {nickname}?"
-msgstr "Meow meow meow meow meow meow meow {nickname}? meow?"
+msgstr "Meow meow meow meow meow meow meow {nickname}?"
 
 
 #: src/lib/modals/chats/LeaveChat.svelte:57
@@ -617,12 +617,12 @@ msgstr "Meow"
 
 #: src/lib/modals/chats/RemoveMember.svelte:24
 msgid "Remove {username}"
-msgstr "Meow {username} meow"
+msgstr "Meow {username}"
 
 
 #: src/lib/modals/chats/RemoveMember.svelte:59
 msgid "Are you sure you want to remove {username} from {nickname}?"
-msgstr "Meow meow meow meow meow meow meow {username} meow meow {nickname}? meow?"
+msgstr "Meow meow meow meow meow meow meow {username} meow {nickname}?"
 
 
 #: src/lib/modals/chats/RemoveMember.svelte:72
@@ -632,12 +632,12 @@ msgstr "Meow meow"
 
 #: src/lib/modals/chats/TransferChatOwnership.svelte:25
 msgid "Transfer Ownership to {username}"
-msgstr "Meow meow meow {username} meow"
+msgstr "Meow meow meow {username}"
 
 
 #: src/lib/modals/chats/TransferChatOwnership.svelte:60
 msgid "Are you sure you want to transfer ownership of {nickname} to {username}?"
-msgstr "Meow meow meow meow meow meow meow meow meow {nickname} meow meow {username}? meow?"
+msgstr "Meow meow meow meow meow meow meow meow meow {nickname} meow {username}?"
 
 
 #: src/lib/modals/chats/TransferChatOwnership.svelte:73
@@ -648,17 +648,17 @@ msgstr "Meow meow"
 
 #: src/lib/modals/moderation/ClearPosts.svelte:16
 msgid "Clear {username}'s Posts"
-msgstr "Meow {username}'s meow meow"
+msgstr "Meow {username}'s meow"
 
 
 #: src/lib/modals/moderation/ClearPosts.svelte:44
 msgid "Are you sure you wish to delete all of {username}'s posts? Currently, there is no easy way to recover all of their deleted posts!"
-msgstr "Meow meow meow meow meow meow meow meow meow {username}'s meow meow? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
+msgstr "Meow meow meow meow meow meow meow meow meow {username}'s meow? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
 
 
 #: src/lib/modals/moderation/ClearPosts.svelte:44
 msgid "Are you sure you wish to delete all of {username}'s posts in {origin}? Currently, there is no easy way to recover all of their deleted posts!"
-msgstr "Meow meow meow meow meow meow meow meow meow {username}'s meow meow meow {origin}? meow? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
+msgstr "Meow meow meow meow meow meow meow meow meow {username}'s meow meow {origin}? Meow, meow meow meow meow meow meow meow meow meow meow meow meow!"
 
 
 #: src/lib/modals/moderation/ClearPosts.svelte:60
@@ -673,7 +673,7 @@ msgstr "Meow"
 
 #: src/lib/modals/moderation/ClearQuote.svelte:19
 msgid "Clear {username}'s Quote"
-msgstr "Meow {username}'s meow meow"
+msgstr "Meow {username}'s meow"
 
 
 #: src/lib/modals/moderation/ClearQuote.svelte:45
@@ -729,7 +729,7 @@ msgstr "Meow meow meow meow meow meow meow."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
-msgstr "Meow meow meow meow meow ({username}): meow:"
+msgstr "Meow meow meow meow meow ({username}):"
 
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
@@ -744,7 +744,7 @@ msgstr "Meow!"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:53
 msgid "Delete {username}"
-msgstr "Meow {username} meow"
+msgstr "Meow {username}"
 
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:56
@@ -789,12 +789,12 @@ msgstr "Meow meow meow meow meow. Meow meow meow meow meow meow."
 
 #: src/lib/modals/moderation/DeleteNetblock.svelte:18
 msgid "Delete {cidr} Netblock"
-msgstr "Meow {cidr} meow meow"
+msgstr "Meow {cidr} meow"
 
 
 #: src/lib/modals/moderation/DeleteNetblock.svelte:43
 msgid "Are you sure you want to delete {cidr} netblock?"
-msgstr "Meow meow meow meow meow meow meow {cidr} meow meow?"
+msgstr "Meow meow meow meow meow meow meow {cidr} meow?"
 
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
@@ -849,7 +849,7 @@ msgstr "Meow meow meow meow."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:38
 msgid "{username}'s Restrictions"
-msgstr "{username}'s Meow meow"
+msgstr "{username}'s meow"
 
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:91
@@ -889,12 +889,12 @@ msgstr "Meow meow..."
 
 #: src/lib/modals/moderation/ModPanel.svelte:71
 msgid "Successfully {registration} registration!"
-msgstr "Meow {registration} meow meow!"
+msgstr "Meow {registration} meow!"
 
 
 #: src/lib/modals/moderation/ModPanel.svelte:71
 msgid "Failed {registration} registration: {error}"
-msgstr "Meow {registration} meow meow: {error} Meow"
+msgstr "Meow {registration} meow: {error}"
 
 
 #: src/lib/modals/moderation/ModPanel.svelte:119
