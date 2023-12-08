@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-07 17:03+0000\n"
-"Last-Translator: \"J. Lavoie\" <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2023-12-08 19:03+0000\n"
+"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
 "Language: fr\n"
@@ -93,7 +93,7 @@ msgstr "(Vous devez être connecté·e pour cette page.)"
 #. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
-msgstr ""
+msgstr "Meower Svelte v{version}"
 
 #: src/lib/Setup.svelte:267
 #: src/lib/modals/Login.svelte:17
