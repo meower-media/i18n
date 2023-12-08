@@ -42,6 +42,10 @@ Maintained by **[@WlodekM](https://github.com/WlodekM)**
 
 Maintained by **[@mdwalters](https://github.com/mdwalters)**
 
+#### Norwegian Bokmål
+
+Maintained by **[@comradekingu](https://github.com/comradekingu)**
+
 #### Spanish
 
 Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
