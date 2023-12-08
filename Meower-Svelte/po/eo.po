@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-07 17:03+0000\n"
-"Last-Translator: \"J. Lavoie\" <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2023-12-08 18:06+0000\n"
+"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
 "Language: eo\n"
@@ -281,16 +281,20 @@ msgstr "Jes"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
-msgstr ""
+msgstr "Konekto Malsukcesis"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
 msgstr ""
+"Meower estas nuntempe malsupren por riparoj. Vi povas resti supren-al-datiĝi "
+"kun la kurento statuso de ĉi tio malfunkcio per kontrolado"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
 msgid "Your IP address has been blocked because it was used to violate Meower's Terms of Service or is likely to cause spam."
 msgstr ""
+"Via IP adreso havas estis blokita ĉar ĝi estis uzata malobservi Meower's "
+"Kondiĉoj de Servo aŭ estas verŝajna al kaŭzo spamo."
 
 #: src/lib/modals/ConnectionFailed.svelte:38
 msgid "If you think this is a mistake, please email"
