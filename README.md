@@ -4,8 +4,6 @@ Translation files for Meower
 
 ## Projects
 
-Languages marked with **[EL]** means that it is an esolang (esoteric language, or a easter egg language).
-
 ### Meower Svelte
 
 <table>
@@ -29,7 +27,9 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
         <tr>
             <td>Esperanto</td>
             <td>
-                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>   
+                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>
+                <br>
+                <b>Edanas</b>
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/eo/svg-badge.svg" alt="Translation status"></td>
@@ -37,7 +37,9 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
         <tr>
             <td>French</td>
             <td>
-                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>   
+                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>
+                <br>
+                <b>Edanas</b>
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/fr/svg-badge.svg" alt="Translation status"></td>
@@ -61,7 +63,9 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
         <tr>
             <td>Spanish</td>
             <td>
-                <b><a href="https://github.com/NotFenixio">@NotFenixio</a></b>   
+                <b><a href="https://github.com/NotFenixio">@NotFenixio</a></b>
+                <br>
+                <b>Edanas</b>
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/es/svg-badge.svg" alt="Translation status"></td>
@@ -69,7 +73,7 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
         <tr>
             <td>Ukrainian</td>
             <td>
-                <b><a href="https://github.com/WlodekM">@WlodekM</a></b>   
+                <b><a href="https://github.com/WlodekM">@WlodekM</a></b>
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/uk/svg-badge.svg" alt="Translation status"></td>
@@ -79,17 +83,36 @@ Languages marked with **[EL]** means that it is an esolang (esoteric language, o
 
 ### Meower Website
 
-#### Esperanto
-
-Maintained by **[@mdwalters](https://github.com/mdwalters)**
-
-#### Norwegian Bokmål
-
-Maintained by **[@comradekingu](https://github.com/comradekingu)**
-
-#### Spanish
-
-Maintained by **[@NotFenixio](https://github.com/NotFenixio)**
+<table>
+    <thead>
+        <tr>
+          <th>Language</th>
+          <th>Contributors</th>
+          <th>Esolang?</th>
+          <th>Percentage Translated</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Esperanto</td>
+            <td>
+                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>
+            </td>
+            <td>No</td>
+            <td><img src="https://hosted.weblate.org/widget/meower/website/eo/svg-badge.svg" alt="Translation status"></td>
+        </tr>
+        <tr>
+            <td>Spanish</td>
+            <td>
+                <b><a href="https://github.com/NotFenixio">@NotFenixio</a></b>
+                <br>
+                <b>gallegonovato</b>
+            </td>
+            <td>No</td>
+            <td><img src="https://hosted.weblate.org/widget/meower/website/es/svg-badge.svg" alt="Translation status"></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Contributing translations
 
