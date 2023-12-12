@@ -1,9 +1,10 @@
+# Max Walters <mdwalters.pm@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-08 18:06+0000\n"
+"PO-Revision-Date: 2023-12-12 13:04+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -303,18 +304,20 @@ msgstr "Se vi opinias, ke tio estas eraro, bonvolu retpoŝti"
 #: src/lib/modals/ConnectionFailed.svelte:47
 msgid "Failed connecting to server. View console for more information or try again later."
 msgstr ""
+"Malsukcesis konektante al servilo. Vido konzolo por pli informoj aŭ provu "
+"denove poste."
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr ""
+msgstr "Rekonekti"
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
-msgstr ""
+msgstr "Sencimigi"
 
 #: src/lib/modals/Debug.svelte:23
 msgid "Stores"
-msgstr ""
+msgstr "Vendejoj"
 
 #. TRANSLATORS: Do not modify the "{code}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/DeletePost.svelte:39
