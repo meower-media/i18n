@@ -230,7 +230,7 @@ msgstr "Meow meow meow meow meow meow!"
 
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr "Meow meow meow meow meow meow https://!"
+msgstr "Meow meow meow meow meow meow meow://!"
 
 
 #: src/lib/modals/AddImage.svelte:118
