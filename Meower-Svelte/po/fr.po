@@ -1,9 +1,10 @@
+# Max Walters <mdwalters.pm@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-08 19:03+0000\n"
+"PO-Revision-Date: 2023-12-14 16:27+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
 "\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.3\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -313,10 +314,12 @@ msgstr "Si vous pensez que c'est une erreur, veuillez envoyer un courriel à"
 #: src/lib/modals/ConnectionFailed.svelte:47
 msgid "Failed connecting to server. View console for more information or try again later."
 msgstr ""
+"Raté connectant à serveur. Vue console pour plus de informations ou essayer "
+"encore plus tard."
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr ""
+msgstr "Reconnecter"
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
