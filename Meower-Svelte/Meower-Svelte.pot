@@ -778,3 +778,35 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:122
 msgid "Moderate User"
 msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:140
+#: src/lib/modals/moderation/ModPanel.svelte:168
+msgid "Submit"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:147
+msgid "View Recent Users"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:150
+msgid "Moderate IP"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:166
+msgid "IP address..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:175
+msgid "View Recent Netblocks"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:179
+msgid "Moderate Post"
+msgstr ""
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:195
+msgid "Post ID"
+msgstr ""
