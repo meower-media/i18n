@@ -162,6 +162,7 @@ msgstr ""
 
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
+#: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
 msgstr ""
 
@@ -425,10 +426,6 @@ msgstr ""
 
 #: src/lib/modals/Signup.svelte:107
 msgid "Password..."
-msgstr ""
-
-#: src/lib/modals/Signup.svelte:124
-msgid "Confirm password"
 msgstr ""
 
 #: src/lib/modals/Signup.svelte:156
