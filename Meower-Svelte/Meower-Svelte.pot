@@ -479,6 +479,7 @@ msgid "Search"
 msgstr ""
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
 msgstr ""
 
@@ -486,10 +487,6 @@ msgstr ""
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
-msgstr ""
-
-#: src/lib/modals/chats/ChangeChatNickname.svelte:86
-msgid "Change Nickname"
 msgstr ""
 
 #: src/lib/modals/chats/CreateChat.svelte:14
