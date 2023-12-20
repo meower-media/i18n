@@ -66,6 +66,8 @@ Translation files for Meower
                 <b><a href="https://github.com/NotFenixio">@NotFenixio</a></b>
                 <br>
                 <b>Edanas</b>
+                <br>
+                <b>gallegonovato</b>
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/es/svg-badge.svg" alt="Translation status"></td>
