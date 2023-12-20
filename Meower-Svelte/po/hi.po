@@ -89,7 +89,8 @@ msgstr ""
 msgid "(You need to be logged in for this page.)"
 msgstr ""
 
-#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3). Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
+#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3).
+#. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
 msgstr ""
@@ -161,6 +162,7 @@ msgstr ""
 
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
+#: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
 msgstr "पासवर्ड की पुष्टि कीजिये"
 
@@ -426,10 +428,6 @@ msgstr "प्रयोक्ता नाम..."
 msgid "Password..."
 msgstr "पासवर्ड..."
 
-#: src/lib/modals/Signup.svelte:124
-msgid "Confirm password"
-msgstr "पासवर्ड की पुष्टि कीजिये"
-
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
 msgstr "जोड़ना"
@@ -481,6 +479,7 @@ msgid "Search"
 msgstr "खोज"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
 msgstr "उपनाम बदलें"
 
@@ -489,10 +488,6 @@ msgstr "उपनाम बदलें"
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
 msgstr "बातचीत का उपनाम"
-
-#: src/lib/modals/chats/ChangeChatNickname.svelte:86
-msgid "Change Nickname"
-msgstr "उपनाम बदलें"
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
@@ -782,4 +777,36 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:122
 msgid "Moderate User"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:140
+#: src/lib/modals/moderation/ModPanel.svelte:168
+msgid "Submit"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:147
+msgid "View Recent Users"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:150
+msgid "Moderate IP"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:166
+msgid "IP address..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:175
+msgid "View Recent Netblocks"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:179
+msgid "Moderate Post"
+msgstr ""
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:195
+msgid "Post ID"
 msgstr ""

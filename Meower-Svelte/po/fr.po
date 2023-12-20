@@ -800,8 +800,6 @@ msgstr ""
 msgid "Moderate User"
 msgstr ""
 
-msgstr ""
-
 #: src/lib/modals/moderation/ModPanel.svelte:140
 #: src/lib/modals/moderation/ModPanel.svelte:168
 msgid "Submit"

@@ -850,6 +850,3 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:195
 msgid "Post ID"
 msgstr ""
-
-#~ msgid "Add member"
-#~ msgstr "Añadir un miembro"
