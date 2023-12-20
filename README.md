@@ -135,6 +135,17 @@ po2json \
   --fallback-to-msgid
 ```
 
+### Example
+
+```sh
+po2json \
+  Meower-Svelte/po/eo.po \
+  Meower-Svelte/json/eo.json \
+  -f jed \
+  -d eo \
+  --fallback-to-msgid
+```
+
 ## Stats
 
 ### Meower Svelte
