@@ -792,6 +792,8 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:140
 #: src/lib/modals/moderation/ModPanel.svelte:168
+#: src/lib/modals/moderation/ModPanel.svelte:197
+#: src/lib/modals/moderation/ModPanel.svelte:218
 msgid "Submit"
 msgstr ""
 
@@ -820,4 +822,13 @@ msgstr ""
 #. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModPanel.svelte:195
 msgid "Post ID"
+msgstr ""
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:216
+msgid "Chat ID"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:232
+msgid "Announcement text here..."
 msgstr ""

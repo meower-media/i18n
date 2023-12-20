@@ -821,6 +821,8 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:140
 #: src/lib/modals/moderation/ModPanel.svelte:168
+#: src/lib/modals/moderation/ModPanel.svelte:197
+#: src/lib/modals/moderation/ModPanel.svelte:218
 msgid "Submit"
 msgstr "Enviar"
 
@@ -850,6 +852,15 @@ msgstr "Tema moderado"
 #: src/lib/modals/moderation/ModPanel.svelte:195
 msgid "Post ID"
 msgstr "ID del tema"
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:216
+msgid "Chat ID"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:232
+msgid "Announcement text here..."
+msgstr ""
 
 #~ msgid "Add member"
 #~ msgstr "Añadir un miembro"
