@@ -175,8 +175,9 @@ msgstr ""
 
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
+#: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr ""
+msgstr "Confirmar contraseña"
 
 #: src/lib/Setup.svelte:395
 #: src/lib/modals/Signup.svelte:137
@@ -453,15 +454,12 @@ msgstr "Nombre de usuario..."
 msgid "Password..."
 msgstr "Contraseña..."
 
-#: src/lib/modals/Signup.svelte:124
-msgid "Confirm password"
-msgstr "Confirmar contraseña"
-
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
 msgstr "Unirse"
 
 #: src/lib/modals/chats/AddMember.svelte:14
+#: src/lib/modals/chats/AddMember.svelte:88
 #: src/lib/modals/chats/AddMember_Mode.svelte:11
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
@@ -513,18 +511,15 @@ msgid "Search"
 msgstr "Buscar"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
-msgstr ""
+msgstr "Cambiar nombre"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:62
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
 msgstr "Nombre del chat"
-
-#: src/lib/modals/chats/ChangeChatNickname.svelte:86
-msgid "Change Nickname"
-msgstr "Cambiar nombre"
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
@@ -824,3 +819,39 @@ msgstr "Fallo al {registration} la registración: {error}"
 #: src/lib/modals/moderation/ModPanel.svelte:119
 msgid "Moderation Panel"
 msgstr "Panel de moderación"
+
+#: src/lib/modals/moderation/ModPanel.svelte:122
+msgid "Moderate User"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:140
+#: src/lib/modals/moderation/ModPanel.svelte:168
+msgid "Submit"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:147
+msgid "View Recent Users"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:150
+msgid "Moderate IP"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:166
+msgid "IP address..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:175
+msgid "View Recent Netblocks"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:179
+msgid "Moderate Post"
+msgstr ""
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:195
+msgid "Post ID"
+msgstr ""
