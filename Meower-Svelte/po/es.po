@@ -636,6 +636,7 @@ msgid "CIDR..."
 msgstr "CIDR..."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
+#: src/lib/modals/moderation/ModPanel.svelte:316
 msgid "Type"
 msgstr "Tipo"
 
@@ -772,11 +773,15 @@ msgid "{username}'s Restrictions"
 msgstr "Restricciones de {username}"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:91
+#: src/lib/modals/moderation/ModPanel.svelte:237
 msgid "Save"
 msgstr "Guardar"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:14
-msgid "Enable Repair Mode"
+#: src/lib/modals/moderation/ModPanel.svelte:267
+#, fuzzy
+#| msgid "Enable Repair Mode"
+msgid "Enable repair mode"
 msgstr "Habilitar el modo reparo"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:40
@@ -787,7 +792,10 @@ msgstr ""
 "¿Estás seguro? ¡Esto desconectara a todos y los prevendrá de reconertarse!"
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
-msgid "Kick All Users"
+#: src/lib/modals/moderation/ModPanel.svelte:257
+#, fuzzy
+#| msgid "Kick All Users"
+msgid "Kick all users"
 msgstr "Echar a todos los usuarios"
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:36
@@ -862,6 +870,72 @@ msgstr "Identificación del chat"
 #: src/lib/modals/moderation/ModPanel.svelte:232
 msgid "Announcement text here..."
 msgstr "Texto del anuncio aquí..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:249
+msgid ""
+"Registration is currently disabled! New users will be blocked from joining "
+"Meower until registration is re-enabled."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:262
+msgid "Restart server"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:271
+#, fuzzy
+#| msgid "Disabling registration..."
+msgid "Disable registration"
+msgstr "Deshabilitando registración..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:275
+#, fuzzy
+#| msgid "Enabling registration..."
+msgid "Enable registration"
+msgstr "Habilitando registración..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:285
+msgid "Reports"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:286
+msgid "Status"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:295
+#: src/lib/modals/moderation/ModPanel.svelte:324
+msgid "Any"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:301
+msgid "Pending"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:307
+msgid "Completed with no action taken"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:313
+msgid "Completed with action taken"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+#, fuzzy
+#| msgid "Post ID"
+msgid "Post"
+msgstr "ID del tema"
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "Nombre de usuario"
+
+#: src/lib/modals/moderation/ModPanel.svelte:340
+#, fuzzy
+#| msgid "Error loading results. Please try again."
+msgid "Error loading reports. Please try again."
+msgstr ""
+"Error cargando los resultados. Por favor, inténtalo de nuevo más tarde."
 
 #~ msgid "Add member"
 #~ msgstr "Añadir un miembro"

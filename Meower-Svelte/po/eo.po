@@ -613,6 +613,7 @@ msgid "CIDR..."
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
+#: src/lib/modals/moderation/ModPanel.svelte:316
 msgid "Type"
 msgstr ""
 
@@ -743,11 +744,13 @@ msgid "{username}'s Restrictions"
 msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:91
+#: src/lib/modals/moderation/ModPanel.svelte:237
 msgid "Save"
 msgstr ""
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:14
-msgid "Enable Repair Mode"
+#: src/lib/modals/moderation/ModPanel.svelte:267
+msgid "Enable repair mode"
 msgstr ""
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:40
@@ -757,7 +760,8 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
-msgid "Kick All Users"
+#: src/lib/modals/moderation/ModPanel.svelte:257
+msgid "Kick all users"
 msgstr ""
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:36
@@ -832,3 +836,62 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:232
 msgid "Announcement text here..."
 msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:249
+msgid ""
+"Registration is currently disabled! New users will be blocked from joining "
+"Meower until registration is re-enabled."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:262
+msgid "Restart server"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:271
+msgid "Disable registration"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:275
+msgid "Enable registration"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:285
+msgid "Reports"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:286
+msgid "Status"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:295
+#: src/lib/modals/moderation/ModPanel.svelte:324
+msgid "Any"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:301
+msgid "Pending"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:307
+msgid "Completed with no action taken"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:313
+msgid "Completed with action taken"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+msgid "Post"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "Uzantnomo"
+
+#: src/lib/modals/moderation/ModPanel.svelte:340
+#, fuzzy
+#| msgid "Too many requests! Please try again later."
+msgid "Error loading reports. Please try again."
+msgstr "Tro multaj petoj! Bonvolu provu denove poste."
