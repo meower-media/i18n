@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-21 17:09+0000\n"
+"PO-Revision-Date: 2023-12-21 18:09+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -347,44 +347,44 @@ msgstr "Elsalutita"
 
 #: src/lib/modals/LoggedOut.svelte:10
 msgid "You have been logged out. Please login again."
-msgstr ""
+msgstr "Vi havi estis elsalutita. Bonvolu ŝtipo en denove."
 
 #: src/lib/modals/LoggedOut.svelte:13 src/lib/modals/Logout.svelte:10
 #: src/lib/modals/Logout.svelte:16
 msgid "Logout"
-msgstr ""
+msgstr "Ŝtipo eksteren"
 
 #: src/lib/modals/Login.svelte:23 src/lib/modals/Signup.svelte:24
 msgid "You must specify a username and password!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto!"
 
 #: src/lib/modals/Login.svelte:103 src/lib/modals/Signup.svelte:18
 msgid "Join Meower"
-msgstr ""
+msgstr "Aliĝu Meower"
 
 #: src/lib/modals/Logout.svelte:12
 msgid "Are you sure you would like to logout?"
-msgstr ""
+msgstr "Ĉu vi certe vi volus ŝati al ŝtipo eksteren?"
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
-msgstr ""
+msgstr "Rezultoj"
 
 #: src/lib/modals/SearchResults.svelte:25
 msgid "Error loading results. Please try again."
-msgstr ""
+msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
 
 #: src/lib/modals/SearchResults.svelte:28
 msgid "No results found."
-msgstr ""
+msgstr "Ne rezultoj trovita."
 
 #: src/lib/modals/ServerSelector.svelte:15
 msgid "Server Selector"
-msgstr ""
+msgstr "Servilo Elektilo"
 
 #: src/lib/modals/ServerSelector.svelte:38
 msgid "WARNING!"
-msgstr ""
+msgstr "AVERTO!"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:39
