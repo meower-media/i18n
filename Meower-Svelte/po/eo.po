@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-18 16:10+0000\n"
+"PO-Revision-Date: 2023-12-21 17:09+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -343,7 +343,7 @@ msgstr "Forigi"
 
 #: src/lib/modals/LoggedOut.svelte:8
 msgid "Logged Out"
-msgstr ""
+msgstr "Elsalutita"
 
 #: src/lib/modals/LoggedOut.svelte:10
 msgid "You have been logged out. Please login again."
