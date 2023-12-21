@@ -609,6 +609,7 @@ msgid "CIDR..."
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
+#: src/lib/modals/moderation/ModPanel.svelte:316
 msgid "Type"
 msgstr ""
 
@@ -864,10 +865,6 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:313
 msgid "Completed with action taken"
-msgstr ""
-
-#: src/lib/modals/moderation/ModPanel.svelte:316
-msgid "Type"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
