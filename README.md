@@ -22,7 +22,7 @@ Translation files for Meower
                 <b><a href="https://github.com/meltland2002">@meltland2002</a></b>   
             </td>
             <td>Yes</td>
-            <td>86%</td>
+            <td>100%</td>
         </tr>
         <tr>
             <td>Esperanto</td>
