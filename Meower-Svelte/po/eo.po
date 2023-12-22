@@ -885,13 +885,9 @@ msgid "Post"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "Uzantnomo"
+msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
-#, fuzzy
-#| msgid "Too many requests! Please try again later."
 msgid "Error loading reports. Please try again."
-msgstr "Tro multaj petoj! Bonvolu provu denove poste."
+msgstr ""

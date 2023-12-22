@@ -893,13 +893,9 @@ msgid "Post"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "Nom d'utilisateur"
+msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
-#, fuzzy
-#| msgid "Too many requests! Please try again later."
 msgid "Error loading reports. Please try again."
-msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
+msgstr ""

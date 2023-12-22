@@ -871,13 +871,9 @@ msgid "Post"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "प्रयोक्ता नाम"
+msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
-#, fuzzy
-#| msgid "Error loading results. Please try again."
 msgid "Error loading reports. Please try again."
-msgstr "परिणाम लोड करने में विफल. पुन प्रयास करें."
+msgstr ""

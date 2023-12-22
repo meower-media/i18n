@@ -919,23 +919,13 @@ msgid "Completed with action taken"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
-#, fuzzy
-#| msgid "Post ID"
 msgid "Post"
-msgstr "ID del tema"
+msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
-#, fuzzy
-#| msgid "Username"
 msgid "User"
-msgstr "Nombre de usuario"
+msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
-#, fuzzy
-#| msgid "Error loading results. Please try again."
 msgid "Error loading reports. Please try again."
 msgstr ""
-"Error cargando los resultados. Por favor, inténtalo de nuevo más tarde."
-
-#~ msgid "Add member"
-#~ msgstr "Añadir un miembro"
