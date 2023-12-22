@@ -333,6 +333,8 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:44
 #: src/lib/modals/moderation/ModPanel.svelte:68
 #: src/lib/modals/moderation/ModPanel.svelte:101
+#: src/lib/modals/moderation/ModerateChat.svelte:24
+#: src/lib/modals/moderation/ModerateChat.svelte:48
 msgid "Response code is not OK; code is {code}"
 msgstr ""
 
@@ -898,4 +900,34 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
 msgid "Error loading reports. Please try again."
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:345
+msgid "Yay, there are no pending reports!"
+msgstr ""
+
+#: src/lib/modals/moderation/ModPanel.svelte:347
+msgid "No reports found. Check back later!"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{id}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateChat.svelte:66
+msgid "Moderate {id}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:69
+msgid "Chat Info"
+msgstr ""
+
+#. TRANSLATORS: The string "UUID" stands for "Universal Unique Identifier." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateChat.svelte:70
+msgid "UUID:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:72
+msgid "Nickname:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:74
+msgid "Owner:"
 msgstr ""
