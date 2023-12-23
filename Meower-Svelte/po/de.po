@@ -1,0 +1,880 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meower-Svelte\n"
+"Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
+"POT-Creation-Date: 2023-11-29 20:09+0400\n"
+"PO-Revision-Date: 2023-12-22 06:48+0000\n"
+"Last-Translator: mybearworld\n"
+"Language-Team: German <https://hosted.weblate.org/projects/meower/svelte/de/"
+">\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: src/lib/Setup.svelte:75
+msgid "Connecting..."
+msgstr "Verbinden..."
+
+#: src/lib/Setup.svelte:135
+msgid "Logging in..."
+msgstr "Anmelden..."
+
+#: src/lib/Setup.svelte:152
+#: src/lib/modals/Login.svelte:43
+#: src/lib/modals/moderation/DeleteAccount.svelte:22
+msgid "Invalid username!"
+msgstr "Ungültiger Benutzername!"
+
+#: src/lib/Setup.svelte:155
+#: src/lib/modals/Login.svelte:46
+msgid "This account has been deleted!"
+msgstr "Dieses Konto wurde gelöscht!"
+
+#: src/lib/Setup.svelte:159
+msgid "Session expired! Please login again."
+msgstr "Deine Sitzung ist ausgelaufen! Melde dich bitte erneut an."
+
+#: src/lib/Setup.svelte:160
+#: src/lib/modals/Login.svelte:49
+msgid "Invalid password!"
+msgstr "Ungültiges Passwort!"
+
+#: src/lib/Setup.svelte:167
+#: src/lib/Setup.svelte:350
+#: src/lib/modals/Login.svelte:55
+#: src/lib/modals/Signup.svelte:63
+msgid "Usernames must not have spaces or other special characters!"
+msgstr "Benutzernamen dürfen keine Leertasten oder andere Sonderzeichen haben!"
+
+#: src/lib/Setup.svelte:170
+#: src/lib/Setup.svelte:354
+#: src/lib/modals/DeletePost.svelte:35
+#: src/lib/modals/Login.svelte:59
+#: src/lib/modals/Signup.svelte:67
+msgid "Too many requests! Please try again later."
+msgstr "Zu viele Anfragen! Versuche es bitte später erneut."
+
+#. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:173
+#: src/lib/Setup.svelte:370
+#: src/lib/modals/Signup.svelte:79
+msgid "Unexpected {error} error!"
+msgstr "Unerwarteter {error}-Fehler!"
+
+#: src/lib/Setup.svelte:201
+msgid "Reconnecting..."
+msgstr "Neu verbinden..."
+
+#: src/lib/Setup.svelte:220
+#: src/lib/Setup.svelte:293
+#: src/lib/modals/Login.svelte:105
+msgid "Log in"
+msgstr "Anmelden"
+
+#: src/lib/Setup.svelte:224
+msgid "Create an account"
+msgstr "Konto erstellen"
+
+#: src/lib/Setup.svelte:248
+msgid "Skip"
+msgstr "Überspringen"
+
+#: src/lib/Setup.svelte:251
+msgid "(Several features will be unavailable while not logged in.)"
+msgstr "(Einige Funktionen sind ohne Anmeldung nicht verfügbar.)"
+
+#: src/lib/Setup.svelte:256
+msgid "(You need to be logged in for this page.)"
+msgstr "(Du must für diese Seite angemeldet sein.)"
+
+#. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3).
+#. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:260
+msgid "Meower Svelte v{version}"
+msgstr "Meower Svelte v{version}"
+
+#: src/lib/Setup.svelte:267
+#: src/lib/modals/Login.svelte:17
+#: src/lib/modals/Signup.svelte:153
+msgid "Login to Meower"
+msgstr "Bei Meower anmelden"
+
+#: src/lib/Setup.svelte:274
+msgid "You must specify a username and a password to login!"
+msgstr "Du musst einen Benutzernamen und ein Passwort angeben, um dich anzumelden!"
+
+#: src/lib/Setup.svelte:281
+#: src/lib/Setup.svelte:375
+#: src/lib/modals/Login.svelte:72
+#: src/lib/modals/Login.svelte:78
+#: src/lib/modals/Signup.svelte:86
+#: src/lib/modals/chats/AddMember.svelte:62
+#: src/lib/modals/chats/AddMember.svelte:66
+#: src/lib/modals/chats/AddMember_Search.svelte:24
+#: src/lib/modals/chats/AddMember.svelte:28
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/lib/Setup.svelte:282
+#: src/lib/Setup.svelte:378
+#: src/lib/modals/Login.svelte:86
+#: src/lib/modals/Login.svelte:92
+#: src/lib/modals/Signup.svelte:101
+msgid "Password"
+msgstr "Passwort"
+
+#: src/lib/Setup.svelte:291
+#: src/lib/Setup.svelte:411
+#: src/lib/Setup.svelte:429
+msgid "Go back"
+msgstr "Zurück"
+
+#: src/lib/Setup.svelte:309
+msgid "You must specify a username and a password to create an account!"
+msgstr "Du musst einen Benutzernamen und ein Passwort angeben, um ein Konto zu erstellen!"
+
+#: src/lib/Setup.svelte:314
+#: src/lib/modals/Signup.svelte:29
+msgid "Passwords do not match! Make sure you have entered your password correctly."
+msgstr "Die Passwörter passen nicht zusammen! Stelle sicher, dass du dein Passwort richtig eingegeben hast."
+
+#: src/lib/Setup.svelte:318
+msgid "Creating account..."
+msgstr "Account wird erstellt..."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:346
+#: src/lib/modals/Signup.svelte:59
+msgid "{username} is taken!"
+msgstr ""
+
+#: src/lib/Setup.svelte:364
+#: src/lib/modals/Signup.svelte:74
+msgid "Registration Disabled"
+msgstr ""
+
+#: src/lib/Setup.svelte:365
+#: src/lib/modals/Signup.svelte:75
+msgid "Unfortunately, you may not create a new account at this time. An administrator has disabled registration. Please try again later."
+msgstr ""
+
+#: src/lib/Setup.svelte:384
+#: src/lib/modals/Signup.svelte:118
+#: src/lib/modals/Signup.svelte:124
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+#: src/lib/Setup.svelte:395
+#: src/lib/modals/Signup.svelte:137
+msgid "I agree to"
+msgstr "Ich stimme zu: "
+
+#: src/lib/Setup.svelte:399
+#: src/lib/modals/Signup.svelte:147
+msgid "Meower's Terms of Service and Privacy Policy"
+msgstr "Meowers Nutzungsbedingungen und Datenschutzerklärung"
+
+#: src/lib/Setup.svelte:413
+msgid "Join!"
+msgstr "Beitreten!"
+
+#: src/lib/Setup.svelte:420
+msgid "Let's go!"
+msgstr "Los geht's!"
+
+#: src/lib/Setup.svelte:424
+msgid "Somehow, you got to a page that doesn't exist..."
+msgstr "Irgendwie bist du zu einer Seite gekommen, die nicht existiert..."
+
+#. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/Setup.svelte:426
+msgid "(Current page: {page})"
+msgstr "(Seite: {page})"
+
+#: src/lib/modals/AddImage.svelte:91
+#: src/lib/modals/AddImage.svelte:127
+msgid "The image must have a name!"
+msgstr "Das Bild muss einen Namen haben!"
+
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
+#. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
+#: src/lib/modals/AddImage.svelte:95
+msgid "The image URL must start with https://!"
+msgstr "Die Bild-URL muss mit https:// anfangen!"
+
+#: src/lib/modals/AddImage.svelte:118
+msgid "This image is not on the image host whitelist! Allowed image hosts are:"
+msgstr "Das Bild ist nicht auf der Whitelist für Bildhosts! Erlaubte Bildhosts sind:"
+
+#: src/lib/modals/AddImage.svelte:131
+msgid "Add Image to Post"
+msgstr "Bild zu Post hinzufügen"
+
+#: src/lib/modals/AddImage.svelte:137
+msgid "Image Name"
+msgstr "Bildname"
+
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
+#: src/lib/modals/AddImage.svelte:147
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: src/lib/modals/AddImage.svelte:153
+msgid "Preview"
+msgstr "Vorschau"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/AddImage.svelte:161
+#: src/lib/modals/AddImage.svelte:167
+#: src/lib/modals/AddImage.svelte:173
+msgid "{username}'s profile picture"
+msgstr "Profilbild von {username}"
+
+#: src/lib/modals/AddImage.svelte:210
+#: src/lib/modals/Basic.svelte:16
+#: src/lib/modals/moderation/EditRestrictions.svelte:88
+msgid "Close"
+msgstr "Schließen"
+
+#: src/lib/modals/AddImage.svelte:219
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: src/lib/modals/ConfirmHyperlink.svelte:12
+msgid "External Link"
+msgstr "Externer Link"
+
+#. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/ConfirmHyperlink.svelte:15
+msgid "Are you sure you wish to go to {url}? If you confirm this action, it will be opened in a new tab."
+msgstr "Bist du dir sicher, dass du zu {url} gehen willst? Wenn du dies bestätigst, wird ein neuer Tab geöffnet werden."
+
+#: src/lib/modals/ConfirmHyperlink.svelte:19
+#: src/lib/modals/DeletePost.svelte:67
+#: src/lib/modals/Logout.svelte:15
+#: src/lib/modals/ServerSelector.svelte:77
+#: src/lib/modals/chats/AddMember.svelte:85
+#: src/lib/modals/chats/AddMember_Search.svelte:42
+#: src/lib/modals/chats/ChangeChatNickname.svelte:80
+#: src/lib/modals/chats/CreateChat.svelte:72
+#: src/lib/modals/chats/LeaveChat.svelte:55
+#: src/lib/modals/chats/RemoveMember.svelte:69
+#: src/lib/modals/chats/TransferChatOwnership.svelte:70
+#: src/lib/modals/moderation/ClearPosts.svelte:58
+#: src/lib/modals/moderation/ClearQuote.svelte:55
+#: src/lib/modals/moderation/CreateNetblock.svelte:83
+#: src/lib/modals/moderation/DeleteAccount.svelte:100
+#: src/lib/modals/moderation/DeleteNetblock.svelte:53
+#: src/lib/modals/moderation/EnableRepairMode.svelte:52
+#: src/lib/modals/moderation/KickAllUsers.svelte:44
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/lib/modals/ConfirmHyperlink.svelte:24
+msgid "Yes"
+msgstr "Ja"
+
+#: src/lib/modals/ConnectionFailed.svelte:22
+msgid "Connection Failed"
+msgstr "Verbindung fehlgeschlagen"
+
+#: src/lib/modals/ConnectionFailed.svelte:26
+msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
+msgstr "Meower ist momentan aufgrund von Reparaturen nicht verfügbar. Hier kannst du den aktuellen Status verfolgen: "
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/ConnectionFailed.svelte:35
+msgid "Your IP address has been blocked because it was used to violate Meower's Terms of Service or is likely to cause spam."
+msgstr "Deine IP-Adresse wurde blockiert, da sie genutzt wurde, um gegen Meowers Nutzungsbedingungen zu verstoßen oder für Spam genutzt wurde."
+
+#: src/lib/modals/ConnectionFailed.svelte:38
+msgid "If you think this is a mistake, please email"
+msgstr "Wenn du glaubst, dass dies ein Fehler ist, schicke bitte eine Email an"
+
+#: src/lib/modals/ConnectionFailed.svelte:47
+msgid "Failed connecting to server. View console for more information or try again later."
+msgstr "Verbindung zum Server fehlgeschlagen. Siehe die Konsole für mehr Informationen, oder versuche es später erneut."
+
+#: src/lib/modals/ConnectionFailed.svelte:53
+msgid "Reconnect"
+msgstr "Neu verbinden"
+
+#: src/lib/modals/Debug.svelte:21
+msgid "Debug"
+msgstr "Debug"
+
+#: src/lib/modals/Debug.svelte:23
+msgid "Stores"
+msgstr "Stores"
+
+#. TRANSLATORS: Do not modify the "{code}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/DeletePost.svelte:39
+#: src/lib/modals/chats/AddMember.svelte:47
+#: src/lib/modals/chats/AddMember_Profile.svelte:51
+#: src/lib/modals/chats/ChangeChatNickname.svelte:48
+#: src/lib/modals/chats/CreateChat.svelte:36
+#: src/lib/modals/chats/LeaveChat.svelte:35
+#: src/lib/modals/chats/RemoveMember.svelte:46
+#: src/lib/modals/chats/TransferChatOwnership.svelte:47
+#: src/lib/modals/moderation/ClearPosts.svelte:33
+#: src/lib/modals/moderation/ClearQuote.svelte:35
+#: src/lib/modals/moderation/CreateNetblock.svelte:39
+#: src/lib/modals/moderation/DeleteAccount.svelte:40
+#: src/lib/modals/moderation/DeleteNetblock.svelte:33
+#: src/lib/modals/moderation/EnableRepairMode.svelte:29
+#: src/lib/modals/moderation/KickAllUsers.svelte:26
+#: src/lib/modals/moderation/ModPanel.svelte:44
+#: src/lib/modals/moderation/ModPanel.svelte:68
+#: src/lib/modals/moderation/ModPanel.svelte:101
+msgid "Response code is not OK; code is {code}"
+msgstr "Antwortcode ist nicht OK; Code ist {code}"
+
+#: src/lib/modals/DeletePost.svelte:49
+msgid "Are you sure you would like to delete this post?"
+msgstr "Bist du dir sicher, dass du diesen Post löschen willst?"
+
+#: src/lib/modals/DeletePost.svelte:54
+msgid "Report to Meower Moderators"
+msgstr "An Meowers Moderatoren melden"
+
+#: src/lib/modals/DeletePost.svelte:70
+#: src/lib/modals/moderation/DeleteNetblock.svelte:56
+msgid "Delete"
+msgstr "Löschen"
+
+#: src/lib/modals/LoggedOut.svelte:8
+msgid "Logged Out"
+msgstr "Abgemeldet"
+
+#: src/lib/modals/LoggedOut.svelte:10
+msgid "You have been logged out. Please login again."
+msgstr "Du wurdest abgemeldet. Melde dich bitte erneut an."
+
+#: src/lib/modals/LoggedOut.svelte:13
+#: src/lib/modals/Logout.svelte:10
+#: src/lib/modals/Logout.svelte:16
+msgid "Logout"
+msgstr "Abmelden"
+
+#: src/lib/modals/Login.svelte:23
+#: src/lib/modals/Signup.svelte:24
+msgid "You must specify a username and password!"
+msgstr "Du musst einen Benutzernamen und ein Passwort angeben!"
+
+#: src/lib/modals/Login.svelte:103
+#: src/lib/modals/Signup.svelte:18
+msgid "Join Meower"
+msgstr "Meower beitreten"
+
+#: src/lib/modals/Logout.svelte:12
+msgid "Are you sure you would like to logout?"
+msgstr "Bist du dir sicher, dass du dich abmelden willst?"
+
+#: src/lib/modals/SearchResults.svelte:14
+msgid "Results"
+msgstr "Ergebnisse"
+
+#: src/lib/modals/SearchResults.svelte:25
+msgid "Error loading results. Please try again."
+msgstr "Laden von Ergebnissen fehlgeschlagen. Versuche es bitte noch einmal."
+
+#: src/lib/modals/SearchResults.svelte:28
+msgid "No results found."
+msgstr "Keine Ergebnisse gefunden."
+
+#: src/lib/modals/ServerSelector.svelte:15
+msgid "Server Selector"
+msgstr "Serverwahl"
+
+#: src/lib/modals/ServerSelector.svelte:38
+msgid "WARNING!"
+msgstr "ACHTUNG!"
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/ServerSelector.svelte:39
+msgid "Connecting to a custom server can be dangerous! They will get your IP address and some details about your device upon connecting. They may also be running custom code to log passwords or other sensitive information."
+msgstr "Mit einem eigenen Server zu verbinden kann gefährlich sein! Sie bekommen deine IP-Adresse und einige Details über dein Gerät, sobald du dich verbindest. Sie können auch eigenen Code nutzen, um Passwörter oder andere wichtige Informationen zu speichern."
+
+#: src/lib/modals/ServerSelector.svelte:44
+msgid "This feature is intended for developers."
+msgstr "Diese Funktion ist für Entwickler gedacht."
+
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
+#: src/lib/modals/ServerSelector.svelte:47
+msgid "Cloudlink URL"
+msgstr "Cloudlink-URL"
+
+#. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
+#: src/lib/modals/ServerSelector.svelte:61
+msgid "REST API URL"
+msgstr "REST-API-URL"
+
+#: src/lib/modals/ServerSelector.svelte:85
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: src/lib/modals/ServerSelector.svelte:87
+msgid "Save & Reload"
+msgstr "Speichern & Neu laden"
+
+#: src/lib/modals/Signup.svelte:92
+#: src/lib/modals/moderation/ModPanel.svelte:138
+msgid "Username..."
+msgstr "Benutzername..."
+
+#: src/lib/modals/Signup.svelte:107
+msgid "Password..."
+msgstr "Passwort..."
+
+#: src/lib/modals/Signup.svelte:156
+msgid "Join"
+msgstr "Beitreten"
+
+#: src/lib/modals/chats/AddMember.svelte:14
+#: src/lib/modals/chats/AddMember.svelte:88
+#: src/lib/modals/chats/AddMember_Mode.svelte:11
+#: src/lib/modals/chats/AddMember_Profile.svelte:11
+#: src/lib/modals/chats/AddMember_Search.svelte:14
+msgid "Add Member"
+msgstr "Mitglied hinzufügen"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:33
+#: src/lib/modals/chats/AddMember_Profile.svelte:43
+msgid "Someone's privacy settings are preventing you from adding {username} to {nickname}"
+msgstr "Die Privatsphäreeinstellungen hindern dich daran, {username} zu {nickname} hinzuzufügen."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:36
+msgid "{username} not found."
+msgstr "{username} wurde nicht gefunden."
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/AddMember.svelte:39
+msgid "{username} is already a member of {nickname}."
+msgstr "{username} ist schon ein Mitglied von {nickname}."
+
+#: src/lib/modals/chats/AddMember.svelte:43
+#: src/lib/modals/chats/AddMember_Profile.svelte:47
+#: src/lib/modals/chats/ChangeChatNickname.svelte:44
+#: src/lib/modals/chats/CreateChat.svelte:32
+#: src/lib/modals/chats/LeaveChat.svelte:31
+#: src/lib/modals/chats/RemoveMember.svelte:42
+#: src/lib/modals/chats/TransferChatOwnership.svelte:43
+msgid "Too many requests! Try again later."
+msgstr "Zu viele Anfragen! Versuche es später erneut."
+
+#: src/lib/modals/chats/AddMember_Mode.svelte:17
+msgid "Enter Username"
+msgstr "Benutzername eingeben"
+
+#: src/lib/modals/chats/AddMember_Mode.svelte:23
+msgid "Search for Users"
+msgstr "Nach Benutzern suchen"
+
+#: src/lib/modals/chats/AddMember_Search.svelte:44
+msgid "Search"
+msgstr "Suchen"
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:21
+#: src/lib/modals/chats/ChangeChatNickname.svelte:86
+msgid "Change Nickname"
+msgstr "Spitzname ändern"
+
+#: src/lib/modals/chats/ChangeChatNickname.svelte:62
+#: src/lib/modals/chats/ChangeChatNickname.svelte:69
+#: src/lib/modals/chats/CreateChat.svelte:54
+msgid "Chat Nickname"
+msgstr "Chat-Spitzname"
+
+#: src/lib/modals/chats/CreateChat.svelte:14
+msgid "Create Chat"
+msgstr "Chat erstellen"
+
+#: src/lib/modals/chats/CreateChat.svelte:61
+msgid "Chat Nickname..."
+msgstr "Chat-Spitzname..."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/GCMember.svelte:21
+msgid "{username}'s Profile"
+msgstr "Profil von {username}"
+
+#: src/lib/modals/chats/GCMember.svelte:32
+msgid "View full profile"
+msgstr "Volles Profil sehen"
+
+#: src/lib/modals/chats/GCMember.svelte:40
+msgid "Remove from chat"
+msgstr "Von Chat entfernen"
+
+#: src/lib/modals/chats/GCMember.svelte:49
+msgid "Make owner of chat"
+msgstr "Eigentümer des Chats machen"
+
+#: src/lib/modals/chats/LeaveChat.svelte:18
+msgid "Leave Chat"
+msgstr "Chat verlassen"
+
+#. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/LeaveChat.svelte:45
+msgid "Are you sure you want to leave {nickname}?"
+msgstr "Bist du dir sicher, dass du {nickname} verlassen willst?"
+
+#: src/lib/modals/chats/LeaveChat.svelte:57
+msgid "Leave"
+msgstr "Verlassen"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/RemoveMember.svelte:24
+msgid "Remove {username}"
+msgstr "{username} entfernen"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/RemoveMember.svelte:59
+msgid "Are you sure you want to remove {username} from {nickname}?"
+msgstr "Bist du dir sicher, dass du {username} aus {nickname} entfernen willst?"
+
+#: src/lib/modals/chats/RemoveMember.svelte:72
+msgid "Remove member"
+msgstr "Mitglied entfernen"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/TransferChatOwnership.svelte:25
+msgid "Transfer Ownership to {username}"
+msgstr "{username} Eigentümer machen"
+
+#. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/chats/TransferChatOwnership.svelte:60
+msgid "Are you sure you want to transfer ownership of {nickname} to {username}?"
+msgstr "Bist du dir sicher, dass du {username} zum Eigentümer von {nickname} machen willst?"
+
+#: src/lib/modals/chats/TransferChatOwnership.svelte:73
+#: src/lib/modals/chats/TransferChatOwnership.svelte:76
+msgid "Transfer Ownership"
+msgstr "Zum Eigentümer machen"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:16
+msgid "Clear {username}'s Posts"
+msgstr "Posts von {username} löschen"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:44
+msgid "Are you sure you wish to delete all of {username}'s posts? Currently, there is no easy way to recover all of their deleted posts!"
+msgstr "Bist du dir sicher, dass du alle von {username}s Posts löschen willst? Momentan gibt es keinen einfachen Weg, alle gelöschten Posts wiederherzustellen!"
+
+#. TRANSLATORS: Do not modify the "{username}" and the "{origin}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearPosts.svelte:44
+msgid "Are you sure you wish to delete all of {username}'s posts in {origin}? Currently, there is no easy way to recover all of their deleted posts!"
+msgstr "Bist du dir sicher, dass du alle von {username}s Posts in {origin} löschen willst? Momentan gibt es keinen einfachen Weg, alle gelöschten Posts wiederherzustellen!"
+
+#: src/lib/modals/moderation/ClearPosts.svelte:60
+#: src/lib/modals/moderation/DeleteAccount.svelte:105
+#: src/lib/modals/moderation/EnableRepairMode.svelte:55
+#: src/lib/modals/moderation/EnableRepairMode.svelte:57
+#: src/lib/modals/moderation/KickAllUsers.svelte:47
+#: src/lib/modals/moderation/KickAllUsers.svelte:49
+msgid "Confirm"
+msgstr "Bestätigen"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ClearQuote.svelte:19
+msgid "Clear {username}'s Quote"
+msgstr "{username}'s Zitat löschen"
+
+#: src/lib/modals/moderation/ClearQuote.svelte:45
+msgid "Are you sure? This action is irreversible!"
+msgstr "Bist du dir sicher? Diese Aktion ist unwiederherstellbar!"
+
+#: src/lib/modals/moderation/ClearQuote.svelte:58
+msgid "Clear Quote"
+msgstr "Zitat löschen"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:19
+#: src/lib/modals/moderation/CreateNetblock.svelte:86
+msgid "Create Netblock"
+msgstr "Netblock erstellen"
+
+#. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/CreateNetblock.svelte:50
+msgid "CIDR"
+msgstr "CIDR"
+
+#. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/CreateNetblock.svelte:57
+msgid "CIDR..."
+msgstr "CIDR..."
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:62
+#: src/lib/modals/moderation/ModPanel.svelte:316
+msgid "Type"
+msgstr "Typ"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:69
+msgid "Full"
+msgstr "Voll"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:70
+msgid "Registration"
+msgstr "Registrierung"
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:73
+msgid "This blocks any connection request to Meower's CloudLink server and blocks any REST API request."
+msgstr "Dies blockiert jede Verbindung zu Meower's CloudLink-Server und blockiert jede REST-API-Anfrage."
+
+#: src/lib/modals/moderation/CreateNetblock.svelte:76
+msgid "This blocks new account from being created."
+msgstr "Dies blockiert neue Konten davon, erstellt zu werden."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteAccount.svelte:19
+msgid "Please confirm the user's username ({username}):"
+msgstr "Bestätige bitte den Benutzernamen des Nutzers ({username})."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:26
+msgid "This action can be very destructive! By confirming this, you acknowledge and take responsibility for the consequences of this action. Are you absolutely sure you wish to continue?"
+msgstr "Diese Aktion kann sehr zerstörend sein! Bei Bestätigung hast du die Verantwortung für jegliche Konsequenz dieser Aktion. Bist du dir absolut sicher, dass du weitermachen willst?"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:29
+msgid "Cancelled!"
+msgstr "Abgebrochen!"
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteAccount.svelte:53
+msgid "Delete {username}"
+msgstr "{username} löschen"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:56
+msgid "Mode"
+msgstr "Modus"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:68
+msgid "Cancel scheduled deletion"
+msgstr "Geplante Löschung abbrechen"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:76
+msgid "Immediate deletion"
+msgstr "Sofortige Löschung"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:79
+msgid "Purge"
+msgstr "Auslöschen"
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:82
+msgid "Cancel scheduled account deletion."
+msgstr "Geplante Kontenlöschung abbrechen."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:84
+msgid "Schedule account for deletion after 7 days."
+msgstr "Plane Kontenlöschung nach 7 Tagen."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:86
+msgid "Immediate delete account."
+msgstr "Sofortige Löschung des Kontos."
+
+#: src/lib/modals/moderation/DeleteAccount.svelte:88
+msgid "Purge everything about the account. It'll be like it never existed."
+msgstr "Lösche das Konto aus. Es wäre, als ob es nie existiert hätte."
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteNetblock.svelte:18
+msgid "Delete {cidr} Netblock"
+msgstr "Lösche {cidr}-Netblock"
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/DeleteNetblock.svelte:43
+msgid "Are you sure you want to delete {cidr} netblock?"
+msgstr "Bist du dir sicher, dass du {cidr}-Netblock löschen willst?"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:17
+msgid "Block home posts"
+msgstr "Blockiere Home-Posts"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:18
+msgid "Blocks creating new home posts."
+msgstr "Blockiert das Erstellen neuer Home-Posts"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:22
+msgid "Block chat posts"
+msgstr "Blockiere Chatposts"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:23
+msgid "Blocks creating new chat posts."
+msgstr "Blockiert das erstellen neuer Chatposts."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:27
+msgid "Block new chats"
+msgstr "Blockiere neue Chats."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:28
+msgid "Blocks creating new group chats and starting DMs."
+msgstr "Blockiert das Erstellen neuer Gruppenchats und das Anfangen von Direktnachrichten."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:32
+msgid "Block editing group chat nicknames"
+msgstr "Bearbeiten von Gruppenchat-Spitznamen blockieren"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:33
+msgid "Blocks editing group chat nicknames."
+msgstr "Blockiert das Bearbeiten von Gruppenchat-Spitznamen."
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:37
+msgid "Block editing quote"
+msgstr "Bearbeiten von Zitaten blockieren"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:38
+msgid "Blocks editing their quote."
+msgstr "Blockiert das Bearbeiten von Zitaten."
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/EditRestrictions.svelte:38
+msgid "{username}'s Restrictions"
+msgstr "Beschränkungen von {username}"
+
+#: src/lib/modals/moderation/EditRestrictions.svelte:91
+#: src/lib/modals/moderation/ModPanel.svelte:237
+msgid "Save"
+msgstr "Speichern"
+
+#: src/lib/modals/moderation/EnableRepairMode.svelte:14
+#: src/lib/modals/moderation/ModPanel.svelte:267
+msgid "Enable repair mode"
+msgstr "Reparaturmodus starten"
+
+#: src/lib/modals/moderation/EnableRepairMode.svelte:40
+msgid "Are you sure? This will disconnect everyone and prevent anyone from being able to reconnect!"
+msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden und das Neuverbinden nicht erlauben."
+
+#: src/lib/modals/moderation/KickAllUsers.svelte:14
+#: src/lib/modals/moderation/ModPanel.svelte:257
+msgid "Kick all users"
+msgstr "Alle Nutzer kicken"
+
+#: src/lib/modals/moderation/KickAllUsers.svelte:36
+msgid "Are you sure? This will disconnect everyone!"
+msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden!"
+
+#: src/lib/modals/moderation/ModPanel.svelte:51
+msgid "Disabling registration..."
+msgstr "Registration ausschalten..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:53
+msgid "Enabling registration..."
+msgstr "Registration einschalten..."
+
+#. TRANSLATORS: Do not modify the "{registration}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModPanel.svelte:71
+msgid "Successfully {registration} registration!"
+msgstr "Erfolgreich {registration}-Registration!"
+
+#. TRANSLATORS: Do not modify the "{registration}" or the "{error}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModPanel.svelte:71
+msgid "Failed {registration} registration: {error}"
+msgstr "{registration}-Registration fehlgeschlagen: {error}"
+
+#: src/lib/modals/moderation/ModPanel.svelte:119
+msgid "Moderation Panel"
+msgstr "Moderation"
+
+#: src/lib/modals/moderation/ModPanel.svelte:122
+msgid "Moderate User"
+msgstr "Moderiere Nutzer"
+
+#: src/lib/modals/moderation/ModPanel.svelte:140
+#: src/lib/modals/moderation/ModPanel.svelte:168
+#: src/lib/modals/moderation/ModPanel.svelte:197
+#: src/lib/modals/moderation/ModPanel.svelte:218
+msgid "Submit"
+msgstr "Absenden"
+
+#: src/lib/modals/moderation/ModPanel.svelte:147
+msgid "View Recent Users"
+msgstr "Neue Nutzer einsehen"
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:150
+msgid "Moderate IP"
+msgstr "Moderiere IP"
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:166
+msgid "IP address..."
+msgstr "IP-Adresse..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:175
+msgid "View Recent Netblocks"
+msgstr "Neue Netblocks einsehen"
+
+#: src/lib/modals/moderation/ModPanel.svelte:179
+msgid "Moderate Post"
+msgstr "Moderiere Post"
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:195
+msgid "Post ID"
+msgstr "Post-ID"
+
+#. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModPanel.svelte:216
+msgid "Chat ID"
+msgstr "Chat-ID"
+
+#: src/lib/modals/moderation/ModPanel.svelte:232
+msgid "Announcement text here..."
+msgstr "Ankündigungstext..."
+
+#: src/lib/modals/moderation/ModPanel.svelte:249
+msgid "Registration is currently disabled! New users will be blocked from joining Meower until registration is re-enabled."
+msgstr "Registration ist momentan ausgeschaltet! Neue Nutzer werden davon abgehalten, Meower beizutreten, bis Registration wieder aktiviert ist."
+
+#: src/lib/modals/moderation/ModPanel.svelte:262
+msgid "Restart server"
+msgstr "Server neustarten"
+
+#: src/lib/modals/moderation/ModPanel.svelte:271
+msgid "Disable registration"
+msgstr "Registration ausschalten"
+
+#: src/lib/modals/moderation/ModPanel.svelte:275
+msgid "Enable registration"
+msgstr "Registration einschalten"
+
+#: src/lib/modals/moderation/ModPanel.svelte:285
+msgid "Reports"
+msgstr "Meldungen"
+
+#: src/lib/modals/moderation/ModPanel.svelte:286
+msgid "Status"
+msgstr "Status"
+
+#: src/lib/modals/moderation/ModPanel.svelte:295
+#: src/lib/modals/moderation/ModPanel.svelte:324
+msgid "Any"
+msgstr "Alle"
+
+#: src/lib/modals/moderation/ModPanel.svelte:301
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: src/lib/modals/moderation/ModPanel.svelte:307
+msgid "Completed with no action taken"
+msgstr "Ohne Aktion vollendet"
+
+#: src/lib/modals/moderation/ModPanel.svelte:313
+msgid "Completed with action taken"
+msgstr "Mit Aktion vollendet"
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+msgid "Post"
+msgstr "Post"
+
+#: src/lib/modals/moderation/ModPanel.svelte:326
+msgid "User"
+msgstr "Nutzer"
+
+#: src/lib/modals/moderation/ModPanel.svelte:340
+msgid "Error loading reports. Please try again."
+msgstr "Laden von Meldungen fehlgeschlagen. Versuche es bitte erneut."
