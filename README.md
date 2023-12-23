@@ -45,6 +45,14 @@ Translation files for Meower
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/fr/svg-badge.svg" alt="Translation status"></td>
         </tr>
         <tr>
+            <td>German</td>
+            <td>
+                <b><a href="https://github.com/mybearworld">@mybearworld</a></b>
+            </td>
+            <td>No</td>
+            <td><img src="https://hosted.weblate.org/widget/meower/svelte/de/svg-badge.svg" alt="Translation status"></td>
+        </tr>
+        <tr>
             <td>Hindi</td>
             <td>
                 <b><a href="https://github.com/ajskateboarder">@ajskateboarder</a></b>   
@@ -102,6 +110,14 @@ Translation files for Meower
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/website/eo/svg-badge.svg" alt="Translation status"></td>
+        </tr>
+        <tr>
+            <td>German</td>
+            <td>
+                <b><a href="https://github.com/mybearworld">@mybearworld</a></b>
+            </td>
+            <td>No</td>
+            <td><img src="https://hosted.weblate.org/widget/meower/website/de/svg-badge.svg" alt="Translation status"></td>
         </tr>
         <tr>
             <td>Spanish</td>

@@ -11,7 +11,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -169,7 +169,7 @@ msgstr "Passwort bestätigen"
 #: src/lib/Setup.svelte:395
 #: src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr "Ich stimme zu: "
+msgstr "Ich stimme zu"
 
 #: src/lib/Setup.svelte:399
 #: src/lib/modals/Signup.svelte:147
@@ -282,7 +282,7 @@ msgstr "Verbindung fehlgeschlagen"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid "Meower is currently down for repairs. You can stay up-to-date with the current status of this outage by checking"
-msgstr "Meower ist momentan aufgrund von Reparaturen nicht verfügbar. Hier kannst du den aktuellen Status verfolgen: "
+msgstr "Meower ist momentan aufgrund von Reparaturen nicht verfügbar. Hier kannst du den aktuellen Status verfolgen"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
@@ -444,7 +444,7 @@ msgstr "Mitglied hinzufügen"
 #: src/lib/modals/chats/AddMember.svelte:33
 #: src/lib/modals/chats/AddMember_Profile.svelte:43
 msgid "Someone's privacy settings are preventing you from adding {username} to {nickname}"
-msgstr "Die Privatsphäreeinstellungen hindern dich daran, {username} zu {nickname} hinzuzufügen."
+msgstr "Die Privatsphäreeinstellungen hindern dich daran, {username} zu {nickname} hinzuzufügen"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:36
@@ -632,7 +632,7 @@ msgstr "Dies blockiert neue Konten davon, erstellt zu werden."
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
-msgstr "Bestätige bitte den Benutzernamen des Nutzers ({username})."
+msgstr "Bestätige bitte den Benutzernamen des Nutzers ({username}):"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
 msgid "This action can be very destructive! By confirming this, you acknowledge and take responsibility for the consequences of this action. Are you absolutely sure you wish to continue?"
@@ -695,7 +695,7 @@ msgstr "Blockiere Home-Posts"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:18
 msgid "Blocks creating new home posts."
-msgstr "Blockiert das Erstellen neuer Home-Posts"
+msgstr "Blockiert das Erstellen neuer Home-Posts."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:22
 msgid "Block chat posts"
@@ -707,7 +707,7 @@ msgstr "Blockiert das erstellen neuer Chatposts."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:27
 msgid "Block new chats"
-msgstr "Blockiere neue Chats."
+msgstr "Blockiere neue Chats"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:28
 msgid "Blocks creating new group chats and starting DMs."
@@ -746,7 +746,7 @@ msgstr "Reparaturmodus starten"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:40
 msgid "Are you sure? This will disconnect everyone and prevent anyone from being able to reconnect!"
-msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden und das Neuverbinden nicht erlauben."
+msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden und das Neuverbinden nicht erlauben!"
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:257
