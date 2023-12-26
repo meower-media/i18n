@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-21 18:09+0000\n"
+"PO-Revision-Date: 2023-12-26 04:08+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -395,15 +395,18 @@ msgid ""
 "address and some details about your device upon connecting. They may also be "
 "running custom code to log passwords or other sensitive information."
 msgstr ""
+"Konektante al kutimo servilo povas esti danĝera! Ili volo akiri via IP "
+"adreso kaj iuj detaloj pri via aparato kiam konektante. Ili majo ankaŭ esti "
+"kuri kutimo codo al ŝtipo pasvortoj aǔ alia sentema informo."
 
 #: src/lib/modals/ServerSelector.svelte:44
 msgid "This feature is intended for developers."
-msgstr ""
+msgstr "Ĉi tio trajto estas intencis por ellaboristoj."
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:47
 msgid "Cloudlink URL"
-msgstr ""
+msgstr "Cloudlink URL"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:61
