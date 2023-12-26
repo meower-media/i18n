@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-26 22:49+0000\n"
+"PO-Revision-Date: 2023-12-26 23:10+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -449,16 +449,17 @@ msgid ""
 "Someone's privacy settings are preventing you from adding {username} to "
 "{nickname}"
 msgstr ""
+"Ies privateca agordoj estas malhelpi vi el aldoni {username} al {nickname}"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:36
 msgid "{username} not found."
-msgstr ""
+msgstr "{username} ne trovita."
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:39
 msgid "{username} is already a member of {nickname}."
-msgstr ""
+msgstr "{username} estas jam membro al {nickname}."
 
 #: src/lib/modals/chats/AddMember.svelte:43
 #: src/lib/modals/chats/AddMember_Profile.svelte:47
@@ -468,51 +469,51 @@ msgstr ""
 #: src/lib/modals/chats/RemoveMember.svelte:42
 #: src/lib/modals/chats/TransferChatOwnership.svelte:43
 msgid "Too many requests! Try again later."
-msgstr ""
+msgstr "Tro multaj petoj! Provu denove poste."
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
 msgid "Enter Username"
-msgstr ""
+msgstr "Eniri Uzantnomo"
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:23
 msgid "Search for Users"
-msgstr ""
+msgstr "Serĉi por Uzantoj"
 
 #: src/lib/modals/chats/AddMember_Search.svelte:44
 msgid "Search"
-msgstr ""
+msgstr "Serĉi"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
 #: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
-msgstr ""
+msgstr "Aliigi Alnomo"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:62
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
-msgstr ""
+msgstr "Babili Alnomo"
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
-msgstr ""
+msgstr "Krei Babili"
 
 #: src/lib/modals/chats/CreateChat.svelte:61
 msgid "Chat Nickname..."
-msgstr ""
+msgstr "Babili Alnomo..."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/GCMember.svelte:21
 msgid "{username}'s Profile"
-msgstr ""
+msgstr "La profili de {username}"
 
 #: src/lib/modals/chats/GCMember.svelte:32
 msgid "View full profile"
-msgstr ""
+msgstr "Rigardi fuli profili"
 
 #: src/lib/modals/chats/GCMember.svelte:40
 msgid "Remove from chat"
-msgstr ""
+msgstr "Forigi de babili"
 
 #: src/lib/modals/chats/GCMember.svelte:49
 msgid "Make owner of chat"
