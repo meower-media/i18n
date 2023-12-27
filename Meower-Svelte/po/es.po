@@ -1,11 +1,12 @@
 # gallegonovato <fran-carro@hotmail.es>, 2023.
+# notfenixio <josueart40@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-20 20:07+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2023-12-27 22:11+0000\n"
+"Last-Translator: notfenixio <josueart40@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
 "Language: es\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -781,8 +782,6 @@ msgstr "Guardar"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:267
-#, fuzzy
-#| msgid "Enable Repair Mode"
 msgid "Enable repair mode"
 msgstr "Habilitar el modo reparo"
 
@@ -795,8 +794,6 @@ msgstr ""
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:257
-#, fuzzy
-#| msgid "Kick All Users"
 msgid "Kick all users"
 msgstr "Echar a todos los usuarios"
 
@@ -878,92 +875,84 @@ msgid ""
 "Registration is currently disabled! New users will be blocked from joining "
 "Meower until registration is re-enabled."
 msgstr ""
+"¡El registro está actualmente desactivado! Los nuevos usuarios serán "
+"bloqueados de unirse a Meower hasta que se vuelva a habilitar el registro."
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
 msgid "Restart server"
-msgstr ""
+msgstr "Reiniciar servidor"
 
 #: src/lib/modals/moderation/ModPanel.svelte:271
-#, fuzzy
-#| msgid "Disabling registration..."
 msgid "Disable registration"
-msgstr "Deshabilitando registración..."
+msgstr "Deshabilitar registración"
 
 #: src/lib/modals/moderation/ModPanel.svelte:275
-#, fuzzy
-#| msgid "Enabling registration..."
 msgid "Enable registration"
-msgstr "Habilitando registración..."
+msgstr "Habilitar registración"
 
 #: src/lib/modals/moderation/ModPanel.svelte:285
 msgid "Reports"
-msgstr ""
+msgstr "Reportes"
 
 #: src/lib/modals/moderation/ModPanel.svelte:286
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #: src/lib/modals/moderation/ModPanel.svelte:295
 #: src/lib/modals/moderation/ModPanel.svelte:324
 msgid "Any"
-msgstr ""
+msgstr "Cualquiera"
 
 #: src/lib/modals/moderation/ModPanel.svelte:301
 msgid "Pending"
-msgstr ""
+msgstr "Pendiente"
 
 #: src/lib/modals/moderation/ModPanel.svelte:307
 msgid "Completed with no action taken"
-msgstr ""
+msgstr "Completado sin acción tomada"
 
 #: src/lib/modals/moderation/ModPanel.svelte:313
 msgid "Completed with action taken"
-msgstr ""
+msgstr "Completado con acción tomada"
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
 msgid "Post"
-msgstr ""
+msgstr "Post"
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
 msgid "Error loading reports. Please try again."
-msgstr ""
+msgstr "Error al cargar reportes. Por favor, inténtalo de nuevo."
 
 #: src/lib/modals/moderation/ModPanel.svelte:345
 msgid "Yay, there are no pending reports!"
-msgstr ""
+msgstr "¡Yay, no hay informes pendientes!"
 
 #: src/lib/modals/moderation/ModPanel.svelte:347
 msgid "No reports found. Check back later!"
-msgstr ""
+msgstr "No se han encontrado informes. ¡Revisa más tarde!"
 
 #. TRANSLATORS: Do not modify the "{id}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateChat.svelte:66
-#, fuzzy
-#| msgid "Moderate IP"
 msgid "Moderate {id}"
-msgstr "IP moderada"
+msgstr "Moderar {id}"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:69
-#, fuzzy
-#| msgid "Chat ID"
 msgid "Chat Info"
-msgstr "Identificación del chat"
+msgstr "Información del chat"
 
 #. TRANSLATORS: The string "UUID" stands for "Universal Unique Identifier." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateChat.svelte:70
 msgid "UUID:"
-msgstr ""
+msgstr "UUID:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:72
-#, fuzzy
-#| msgid "Chat Nickname"
 msgid "Nickname:"
-msgstr "Nombre del chat"
+msgstr "Apodo:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:74
 msgid "Owner:"
-msgstr ""
+msgstr "Propietario:"
