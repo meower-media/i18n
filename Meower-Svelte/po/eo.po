@@ -1,99 +1,101 @@
+# Max Walters <mdwalters.pm@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: The Meower Translators Team\n"
-"Language: \n"
+"PO-Revision-Date: 2023-12-27 00:12+0000\n"
+"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
+"eo/>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: \n"
-"X-Generator: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr ""
+msgstr "Konektante..."
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr ""
+msgstr "Ensalutis..."
 
 #: src/lib/Setup.svelte:152 src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr ""
+msgstr "Nevalida uzantnomo!"
 
 #: src/lib/Setup.svelte:155 src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr ""
+msgstr "Ĉi tio konto havas estis forigita!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr ""
+msgstr "Kunsido eksvalidiĝis! Bonvolu ensalutu denove."
 
 #: src/lib/Setup.svelte:160 src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
-msgstr ""
+msgstr "Nevalida pasvorto!"
 
 #: src/lib/Setup.svelte:167 src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55 src/lib/modals/Signup.svelte:63
 msgid "Usernames must not have spaces or other special characters!"
-msgstr ""
+msgstr "Uzantnomoj devas ne havas spacoj aŭ alia speciala karakteroj!"
 
 #: src/lib/Setup.svelte:170 src/lib/Setup.svelte:354
 #: src/lib/modals/DeletePost.svelte:35 src/lib/modals/Login.svelte:59
 #: src/lib/modals/Signup.svelte:67
 msgid "Too many requests! Please try again later."
-msgstr ""
+msgstr "Tro multaj petoj! Bonvolu provu denove poste."
 
 #. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173 src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
 msgid "Unexpected {error} error!"
-msgstr ""
+msgstr "Neatendita {error} eraro!"
 
 #: src/lib/Setup.svelte:201
 msgid "Reconnecting..."
-msgstr ""
+msgstr "Rekonektiĝanta..."
 
 #: src/lib/Setup.svelte:220 src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
 msgid "Log in"
-msgstr ""
+msgstr "Ŝtipo en"
 
 #: src/lib/Setup.svelte:224
 msgid "Create an account"
-msgstr ""
+msgstr "Krei konton"
 
 #: src/lib/Setup.svelte:248
 msgid "Skip"
-msgstr ""
+msgstr "Preterpasi"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr ""
+msgstr "(Pluraj trajtoj volo esti nedesponebla dum ne ensalutis)"
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
-msgstr ""
+msgstr "(Vi bezonas al esti ensalutis por ĉi tio paĝo.)"
 
 #. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3).
 #. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
-msgstr ""
+msgstr "Meower Svelte v{version}"
 
 #: src/lib/Setup.svelte:267 src/lib/modals/Login.svelte:17
 #: src/lib/modals/Signup.svelte:153
 msgid "Login to Meower"
-msgstr ""
+msgstr "Ensaluti al Meower"
 
 #: src/lib/Setup.svelte:274
 msgid "You must specify a username and a password to login!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto al ensaluti!"
 
 #: src/lib/Setup.svelte:281 src/lib/Setup.svelte:375
 #: src/lib/modals/Login.svelte:72 src/lib/modals/Login.svelte:78
@@ -102,125 +104,130 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
-msgstr ""
+msgstr "Uzantnomo"
 
 #: src/lib/Setup.svelte:282 src/lib/Setup.svelte:378
 #: src/lib/modals/Login.svelte:86 src/lib/modals/Login.svelte:92
 #: src/lib/modals/Signup.svelte:101
 msgid "Password"
-msgstr ""
+msgstr "Pasvorto"
 
 #: src/lib/Setup.svelte:291 src/lib/Setup.svelte:411 src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr ""
+msgstr "Iru reen"
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto al krei konton!"
 
 #: src/lib/Setup.svelte:314 src/lib/modals/Signup.svelte:29
 msgid ""
 "Passwords do not match! Make sure you have entered your password correctly."
 msgstr ""
+"Pasvortoj faru ne matĉo! Fari certe vi havas eniris via pasvorto ĝuste."
 
 #: src/lib/Setup.svelte:318
 msgid "Creating account..."
-msgstr ""
+msgstr "Kreante konton..."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:346 src/lib/modals/Signup.svelte:59
 msgid "{username} is taken!"
-msgstr ""
+msgstr "{username} estas prenita!"
 
 #: src/lib/Setup.svelte:364 src/lib/modals/Signup.svelte:74
 msgid "Registration Disabled"
-msgstr ""
+msgstr "Registriĝo Malebligita"
 
 #: src/lib/Setup.svelte:365 src/lib/modals/Signup.svelte:75
 msgid ""
 "Unfortunately, you may not create a new account at this time. An "
 "administrator has disabled registration. Please try again later."
 msgstr ""
+"Bedaŭrinde, vi majo ne krei nova konton ĉe tio. Administranto havas "
+"malebligita registriĝo. Bonvolu provu denove poste ."
 
 #: src/lib/Setup.svelte:384 src/lib/modals/Signup.svelte:118
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr ""
+msgstr "Konfirmu pasvorto"
 
 #: src/lib/Setup.svelte:395 src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr ""
+msgstr "Mi konsenti al"
 
 #: src/lib/Setup.svelte:399 src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
-msgstr ""
+msgstr "Meower's Kondiĉoj de Servo kaj Privateco Politiko"
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
-msgstr ""
+msgstr "Aliĝu!"
 
 #: src/lib/Setup.svelte:420
 msgid "Let's go!"
-msgstr ""
+msgstr "Ni iru!"
 
 #: src/lib/Setup.svelte:424
 msgid "Somehow, you got to a page that doesn't exist..."
-msgstr ""
+msgstr "Iel, vi akiris al paĝo ke ne faras ekzisti..."
 
 #. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:426
 msgid "(Current page: {page})"
-msgstr ""
+msgstr "(Nuna paĝo: {page})"
 
 #: src/lib/modals/AddImage.svelte:91 src/lib/modals/AddImage.svelte:127
 msgid "The image must have a name!"
-msgstr ""
+msgstr "La bildo devas havas nomo!"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr ""
+msgstr "La bildo URL devas komenci kun https://!"
 
 #: src/lib/modals/AddImage.svelte:118
 msgid "This image is not on the image host whitelist! Allowed image hosts are:"
 msgstr ""
+"Ĉi tio bildo estas ne la bildo gastiganto blanka listo! Permesita bildo "
+"gastigantoj estas:"
 
 #: src/lib/modals/AddImage.svelte:131
 msgid "Add Image to Post"
-msgstr ""
+msgstr "Aldoni Bildo al Afiŝu"
 
 #: src/lib/modals/AddImage.svelte:137
 msgid "Image Name"
-msgstr ""
+msgstr "Bildo Nomo"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
-msgstr ""
+msgstr "Bildo URL"
 
 #: src/lib/modals/AddImage.svelte:153
 msgid "Preview"
-msgstr ""
+msgstr "Antaŭrigardo"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/AddImage.svelte:161 src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
 msgid "{username}'s profile picture"
-msgstr ""
+msgstr "la profilbildo de {username}"
 
 #: src/lib/modals/AddImage.svelte:210 src/lib/modals/Basic.svelte:16
 #: src/lib/modals/moderation/EditRestrictions.svelte:88
 msgid "Close"
-msgstr ""
+msgstr "Fermu"
 
 #: src/lib/modals/AddImage.svelte:219
 msgid "Add"
-msgstr ""
+msgstr "Aldoni"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:12
 msgid "External Link"
-msgstr ""
+msgstr "Ekstera Ligo"
 
 #. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/ConfirmHyperlink.svelte:15
@@ -228,6 +235,8 @@ msgid ""
 "Are you sure you wish to go to {url}? If you confirm this action, it will be "
 "opened in a new tab."
 msgstr ""
+"Ĉu vi certe vi deziras al iru al {url}? Se vi konfirmi ĉi tio ago, ĝi volo "
+"esti malfermita en nova langeto."
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
 #: src/lib/modals/DeletePost.svelte:67 src/lib/modals/Logout.svelte:15
@@ -247,21 +256,24 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
 msgid "Cancel"
-msgstr ""
+msgstr "Nuligi"
 
 #: src/lib/modals/ConfirmHyperlink.svelte:24
+#: src/lib/modals/moderation/ModerateUser.svelte:204
 msgid "Yes"
-msgstr ""
+msgstr "Jes"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
-msgstr ""
+msgstr "Konekto Malsukcesis"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid ""
 "Meower is currently down for repairs. You can stay up-to-date with the "
 "current status of this outage by checking"
 msgstr ""
+"Meower estas nuntempe malsupren por riparoj. Vi povas resti supren-al-datiĝi "
+"kun la kurento statuso de ĉi tio malfunkcio per kontrolado"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
@@ -269,28 +281,32 @@ msgid ""
 "Your IP address has been blocked because it was used to violate Meower's "
 "Terms of Service or is likely to cause spam."
 msgstr ""
+"Via IP adreso havas estis blokita ĉar ĝi estis uzata malobservi Meower's "
+"Kondiĉoj de Servo aŭ estas verŝajna al kaŭzo spamo."
 
 #: src/lib/modals/ConnectionFailed.svelte:38
 msgid "If you think this is a mistake, please email"
-msgstr ""
+msgstr "Se vi opinias, ke tio estas eraro, bonvolu retpoŝti"
 
 #: src/lib/modals/ConnectionFailed.svelte:47
 msgid ""
 "Failed connecting to server. View console for more information or try again "
 "later."
 msgstr ""
+"Malsukcesis konektante al servilo. Vido konzolo por pli informoj aŭ provu "
+"denove poste."
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr ""
+msgstr "Rekonekti"
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
-msgstr ""
+msgstr "Sencimigi"
 
 #: src/lib/modals/Debug.svelte:23
 msgid "Stores"
-msgstr ""
+msgstr "Vendejoj"
 
 #. TRANSLATORS: Do not modify the "{code}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/DeletePost.svelte:39 src/lib/modals/chats/AddMember.svelte:47
@@ -312,66 +328,72 @@ msgstr ""
 #: src/lib/modals/moderation/ModPanel.svelte:101
 #: src/lib/modals/moderation/ModerateChat.svelte:24
 #: src/lib/modals/moderation/ModerateChat.svelte:48
+#: src/lib/modals/moderation/ModerateIP.svelte:29
+#: src/lib/modals/moderation/ModeratePost.svelte:23
+#: src/lib/modals/moderation/ModerateUser.svelte:65
+#: src/lib/modals/moderation/ModerateUser.svelte:91
+#: src/lib/modals/moderation/ModerateUser.svelte:118
+#: src/lib/modals/moderation/ModerateUser.svelte:143
 msgid "Response code is not OK; code is {code}"
-msgstr ""
+msgstr "Respond kodo estas ne OK; kodo estas {code}"
 
 #: src/lib/modals/DeletePost.svelte:49
 msgid "Are you sure you would like to delete this post?"
-msgstr ""
+msgstr "Ĉu vi certe vi volus ŝeti al forigi ĉi tio afiŝi?"
 
 #: src/lib/modals/DeletePost.svelte:54
 msgid "Report to Meower Moderators"
-msgstr ""
+msgstr "Raporto al Meower Moderigantoj"
 
 #: src/lib/modals/DeletePost.svelte:70
 #: src/lib/modals/moderation/DeleteNetblock.svelte:56
 msgid "Delete"
-msgstr ""
+msgstr "Forigi"
 
 #: src/lib/modals/LoggedOut.svelte:8
 msgid "Logged Out"
-msgstr ""
+msgstr "Elsalutita"
 
 #: src/lib/modals/LoggedOut.svelte:10
 msgid "You have been logged out. Please login again."
-msgstr ""
+msgstr "Vi havi estis elsalutita. Bonvolu ŝtipo en denove."
 
 #: src/lib/modals/LoggedOut.svelte:13 src/lib/modals/Logout.svelte:10
 #: src/lib/modals/Logout.svelte:16
 msgid "Logout"
-msgstr ""
+msgstr "Ŝtipo eksteren"
 
 #: src/lib/modals/Login.svelte:23 src/lib/modals/Signup.svelte:24
 msgid "You must specify a username and password!"
-msgstr ""
+msgstr "Vi devas specifi uzantnomo kaj pasvorto!"
 
 #: src/lib/modals/Login.svelte:103 src/lib/modals/Signup.svelte:18
 msgid "Join Meower"
-msgstr ""
+msgstr "Aliĝu Meower"
 
 #: src/lib/modals/Logout.svelte:12
 msgid "Are you sure you would like to logout?"
-msgstr ""
+msgstr "Ĉu vi certe vi volus ŝati al ŝtipo eksteren?"
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
-msgstr ""
+msgstr "Rezultoj"
 
 #: src/lib/modals/SearchResults.svelte:25
 msgid "Error loading results. Please try again."
-msgstr ""
+msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
 
 #: src/lib/modals/SearchResults.svelte:28
 msgid "No results found."
-msgstr ""
+msgstr "Ne rezultoj trovita."
 
 #: src/lib/modals/ServerSelector.svelte:15
 msgid "Server Selector"
-msgstr ""
+msgstr "Servilo Elektilo"
 
 #: src/lib/modals/ServerSelector.svelte:38
 msgid "WARNING!"
-msgstr ""
+msgstr "AVERTO!"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:39
@@ -380,41 +402,44 @@ msgid ""
 "address and some details about your device upon connecting. They may also be "
 "running custom code to log passwords or other sensitive information."
 msgstr ""
+"Konektante al kutimo servilo povas esti danĝera! Ili volo akiri via IP "
+"adreso kaj iuj detaloj pri via aparato kiam konektante. Ili majo ankaŭ esti "
+"kuri kutimo codo al ŝtipo pasvortoj aǔ alia sentema informo."
 
 #: src/lib/modals/ServerSelector.svelte:44
 msgid "This feature is intended for developers."
-msgstr ""
+msgstr "Ĉi tio trajto estas intencis por ellaboristoj."
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:47
 msgid "Cloudlink URL"
-msgstr ""
+msgstr "Cloudlink URL"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:61
 msgid "REST API URL"
-msgstr ""
+msgstr "REST API URL"
 
 #: src/lib/modals/ServerSelector.svelte:85
 msgid "Reset"
-msgstr ""
+msgstr "Rekomencigi"
 
 #: src/lib/modals/ServerSelector.svelte:87
 msgid "Save & Reload"
-msgstr ""
+msgstr "Konservi & Reŝargi"
 
 #: src/lib/modals/Signup.svelte:92
 #: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
-msgstr ""
+msgstr "Uzantnomo..."
 
 #: src/lib/modals/Signup.svelte:107
 msgid "Password..."
-msgstr ""
+msgstr "Pasvorto..."
 
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
-msgstr ""
+msgstr "Aliĝu"
 
 #: src/lib/modals/chats/AddMember.svelte:14
 #: src/lib/modals/chats/AddMember.svelte:88
@@ -422,7 +447,7 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Profile.svelte:11
 #: src/lib/modals/chats/AddMember_Search.svelte:14
 msgid "Add Member"
-msgstr ""
+msgstr "Aldoni Membro"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:33
@@ -431,16 +456,17 @@ msgid ""
 "Someone's privacy settings are preventing you from adding {username} to "
 "{nickname}"
 msgstr ""
+"Ies privateca agordoj estas malhelpi vi el aldoni {username} al {nickname}"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:36
 msgid "{username} not found."
-msgstr ""
+msgstr "{username} ne trovita."
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/AddMember.svelte:39
 msgid "{username} is already a member of {nickname}."
-msgstr ""
+msgstr "{username} estas jam membro al {nickname}."
 
 #: src/lib/modals/chats/AddMember.svelte:43
 #: src/lib/modals/chats/AddMember_Profile.svelte:47
@@ -450,82 +476,82 @@ msgstr ""
 #: src/lib/modals/chats/RemoveMember.svelte:42
 #: src/lib/modals/chats/TransferChatOwnership.svelte:43
 msgid "Too many requests! Try again later."
-msgstr ""
+msgstr "Tro multaj petoj! Provu denove poste."
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
 msgid "Enter Username"
-msgstr ""
+msgstr "Eniri Uzantnomo"
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:23
 msgid "Search for Users"
-msgstr ""
+msgstr "Serĉi por Uzantoj"
 
 #: src/lib/modals/chats/AddMember_Search.svelte:44
 msgid "Search"
-msgstr ""
+msgstr "Serĉi"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
 #: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
-msgstr ""
+msgstr "Aliigi Alnomo"
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:62
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
-msgstr ""
+msgstr "Babili Alnomo"
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
-msgstr ""
+msgstr "Krei Babili"
 
 #: src/lib/modals/chats/CreateChat.svelte:61
 msgid "Chat Nickname..."
-msgstr ""
+msgstr "Babili Alnomo..."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/GCMember.svelte:21
 msgid "{username}'s Profile"
-msgstr ""
+msgstr "La profili de {username}"
 
 #: src/lib/modals/chats/GCMember.svelte:32
 msgid "View full profile"
-msgstr ""
+msgstr "Rigardi fuli profili"
 
 #: src/lib/modals/chats/GCMember.svelte:40
 msgid "Remove from chat"
-msgstr ""
+msgstr "Forigi de babili"
 
 #: src/lib/modals/chats/GCMember.svelte:49
 msgid "Make owner of chat"
-msgstr ""
+msgstr "Igi propulo de babili"
 
 #: src/lib/modals/chats/LeaveChat.svelte:18
 msgid "Leave Chat"
-msgstr ""
+msgstr "Forlasi Babili"
 
 #. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/LeaveChat.svelte:45
 msgid "Are you sure you want to leave {nickname}?"
-msgstr ""
+msgstr "Ĉu vi certa vi voli forlasi {nickname}?"
 
 #: src/lib/modals/chats/LeaveChat.svelte:57
 msgid "Leave"
-msgstr ""
+msgstr "Forlasi"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/RemoveMember.svelte:24
 msgid "Remove {username}"
-msgstr ""
+msgstr "Forigi {username}"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/RemoveMember.svelte:59
 msgid "Are you sure you want to remove {username} from {nickname}?"
-msgstr ""
+msgstr "Ĉu vi certa vi voli al forigi {username} el {nickname}?"
 
 #: src/lib/modals/chats/RemoveMember.svelte:72
 msgid "Remove member"
-msgstr ""
+msgstr "Forigi membro"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/TransferChatOwnership.svelte:25
@@ -586,11 +612,13 @@ msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
+#: src/lib/modals/moderation/ModerateIP.svelte:104
 msgid "Create Netblock"
 msgstr ""
 
 #. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/CreateNetblock.svelte:50
+#: src/lib/modals/moderation/ModerateIP.svelte:108
 msgid "CIDR"
 msgstr ""
 
@@ -601,14 +629,17 @@ msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
 #: src/lib/modals/moderation/ModPanel.svelte:316
+#: src/lib/modals/moderation/ModerateIP.svelte:109
 msgid "Type"
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:69
+#: src/lib/modals/moderation/ModerateIP.svelte:115
 msgid "Full"
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:70
+#: src/lib/modals/moderation/ModerateIP.svelte:115
 msgid "Registration"
 msgstr ""
 
@@ -686,6 +717,7 @@ msgid "Are you sure you want to delete {cidr} netblock?"
 msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
+#: src/lib/modals/moderation/ModerateUser.svelte:410
 msgid "Block home posts"
 msgstr ""
 
@@ -694,6 +726,7 @@ msgid "Blocks creating new home posts."
 msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:22
+#: src/lib/modals/moderation/ModerateUser.svelte:413
 msgid "Block chat posts"
 msgstr ""
 
@@ -872,6 +905,7 @@ msgid "Post"
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
+#: src/lib/modals/moderation/ModerateIP.svelte:61
 msgid "User"
 msgstr ""
 
@@ -898,6 +932,7 @@ msgstr ""
 
 #. TRANSLATORS: The string "UUID" stands for "Universal Unique Identifier." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateChat.svelte:70
+#: src/lib/modals/moderation/ModerateUser.svelte:187
 msgid "UUID:"
 msgstr ""
 
@@ -907,4 +942,325 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModerateChat.svelte:74
 msgid "Owner:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:76
+#, fuzzy
+msgid "Members:"
+msgstr "Aldoni Membro"
+
+#: src/lib/modals/moderation/ModerateChat.svelte:78
+#: src/lib/modals/moderation/ModerateUser.svelte:196
+#, fuzzy
+msgid "Created:"
+msgstr "Krei Babili"
+
+#: src/lib/modals/moderation/ModerateChat.svelte:80
+msgid "Last active:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:82
+#, fuzzy
+msgid "Deleted?"
+msgstr "Forigi"
+
+#: src/lib/modals/moderation/ModerateChat.svelte:88
+#: src/lib/modals/moderation/ModerateIP.svelte:149
+#: src/lib/modals/moderation/ModeratePost.svelte:78
+#: src/lib/modals/moderation/ModerateUser.svelte:291
+msgid "Notes"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:94
+msgid "Danger Zone"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateChat.svelte:109
+#, fuzzy
+msgid "Delete chat"
+msgstr "Forigi"
+
+#. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateIP.svelte:29
+msgid "Moderate {ip}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:44
+msgid "Netinfo"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateIP.svelte:45
+msgid "IP address:"
+msgstr ""
+
+#. TRANSLATORS: The string "ASN" stands for "Autonomous System Number." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateIP.svelte:47
+msgid "ASN:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:49
+msgid "Country:"
+msgstr ""
+
+#. TRANSLATORS: The string "ISP" stands for "Internet Service Provider." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateIP.svelte:51
+msgid "ISP:"
+msgstr ""
+
+#. TRANSLATORS: The string "VPN" stands for "Virtual Private Network." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateIP.svelte:53
+msgid "VPN:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:58
+msgid "Netlogs"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:62
+#: src/lib/modals/moderation/ModerateUser.svelte:238
+msgid "Last Used"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:88
+msgid "Netblocks"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateIP.svelte:91
+msgid ""
+"{ip} is currently fully blocked from accessing Meower's Cloudlink server and "
+"REST API."
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateIP.svelte:97
+msgid "{ip} is currently blocked from creating new Meower accounts."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:110
+msgid "Actions"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:120
+msgid "View/edit notes"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateIP.svelte:131
+msgid "Delete netblock"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{postid}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModeratePost.svelte:30
+msgid "Moderate {postid}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModeratePost.svelte:35
+msgid "Current post"
+msgstr ""
+
+#: src/lib/modals/moderation/ModeratePost.svelte:55
+msgid "Revisions"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateUser.svelte:64
+#, fuzzy
+msgid "{username} does not exist!"
+msgstr "{username} estas prenita!"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:79
+msgid "Sending alert..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:94
+msgid "Alert sent!"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateUser.svelte:96
+msgid "Error sending alert: {error}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:130
+#, fuzzy
+msgid "Kicking..."
+msgstr "Konektante..."
+
+#: src/lib/modals/moderation/ModerateUser.svelte:146
+msgid "Kicked!"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateUser.svelte:160
+#, fuzzy
+msgid "Moderate {username}"
+msgstr "Forigi {username}"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:167
+msgid ""
+"This account is protected. If you are not a sysadmin, some options will be "
+"unavailable."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:173
+msgid "This account has been deleted. Deleted accounts cannot be recovered."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:173
+msgid "You may release the username by purging the account."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:179
+#, fuzzy
+msgid "This account is scheduled to be deleted after"
+msgstr "Ĉi tio konto havas estis forigita!"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:184
+msgid "User Info"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:185
+#, fuzzy
+msgid "Username:"
+msgstr "Uzantnomo"
+
+#. TRANSLATORS: The string "PFP" stands for "Profile Picture." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateUser.svelte:190
+msgid "PFP:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:192
+msgid "Quote:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:193
+msgid "Permissions:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:199
+msgid "Last seen:"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:203
+msgid "Unread inbox?"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:204
+msgid "No"
+msgstr ""
+
+#. TRANSLATORS: The string "Alts" is short for "Alternative accounts." Please use this if the string is untranslatable.
+#: src/lib/modals/moderation/ModerateUser.svelte:210
+msgid "Alts"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:211
+msgid ""
+"This list is based on users from their recent IPs. This list may not be "
+"accurate."
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateUser.svelte:234
+msgid "Recent IPs"
+msgstr ""
+
+#. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateUser.svelte:237
+msgid "IP Addresses"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:239
+msgid "Flags"
+msgstr ""
+
+#. TRANSLATORS: The string "VPN" stands for "Virtual Private Network." Please abbreviate this string, if possible.
+#: src/lib/modals/moderation/ModerateUser.svelte:263
+#: src/lib/modals/moderation/ModerateUser.svelte:264
+msgid "Detected VPN/proxy"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:270
+#: src/lib/modals/moderation/ModerateUser.svelte:271
+msgid "Blocked"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:277
+#: src/lib/modals/moderation/ModerateUser.svelte:278
+#, fuzzy
+msgid "Registration blocked"
+msgstr "Registriĝo Malebligita"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:297
+msgid "Send Alert"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:300
+#, fuzzy
+msgid "Write something..."
+msgstr "Rekonektiĝanta..."
+
+#: src/lib/modals/moderation/ModerateUser.svelte:310
+msgid "Send"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:317
+msgid "Ban States"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateUser.svelte:320
+#, fuzzy
+msgid "{username} is"
+msgstr "{username} estas prenita!"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:322
+msgid "permanently"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:325
+msgid "restricted"
+msgstr ""
+
+#. TRANSLATORS: Do not modify the "{date}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/ModerateUser.svelte:330
+msgid "until {date}"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:334
+msgid "State"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:360
+msgid "None"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:367
+msgid "Temporaily restricted"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:373
+msgid "Permanently restricted"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:386
+msgid "Permanently banned"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:390
+msgid "This applies no restrictions to the user."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:392
+msgid "This prevents the user from logging in."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:397
+#, fuzzy
+msgid "Restrictions"
+msgstr "Registriĝo Malebligita"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:406
+msgid "Edit Restrictions"
 msgstr ""
