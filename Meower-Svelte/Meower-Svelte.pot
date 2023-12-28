@@ -604,6 +604,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
+#: src/lib/modals/moderation/ModerateIP.svelte:104
 msgid "Create Netblock"
 msgstr ""
 
@@ -703,6 +704,7 @@ msgid "Are you sure you want to delete {cidr} netblock?"
 msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
+#: src/lib/modals/moderation/ModerateUser.svelte:410
 msgid "Block home posts"
 msgstr ""
 
@@ -711,6 +713,7 @@ msgid "Blocks creating new home posts."
 msgstr ""
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:22
+#: src/lib/modals/moderation/ModerateUser.svelte:413
 msgid "Block chat posts"
 msgstr ""
 
@@ -993,10 +996,6 @@ msgstr ""
 msgid "Netlogs"
 msgstr ""
 
-#: src/lib/modals/moderation/ModerateIP.svelte:53
-msgid "VPN:"
-msgstr ""
-
 #: src/lib/modals/moderation/ModerateIP.svelte:62
 #: src/lib/modals/moderation/ModerateUser.svelte:238
 msgid "Last Used"
@@ -1014,10 +1013,6 @@ msgstr ""
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:97
 msgid "{ip} is currently blocked from creating new Meower accounts."
-msgstr ""
-
-#: src/lib/modals/moderation/ModerateIP.svelte:104
-msgid "Create Netblock"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateIP.svelte:110
@@ -1232,12 +1227,4 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:406
 msgid "Edit Restrictions"
-msgstr ""
-
-#: src/lib/modals/moderation/ModerateUser.svelte:410
-msgid "Block home posts"
-msgstr ""
-
-#: src/lib/modals/moderation/ModerateUser.svelte:413
-msgid "Block chat posts"
 msgstr ""

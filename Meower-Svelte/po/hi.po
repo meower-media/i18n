@@ -3,29 +3,28 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-04 16:38+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Hindi <https://hosted.weblate.org/projects/meower/svelte/hi/"
-">\n"
-"Language: hi\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: The Meower Translators Team\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"Plural-Forms: \n"
+"X-Generator: \n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr "जोड़ना कर रही..."
+msgstr ""
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr "लॉग इन कर रही..."
+msgstr ""
 
 #: src/lib/Setup.svelte:152 src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr "खराब प्रयोक्ता नाम!"
+msgstr ""
 
 #: src/lib/Setup.svelte:155 src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
@@ -37,7 +36,7 @@ msgstr ""
 
 #: src/lib/Setup.svelte:160 src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
-msgstr "खराब पासवर्ड!"
+msgstr ""
 
 #: src/lib/Setup.svelte:167 src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55 src/lib/modals/Signup.svelte:63
@@ -103,17 +102,17 @@ msgstr ""
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
-msgstr "प्रयोक्ता नाम"
+msgstr ""
 
 #: src/lib/Setup.svelte:282 src/lib/Setup.svelte:378
 #: src/lib/modals/Login.svelte:86 src/lib/modals/Login.svelte:92
 #: src/lib/modals/Signup.svelte:101
 msgid "Password"
-msgstr "पासवर्ड"
+msgstr ""
 
 #: src/lib/Setup.svelte:291 src/lib/Setup.svelte:411 src/lib/Setup.svelte:429
 msgid "Go back"
-msgstr "वापस जाओ"
+msgstr ""
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"
@@ -146,11 +145,11 @@ msgstr ""
 #: src/lib/Setup.svelte:384 src/lib/modals/Signup.svelte:118
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr "पासवर्ड की पुष्टि कीजिये"
+msgstr ""
 
 #: src/lib/Setup.svelte:395 src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr "मैं इसके लिए सहमत हूं"
+msgstr ""
 
 #: src/lib/Setup.svelte:399 src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
@@ -158,11 +157,11 @@ msgstr ""
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
-msgstr "जोड़ना!"
+msgstr ""
 
 #: src/lib/Setup.svelte:420
 msgid "Let's go!"
-msgstr "चलो चलते!"
+msgstr ""
 
 #: src/lib/Setup.svelte:424
 msgid "Somehow, you got to a page that doesn't exist..."
@@ -181,11 +180,11 @@ msgstr ""
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr "चित्र URL https:// से शुरू होना चाहिए"
+msgstr ""
 
 #: src/lib/modals/AddImage.svelte:118
 msgid "This image is not on the image host whitelist! Allowed image hosts are:"
-msgstr "चित्र श्वेतसूची में नहीं है! अनुमत छवि होस्ट हैं:"
+msgstr ""
 
 #: src/lib/modals/AddImage.svelte:131
 msgid "Add Image to Post"
@@ -193,16 +192,16 @@ msgstr ""
 
 #: src/lib/modals/AddImage.svelte:137
 msgid "Image Name"
-msgstr "चित्र नाम"
+msgstr ""
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
-msgstr "चित्र URL"
+msgstr ""
 
 #: src/lib/modals/AddImage.svelte:153
 msgid "Preview"
-msgstr "पूर्वावलोकन"
+msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/AddImage.svelte:161 src/lib/modals/AddImage.svelte:167
@@ -213,22 +212,22 @@ msgstr ""
 #: src/lib/modals/AddImage.svelte:210 src/lib/modals/Basic.svelte:16
 #: src/lib/modals/moderation/EditRestrictions.svelte:88
 msgid "Close"
-msgstr "बंद करना"
+msgstr ""
 
 #: src/lib/modals/AddImage.svelte:219
 msgid "Add"
-msgstr "जोड़ना"
+msgstr ""
 
 #: src/lib/modals/ConfirmHyperlink.svelte:12
 msgid "External Link"
-msgstr "बाहरी लिंक"
+msgstr ""
 
 #. TRANSLATORS: Do not modify the "{url}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/ConfirmHyperlink.svelte:15
 msgid ""
 "Are you sure you wish to go to {url}? If you confirm this action, it will be "
 "opened in a new tab."
-msgstr "क्या आप {url} जाना चाहते हैं? यह एक नया टैब में खुलेगा."
+msgstr ""
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
 #: src/lib/modals/DeletePost.svelte:67 src/lib/modals/Logout.svelte:15
@@ -248,11 +247,11 @@ msgstr "क्या आप {url} जाना चाहते हैं? यह
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
 msgid "Cancel"
-msgstr "रद्द करना"
+msgstr ""
 
 #: src/lib/modals/ConfirmHyperlink.svelte:24
 msgid "Yes"
-msgstr "हां"
+msgstr ""
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
@@ -283,7 +282,7 @@ msgstr ""
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr "रिकनेक्ट"
+msgstr ""
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
@@ -318,7 +317,7 @@ msgstr ""
 
 #: src/lib/modals/DeletePost.svelte:49
 msgid "Are you sure you would like to delete this post?"
-msgstr "क्या आप वाकई इस पोस्ट को हटाना चाहते हैं?"
+msgstr ""
 
 #: src/lib/modals/DeletePost.svelte:54
 msgid "Report to Meower Moderators"
@@ -327,7 +326,7 @@ msgstr ""
 #: src/lib/modals/DeletePost.svelte:70
 #: src/lib/modals/moderation/DeleteNetblock.svelte:56
 msgid "Delete"
-msgstr "हटाना"
+msgstr ""
 
 #: src/lib/modals/LoggedOut.svelte:8
 msgid "Logged Out"
@@ -340,7 +339,7 @@ msgstr ""
 #: src/lib/modals/LoggedOut.svelte:13 src/lib/modals/Logout.svelte:10
 #: src/lib/modals/Logout.svelte:16
 msgid "Logout"
-msgstr "लॉग आउट"
+msgstr ""
 
 #: src/lib/modals/Login.svelte:23 src/lib/modals/Signup.svelte:24
 msgid "You must specify a username and password!"
@@ -352,19 +351,19 @@ msgstr ""
 
 #: src/lib/modals/Logout.svelte:12
 msgid "Are you sure you would like to logout?"
-msgstr "क्या आप लॉग आउट करना चाहते हैं?"
+msgstr ""
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
-msgstr "परिणाम"
+msgstr ""
 
 #: src/lib/modals/SearchResults.svelte:25
 msgid "Error loading results. Please try again."
-msgstr "परिणाम लोड करने में विफल. पुन प्रयास करें."
+msgstr ""
 
 #: src/lib/modals/SearchResults.svelte:28
 msgid "No results found."
-msgstr "कोई परिणाम नहीं मिला."
+msgstr ""
 
 #: src/lib/modals/ServerSelector.svelte:15
 msgid "Server Selector"
@@ -398,24 +397,24 @@ msgstr ""
 
 #: src/lib/modals/ServerSelector.svelte:85
 msgid "Reset"
-msgstr "रीसेट"
+msgstr ""
 
 #: src/lib/modals/ServerSelector.svelte:87
 msgid "Save & Reload"
-msgstr "सहेजें और रीसेट करें"
+msgstr ""
 
 #: src/lib/modals/Signup.svelte:92
 #: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
-msgstr "प्रयोक्ता नाम..."
+msgstr ""
 
 #: src/lib/modals/Signup.svelte:107
 msgid "Password..."
-msgstr "पासवर्ड..."
+msgstr ""
 
 #: src/lib/modals/Signup.svelte:156
 msgid "Join"
-msgstr "जोड़ना"
+msgstr ""
 
 #: src/lib/modals/chats/AddMember.svelte:14
 #: src/lib/modals/chats/AddMember.svelte:88
@@ -463,18 +462,18 @@ msgstr ""
 
 #: src/lib/modals/chats/AddMember_Search.svelte:44
 msgid "Search"
-msgstr "खोज"
+msgstr ""
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:21
 #: src/lib/modals/chats/ChangeChatNickname.svelte:86
 msgid "Change Nickname"
-msgstr "उपनाम बदलें"
+msgstr ""
 
 #: src/lib/modals/chats/ChangeChatNickname.svelte:62
 #: src/lib/modals/chats/ChangeChatNickname.svelte:69
 #: src/lib/modals/chats/CreateChat.svelte:54
 msgid "Chat Nickname"
-msgstr "बातचीत का उपनाम"
+msgstr ""
 
 #: src/lib/modals/chats/CreateChat.svelte:14
 msgid "Create Chat"
@@ -503,7 +502,7 @@ msgstr ""
 
 #: src/lib/modals/chats/LeaveChat.svelte:18
 msgid "Leave Chat"
-msgstr "निकास बातचीत"
+msgstr ""
 
 #. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/LeaveChat.svelte:45
@@ -512,7 +511,7 @@ msgstr ""
 
 #: src/lib/modals/chats/LeaveChat.svelte:57
 msgid "Leave"
-msgstr "निकास"
+msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/RemoveMember.svelte:24
@@ -526,7 +525,7 @@ msgstr ""
 
 #: src/lib/modals/chats/RemoveMember.svelte:72
 msgid "Remove member"
-msgstr "सदस्य हटाना"
+msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/TransferChatOwnership.svelte:25
@@ -903,10 +902,8 @@ msgid "UUID:"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateChat.svelte:72
-#, fuzzy
-#| msgid "Chat Nickname"
 msgid "Nickname:"
-msgstr "बातचीत का उपनाम"
+msgstr ""
 
 #: src/lib/modals/moderation/ModerateChat.svelte:74
 msgid "Owner:"
