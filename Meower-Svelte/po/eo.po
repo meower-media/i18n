@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-28 03:10+0000\n"
+"PO-Revision-Date: 2023-12-28 22:12+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -158,7 +158,7 @@ msgstr "Mi konsenti al"
 
 #: src/lib/Setup.svelte:399 src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
-msgstr "Meower's Kondiĉoj de Servo kaj Privateco Politiko"
+msgstr "La Kondiĉoj de Servo kaj Privateco Politiko de Meower"
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
@@ -573,7 +573,7 @@ msgstr "Transdoni Proprieto"
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearPosts.svelte:16
 msgid "Clear {username}'s Posts"
-msgstr ""
+msgstr "Klara la afiŝij de {username}"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearPosts.svelte:44
