@@ -1,19 +1,20 @@
+#
 # Max Walters <mdwalters.pm@proton.me>, 2023.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-29 02:09+0000\n"
+"PO-Revision-Date: 2023-12-28 21:30-0500\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
-"eo/>\n"
+"Language-Team: Esperanto <>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 45.3\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -950,9 +951,8 @@ msgid "Owner:"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateChat.svelte:76
-#, fuzzy
 msgid "Members:"
-msgstr "Aldoni Membro"
+msgstr "Membroj:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:78
 #: src/lib/modals/moderation/ModerateUser.svelte:196
@@ -981,9 +981,8 @@ msgid "Danger Zone"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateChat.svelte:109
-#, fuzzy
 msgid "Delete chat"
-msgstr "Forigi"
+msgstr "Forigi babili"
 
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:29
@@ -1126,9 +1125,8 @@ msgid "User Info"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:185
-#, fuzzy
 msgid "Username:"
-msgstr "Uzantnomo"
+msgstr "Uzantnomo:"
 
 #. TRANSLATORS: The string "PFP" stands for "Profile Picture." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:190
@@ -1216,9 +1214,8 @@ msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:320
-#, fuzzy
 msgid "{username} is"
-msgstr "{username} estas prenita!"
+msgstr "{username} estas"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:322
 msgid "permanently"
