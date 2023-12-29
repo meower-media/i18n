@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-28 22:12+0000\n"
+"PO-Revision-Date: 2023-12-29 01:11+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -588,6 +588,8 @@ msgid ""
 "Are you sure you wish to delete all of {username}'s posts in {origin}? "
 "Currently, there is no easy way to recover all of their deleted posts!"
 msgstr ""
+"Ĉu vi certa vi voli al forigi tuta de la afiŝij de {username}? Aktuale, tie "
+"estas ne facila aleo al reakiri ilia forigita afiŝij!"
 
 #: src/lib/modals/moderation/ClearPosts.svelte:60
 #: src/lib/modals/moderation/DeleteAccount.svelte:105
@@ -596,7 +598,7 @@ msgstr ""
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
 msgid "Confirm"
-msgstr ""
+msgstr "Konfirmi"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearQuote.svelte:19
