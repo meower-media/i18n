@@ -1,17 +1,20 @@
+#
+# Max Walters <mdwalters.pm@proton.me>, 2023.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-07 11:23+0400\n"
-"Last-Translator: meltland2002\n"
-"Language-Team: The Meower Translators Team\n"
-"Language: cat\n"
+"PO-Revision-Date: 2023-12-30 00:50-0500\n"
+"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
+"Language-Team: Esperanto <>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Human Being 1.0.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 45.3\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -770,7 +773,6 @@ msgstr "Meow"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:267
-#, fuzzy
 msgid "Enable repair mode"
 msgstr "Meow meow meow"
 
@@ -783,7 +785,6 @@ msgstr ""
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:257
-#, fuzzy
 msgid "Kick all users"
 msgstr "Meow meow meow"
 
@@ -822,227 +823,217 @@ msgstr "Meow meow"
 #: src/lib/modals/moderation/ModPanel.svelte:197
 #: src/lib/modals/moderation/ModPanel.svelte:218
 msgid "Submit"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:147
 msgid "View Recent Users"
-msgstr ""
+msgstr "Meow Meow Meow"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModPanel.svelte:150
 msgid "Moderate IP"
-msgstr ""
+msgstr "Meow meow"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModPanel.svelte:166
 msgid "IP address..."
-msgstr ""
+msgstr "Meow meow..."
 
 #: src/lib/modals/moderation/ModPanel.svelte:175
 msgid "View Recent Netblocks"
-msgstr ""
+msgstr "Meow Meow Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:179
 msgid "Moderate Post"
-msgstr ""
+msgstr "Meow Meow"
 
 #. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModPanel.svelte:195
 msgid "Post ID"
-msgstr ""
+msgstr "Meow meow"
 
 #. TRANSLATORS: The string "ID" stands for "Identification." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModPanel.svelte:216
 msgid "Chat ID"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:232
 msgid "Announcement text here..."
-msgstr ""
+msgstr "Meow meow meow..."
 
 #: src/lib/modals/moderation/ModPanel.svelte:249
 msgid ""
 "Registration is currently disabled! New users will be blocked from joining "
 "Meower until registration is re-enabled."
 msgstr ""
+"Meow meow meow meow! Meow meow meow meow meow meow meow Meower meow meow "
+"meow meow-meow."
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
 msgid "Restart server"
-msgstr ""
+msgstr "Meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:271
-#, fuzzy
 msgid "Disable registration"
-msgstr "Meow meow..."
+msgstr "Meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:275
-#, fuzzy
 msgid "Enable registration"
-msgstr "Meow meow..."
+msgstr "Meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:285
 msgid "Reports"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:286
 msgid "Status"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:295
 #: src/lib/modals/moderation/ModPanel.svelte:324
 msgid "Any"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:301
 msgid "Pending"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:307
 msgid "Completed with no action taken"
-msgstr ""
+msgstr "Meow meow meow meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:313
 msgid "Completed with action taken"
-msgstr ""
+msgstr "Meow meow meow meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
 msgid "Post"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:326
 #: src/lib/modals/moderation/ModerateIP.svelte:61
-#, fuzzy
 msgid "User"
 msgstr "Meow"
 
 #: src/lib/modals/moderation/ModPanel.svelte:340
-#, fuzzy
 msgid "Error loading reports. Please try again."
 msgstr "Meow meow meow. Meow meow meow."
 
 #: src/lib/modals/moderation/ModPanel.svelte:345
 msgid "Yay, there are no pending reports!"
-msgstr ""
+msgstr "Meow, meow meow meow meow meow!"
 
 #: src/lib/modals/moderation/ModPanel.svelte:347
 msgid "No reports found. Check back later!"
-msgstr ""
+msgstr "Meow meow meow. Meow meow meow!"
 
 #. TRANSLATORS: Do not modify the "{id}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateChat.svelte:66
-#, fuzzy
 msgid "Moderate {id}"
-msgstr "Meow meow"
+msgstr "Meow {id}"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:69
 msgid "Chat Info"
-msgstr ""
+msgstr "Meow Meow"
 
 #. TRANSLATORS: The string "UUID" stands for "Universal Unique Identifier." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateChat.svelte:70
 #: src/lib/modals/moderation/ModerateUser.svelte:187
 msgid "UUID:"
-msgstr ""
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:72
-#, fuzzy
 msgid "Nickname:"
-msgstr "Meow meow"
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:74
 msgid "Owner:"
-msgstr ""
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:76
-#, fuzzy
 msgid "Members:"
-msgstr "Meow meow"
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:78
 #: src/lib/modals/moderation/ModerateUser.svelte:196
-#, fuzzy
 msgid "Created:"
-msgstr "Meow meow"
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:80
 msgid "Last active:"
-msgstr ""
+msgstr "Meow meow:"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:82
-#, fuzzy
 msgid "Deleted?"
-msgstr "Meow"
+msgstr "Meow?"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:88
 #: src/lib/modals/moderation/ModerateIP.svelte:149
 #: src/lib/modals/moderation/ModeratePost.svelte:78
 #: src/lib/modals/moderation/ModerateUser.svelte:291
 msgid "Notes"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:94
 msgid "Danger Zone"
-msgstr ""
+msgstr "Meow Meow"
 
 #: src/lib/modals/moderation/ModerateChat.svelte:109
-#, fuzzy
 msgid "Delete chat"
-msgstr "Meow"
+msgstr "Meow meow"
 
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:29
-#, fuzzy
 msgid "Moderate {ip}"
-msgstr "Meow meow"
+msgstr "Meow {ip}"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:44
 msgid "Netinfo"
-msgstr ""
+msgstr "Meow"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateIP.svelte:45
 msgid "IP address:"
-msgstr ""
+msgstr "Meow meow:"
 
 #. TRANSLATORS: The string "ASN" stands for "Autonomous System Number." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateIP.svelte:47
 msgid "ASN:"
-msgstr ""
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:49
 msgid "Country:"
-msgstr ""
+msgstr "Meow:"
 
 #. TRANSLATORS: The string "ISP" stands for "Internet Service Provider." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateIP.svelte:51
 msgid "ISP:"
-msgstr ""
+msgstr "Meow:"
 
 #. TRANSLATORS: The string "VPN" stands for "Virtual Private Network." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateIP.svelte:53
 msgid "VPN:"
-msgstr ""
+msgstr "Meow:"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:58
 msgid "Netlogs"
-msgstr ""
+msgstr "Meow"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:62
 #: src/lib/modals/moderation/ModerateUser.svelte:238
 msgid "Last Used"
-msgstr ""
+msgstr "Meow Meow"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:88
-#, fuzzy
 msgid "Netblocks"
-msgstr "Meow meow"
+msgstr "Meow"
 
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:91
 msgid ""
 "{ip} is currently fully blocked from accessing Meower's Cloudlink server and "
 "REST API."
-msgstr ""
+msgstr "{ip} meow meow meow meow meow meow Meower's meow meow meow meow meow."
 
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:97
@@ -1058,15 +1049,13 @@ msgid "View/edit notes"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateIP.svelte:131
-#, fuzzy
 msgid "Delete netblock"
-msgstr "Meow {cidr} meow"
+msgstr "Meow meow"
 
 #. TRANSLATORS: Do not modify the "{postid}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModeratePost.svelte:30
-#, fuzzy
 msgid "Moderate {postid}"
-msgstr "Meow meow"
+msgstr "Meow {postid}"
 
 #: src/lib/modals/moderation/ModeratePost.svelte:35
 msgid "Current post"
@@ -1078,9 +1067,8 @@ msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:64
-#, fuzzy
 msgid "{username} does not exist!"
-msgstr "{username} meow meow!"
+msgstr "{username} meow meow meow!"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:79
 msgid "Sending alert..."
@@ -1096,7 +1084,6 @@ msgid "Error sending alert: {error}"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:130
-#, fuzzy
 msgid "Kicking..."
 msgstr "Meow..."
 
@@ -1106,7 +1093,6 @@ msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:160
-#, fuzzy
 msgid "Moderate {username}"
 msgstr "Meow {username}"
 
@@ -1125,18 +1111,16 @@ msgid "You may release the username by purging the account."
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:179
-#, fuzzy
 msgid "This account is scheduled to be deleted after"
-msgstr "Meow meow meow meow meow!"
+msgstr "Meow meow meow meow meow meow meow meow"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:184
 msgid "User Info"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:185
-#, fuzzy
 msgid "Username:"
-msgstr "Meow"
+msgstr "Meow:"
 
 #. TRANSLATORS: The string "PFP" stands for "Profile Picture." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:190
@@ -1201,7 +1185,6 @@ msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:277
 #: src/lib/modals/moderation/ModerateUser.svelte:278
-#, fuzzy
 msgid "Registration blocked"
 msgstr "Meow meow"
 
@@ -1210,9 +1193,8 @@ msgid "Send Alert"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:300
-#, fuzzy
 msgid "Write something..."
-msgstr "Meow..."
+msgstr "Meow meow..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:310
 msgid "Send"
@@ -1224,9 +1206,8 @@ msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:320
-#, fuzzy
 msgid "{username} is"
-msgstr "{username} meow meow!"
+msgstr "{username} meow"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:322
 msgid "permanently"
@@ -1270,11 +1251,9 @@ msgid "This prevents the user from logging in."
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:397
-#, fuzzy
 msgid "Restrictions"
 msgstr "Meow"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:406
-#, fuzzy
 msgid "Edit Restrictions"
-msgstr "Meow"
+msgstr "Meow meow"

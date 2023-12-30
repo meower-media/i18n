@@ -20,9 +20,10 @@ Translation files for Meower
             <td>Cat Language</td>
             <td>
                 <b><a href="https://github.com/meltland2002">@meltland2002</a></b>   
+                <b><a href="https://github.com/mdwalters">@mdwalters</a></b>
             </td>
             <td>Yes</td>
-            <td>60%</td>
+            <td>84%</td>
         </tr>
         <tr>
             <td>Esperanto</td>
