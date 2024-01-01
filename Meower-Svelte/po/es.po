@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-01 19:26+0000\n"
+"PO-Revision-Date: 2024-01-01 20:09+0000\n"
 "Last-Translator: notfenixio <josueart40@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
@@ -1189,23 +1189,25 @@ msgstr "¿Bandeja de entrada sin leer?"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:204
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. TRANSLATORS: The string "Alts" is short for "Alternative accounts." Please use this if the string is untranslatable.
 #: src/lib/modals/moderation/ModerateUser.svelte:210
 msgid "Alts"
-msgstr ""
+msgstr "Alts"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:211
 msgid ""
 "This list is based on users from their recent IPs. This list may not be "
 "accurate."
 msgstr ""
+"Esta lista se basa en usuarios de sus recientes IPs. Esta lista puede no ser "
+"exacta."
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:234
 msgid "Recent IPs"
-msgstr ""
+msgstr "IPs recientes"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:237
@@ -1215,18 +1217,18 @@ msgstr "Dirección IP..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:239
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 #. TRANSLATORS: The string "VPN" stands for "Virtual Private Network." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:263
 #: src/lib/modals/moderation/ModerateUser.svelte:264
 msgid "Detected VPN/proxy"
-msgstr ""
+msgstr "VPN/proxy detectado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:270
 #: src/lib/modals/moderation/ModerateUser.svelte:271
 msgid "Blocked"
-msgstr ""
+msgstr "Bloqueado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:277
 #: src/lib/modals/moderation/ModerateUser.svelte:278
@@ -1236,7 +1238,7 @@ msgstr "Registros deshabilitados"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:297
 msgid "Send Alert"
-msgstr ""
+msgstr "Enviar alerta"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:300
 #, fuzzy
@@ -1245,7 +1247,7 @@ msgstr "Reconectando..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:310
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:317
 #, fuzzy
@@ -1260,16 +1262,16 @@ msgstr "{username} está ocupado!"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:322
 msgid "permanently"
-msgstr ""
+msgstr "permanentemente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:325
 msgid "restricted"
-msgstr ""
+msgstr "restringido"
 
 #. TRANSLATORS: Do not modify the "{date}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:330
 msgid "until {date}"
-msgstr ""
+msgstr "hasta {fecha}"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:334
 #, fuzzy
@@ -1278,27 +1280,27 @@ msgstr "Estado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:360
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:367
 msgid "Temporaily restricted"
-msgstr ""
+msgstr "Limitado temporalmente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:373
 msgid "Permanently restricted"
-msgstr ""
+msgstr "Limitado permanente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:386
 msgid "Permanently banned"
-msgstr ""
+msgstr "Baneado permanentemente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:390
 msgid "This applies no restrictions to the user."
-msgstr ""
+msgstr "Esto no aplica restricciones al usuario."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:392
 msgid "This prevents the user from logging in."
-msgstr ""
+msgstr "Esto evita que el usuario inicie sesión."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:397
 #, fuzzy
