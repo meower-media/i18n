@@ -154,7 +154,7 @@ msgstr "Passwort bestätigen"
 
 #: src/lib/Setup.svelte:395 src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr "Ich stimme zu"
+msgstr "Ich stimme zu: "
 
 #: src/lib/Setup.svelte:399 src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
@@ -272,7 +272,7 @@ msgid ""
 "current status of this outage by checking"
 msgstr ""
 "Meower ist momentan aufgrund von Reparaturen nicht verfügbar. Hier kannst du "
-"den aktuellen Status verfolgen"
+"den aktuellen Status verfolgen: "
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
