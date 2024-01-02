@@ -333,6 +333,7 @@ msgstr ""
 #: src/lib/modals/moderation/ModerateUser.svelte:91
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
+#: src/lib/modals/moderation/RecentNetblocks.svelte:30
 msgid "Response code is not OK; code is {code}"
 msgstr "Код відповіді не в порядку; код {code}"
 
@@ -391,6 +392,7 @@ msgid "Server Selector"
 msgstr ""
 
 #: src/lib/modals/ServerSelector.svelte:38
+#: src/lib/modals/moderation/ModerateUser.svelte:476
 msgid "WARNING!"
 msgstr ""
 
@@ -606,18 +608,22 @@ msgid "Are you sure? This action is irreversible!"
 msgstr ""
 
 #: src/lib/modals/moderation/ClearQuote.svelte:58
+#: src/lib/modals/moderation/ModerateUser.svelte:526
 msgid "Clear Quote"
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
 #: src/lib/modals/moderation/ModerateIP.svelte:104
+#: src/lib/modals/moderation/RecentNetblocks.svelte:56
+#: src/lib/modals/moderation/RecentNetblocks.svelte:110
 msgid "Create Netblock"
 msgstr ""
 
 #. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/CreateNetblock.svelte:50
 #: src/lib/modals/moderation/ModerateIP.svelte:108
+#: src/lib/modals/moderation/RecentNetblocks.svelte:60
 msgid "CIDR"
 msgstr ""
 
@@ -629,16 +635,19 @@ msgstr ""
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
 #: src/lib/modals/moderation/ModPanel.svelte:316
 #: src/lib/modals/moderation/ModerateIP.svelte:109
+#: src/lib/modals/moderation/RecentNetblocks.svelte:61
 msgid "Type"
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:69
 #: src/lib/modals/moderation/ModerateIP.svelte:115
+#: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Full"
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:70
 #: src/lib/modals/moderation/ModerateIP.svelte:115
+#: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Registration"
 msgstr ""
 
@@ -698,7 +707,7 @@ msgid "Schedule account for deletion after 7 days."
 msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:86
-msgid "Immediate delete account."
+msgid "Immediately delete account."
 msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:88
@@ -1041,14 +1050,17 @@ msgid "{ip} is currently blocked from creating new Meower accounts."
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateIP.svelte:110
+#: src/lib/modals/moderation/RecentNetblocks.svelte:62
 msgid "Actions"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateIP.svelte:120
+#: src/lib/modals/moderation/RecentNetblocks.svelte:72
 msgid "View/edit notes"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateIP.svelte:131
+#: src/lib/modals/moderation/RecentNetblocks.svelte:84
 msgid "Delete netblock"
 msgstr ""
 
@@ -1265,4 +1277,79 @@ msgstr "Створювання аккаунтів виключено"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:406
 msgid "Edit Restrictions"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:433
+msgid "Expires (in your local timezone)"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:434
+msgid "- this time has passed"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:458
+msgid "Reason (will be shown to user)"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:463
+msgid "Reason text here..."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:477
+msgid ""
+"The ban state has changed. You must save the new ban state before it's "
+"applied."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:485
+msgid "Save ban state"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:497
+#, fuzzy
+msgid "Other Actions"
+msgstr "Створювання аккаунтів виключено"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:507
+msgid "View posts"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:512
+msgid "Kick"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:515
+msgid "Force kick"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:536
+msgid "Set permissions"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:538
+msgid "View permissions"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:550
+#, fuzzy
+msgid "Delete account"
+msgstr "Видалити"
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/NetblockNotes.svelte:13
+msgid "Notes for {cidr}"
+msgstr ""
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:30
+msgid "Recent Netblocks"
+msgstr ""
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:101
+#, fuzzy
+#| msgid "Error loading results. Please try again."
+msgid "Error loading netblocks. Please try again."
+msgstr "Помилка завантаження результатів пошуку. Будь ласка спробуйте ще раз."
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:112
+msgid "No netblocks found. Check back later!"
 msgstr ""
