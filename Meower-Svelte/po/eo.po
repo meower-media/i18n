@@ -1,19 +1,20 @@
-# Max Walters <mdwalters.pm@proton.me>, 2023.
+#
+# Max Walters <mdwalters.pm@proton.me>, 2023-2024.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-30 06:08+0000\n"
+"PO-Revision-Date: 2024-01-01 20:51-0500\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
-"Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
-"eo/>\n"
+"Language-Team: Esperanto <>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 45.3\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -1322,10 +1323,8 @@ msgid "View permissions"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:550
-#, fuzzy
-#| msgid "Delete chat"
 msgid "Delete account"
-msgstr "Forigi babili"
+msgstr "Forigi konton"
 
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/NetblockNotes.svelte:13
