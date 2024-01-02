@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-01 19:26+0000\n"
+"PO-Revision-Date: 2024-01-01 20:09+0000\n"
 "Last-Translator: notfenixio <josueart40@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
@@ -345,6 +345,7 @@ msgstr "Almacenamiento"
 #: src/lib/modals/moderation/ModerateUser.svelte:91
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
+#: src/lib/modals/moderation/RecentNetblocks.svelte:30
 msgid "Response code is not OK; code is {code}"
 msgstr "Código de respuesto no OK; código es {code}"
 
@@ -404,6 +405,7 @@ msgid "Server Selector"
 msgstr "Selector de servidor"
 
 #: src/lib/modals/ServerSelector.svelte:38
+#: src/lib/modals/moderation/ModerateUser.svelte:476
 msgid "WARNING!"
 msgstr "¡ALERTA!"
 
@@ -627,18 +629,22 @@ msgid "Are you sure? This action is irreversible!"
 msgstr "¿Estás seguro? ¡Esta acción no se puede deshacer!"
 
 #: src/lib/modals/moderation/ClearQuote.svelte:58
+#: src/lib/modals/moderation/ModerateUser.svelte:526
 msgid "Clear Quote"
 msgstr "Eliminar cita"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
 #: src/lib/modals/moderation/ModerateIP.svelte:104
+#: src/lib/modals/moderation/RecentNetblocks.svelte:56
+#: src/lib/modals/moderation/RecentNetblocks.svelte:110
 msgid "Create Netblock"
 msgstr "Crear Netblock"
 
 #. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/CreateNetblock.svelte:50
 #: src/lib/modals/moderation/ModerateIP.svelte:108
+#: src/lib/modals/moderation/RecentNetblocks.svelte:60
 msgid "CIDR"
 msgstr "CIDR"
 
@@ -650,16 +656,19 @@ msgstr "CIDR..."
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
 #: src/lib/modals/moderation/ModPanel.svelte:316
 #: src/lib/modals/moderation/ModerateIP.svelte:109
+#: src/lib/modals/moderation/RecentNetblocks.svelte:61
 msgid "Type"
 msgstr "Tipo"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:69
 #: src/lib/modals/moderation/ModerateIP.svelte:115
+#: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Full"
 msgstr "Completo"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:70
 #: src/lib/modals/moderation/ModerateIP.svelte:115
+#: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Registration"
 msgstr "Registración"
 
@@ -724,7 +733,9 @@ msgid "Schedule account for deletion after 7 days."
 msgstr "Planificar la eliminación de la cuenta para dentro de 7 días."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:86
-msgid "Immediate delete account."
+#, fuzzy
+#| msgid "Immediate delete account."
+msgid "Immediately delete account."
 msgstr "Borrar la cuenta inmediatamente."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:88
@@ -1074,14 +1085,17 @@ msgid "{ip} is currently blocked from creating new Meower accounts."
 msgstr "{ip} actualmente está bloqueado de crear nuevas cuentas de Meower."
 
 #: src/lib/modals/moderation/ModerateIP.svelte:110
+#: src/lib/modals/moderation/RecentNetblocks.svelte:62
 msgid "Actions"
 msgstr "Acciones"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:120
+#: src/lib/modals/moderation/RecentNetblocks.svelte:72
 msgid "View/edit notes"
 msgstr "Ver/editar notas"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:131
+#: src/lib/modals/moderation/RecentNetblocks.svelte:84
 #, fuzzy
 msgid "Delete netblock"
 msgstr "Eliminar el Netblock de {cidr}"
@@ -1189,23 +1203,25 @@ msgstr "¿Bandeja de entrada sin leer?"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:204
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #. TRANSLATORS: The string "Alts" is short for "Alternative accounts." Please use this if the string is untranslatable.
 #: src/lib/modals/moderation/ModerateUser.svelte:210
 msgid "Alts"
-msgstr ""
+msgstr "Alts"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:211
 msgid ""
 "This list is based on users from their recent IPs. This list may not be "
 "accurate."
 msgstr ""
+"Esta lista se basa en usuarios de sus recientes IPs. Esta lista puede no ser "
+"exacta."
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:234
 msgid "Recent IPs"
-msgstr ""
+msgstr "IPs recientes"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:237
@@ -1215,18 +1231,18 @@ msgstr "Dirección IP..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:239
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 #. TRANSLATORS: The string "VPN" stands for "Virtual Private Network." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:263
 #: src/lib/modals/moderation/ModerateUser.svelte:264
 msgid "Detected VPN/proxy"
-msgstr ""
+msgstr "VPN/proxy detectado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:270
 #: src/lib/modals/moderation/ModerateUser.svelte:271
 msgid "Blocked"
-msgstr ""
+msgstr "Bloqueado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:277
 #: src/lib/modals/moderation/ModerateUser.svelte:278
@@ -1236,7 +1252,7 @@ msgstr "Registros deshabilitados"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:297
 msgid "Send Alert"
-msgstr ""
+msgstr "Enviar alerta"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:300
 #, fuzzy
@@ -1245,7 +1261,7 @@ msgstr "Reconectando..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:310
 msgid "Send"
-msgstr ""
+msgstr "Enviar"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:317
 #, fuzzy
@@ -1260,16 +1276,16 @@ msgstr "{username} está ocupado!"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:322
 msgid "permanently"
-msgstr ""
+msgstr "permanentemente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:325
 msgid "restricted"
-msgstr ""
+msgstr "restringido"
 
 #. TRANSLATORS: Do not modify the "{date}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:330
 msgid "until {date}"
-msgstr ""
+msgstr "hasta {fecha}"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:334
 #, fuzzy
@@ -1278,27 +1294,27 @@ msgstr "Estado"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:360
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:367
 msgid "Temporaily restricted"
-msgstr ""
+msgstr "Limitado temporalmente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:373
 msgid "Permanently restricted"
-msgstr ""
+msgstr "Limitado permanente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:386
 msgid "Permanently banned"
-msgstr ""
+msgstr "Baneado permanentemente"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:390
 msgid "This applies no restrictions to the user."
-msgstr ""
+msgstr "Esto no aplica restricciones al usuario."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:392
 msgid "This prevents the user from logging in."
-msgstr ""
+msgstr "Esto evita que el usuario inicie sesión."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:397
 #, fuzzy
@@ -1309,3 +1325,94 @@ msgstr "Registración"
 #, fuzzy
 msgid "Edit Restrictions"
 msgstr "Registración"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:433
+msgid "Expires (in your local timezone)"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:434
+msgid "- this time has passed"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:458
+msgid "Reason (will be shown to user)"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:463
+#, fuzzy
+#| msgid "Announcement text here..."
+msgid "Reason text here..."
+msgstr "Texto del anuncio aquí..."
+
+#: src/lib/modals/moderation/ModerateUser.svelte:477
+msgid ""
+"The ban state has changed. You must save the new ban state before it's "
+"applied."
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:485
+msgid "Save ban state"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:497
+#, fuzzy
+#| msgid "Actions"
+msgid "Other Actions"
+msgstr "Acciones"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:507
+#, fuzzy
+#| msgid "View/edit notes"
+msgid "View posts"
+msgstr "Ver/editar notas"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:512
+#, fuzzy
+#| msgid "Kicked!"
+msgid "Kick"
+msgstr "Kickeado!"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:515
+msgid "Force kick"
+msgstr ""
+
+#: src/lib/modals/moderation/ModerateUser.svelte:536
+#, fuzzy
+#| msgid "Permissions:"
+msgid "Set permissions"
+msgstr "Permisos:"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:538
+#, fuzzy
+#| msgid "Permissions:"
+msgid "View permissions"
+msgstr "Permisos:"
+
+#: src/lib/modals/moderation/ModerateUser.svelte:550
+#, fuzzy
+msgid "Delete account"
+msgstr "Eliminar"
+
+#. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
+#: src/lib/modals/moderation/NetblockNotes.svelte:13
+msgid "Notes for {cidr}"
+msgstr ""
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#, fuzzy
+#| msgid "View Recent Netblocks"
+msgid "Recent Netblocks"
+msgstr "Ver bloqueos de red recientes"
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:101
+#, fuzzy
+#| msgid "Error loading results. Please try again."
+msgid "Error loading netblocks. Please try again."
+msgstr ""
+"Error cargando los resultados. Por favor, inténtalo de nuevo más tarde."
+
+#: src/lib/modals/moderation/RecentNetblocks.svelte:112
+#, fuzzy
+#| msgid "No reports found. Check back later!"
+msgid "No netblocks found. Check back later!"
+msgstr "No se han encontrado informes. ¡Revisa más tarde!"
