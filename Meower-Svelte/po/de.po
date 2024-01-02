@@ -726,10 +726,8 @@ msgid "Schedule account for deletion after 7 days."
 msgstr "Plane Kontenlöschung nach 7 Tagen."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:86
-#, fuzzy
-#| msgid "Immediate delete account."
 msgid "Immediately delete account."
-msgstr "Sofortige Löschung des Kontos."
+msgstr "Sofort Konto löschen."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:88
 msgid "Purge everything about the account. It'll be like it never existed."
@@ -1081,7 +1079,6 @@ msgstr "Notizen einsehen/bearbeiten"
 
 #: src/lib/modals/moderation/ModerateIP.svelte:131
 #: src/lib/modals/moderation/RecentNetblocks.svelte:84
-#, fuzzy
 msgid "Delete netblock"
 msgstr "Netblock löschen"
 
@@ -1294,79 +1291,71 @@ msgstr "Einschränkungen bearbeiten"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:433
 msgid "Expires (in your local timezone)"
-msgstr ""
+msgstr "Läuft ab (in deiner Zeitzone)"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:434
 msgid "- this time has passed"
-msgstr ""
+msgstr "- diese Zeit ist vorbei"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:458
 msgid "Reason (will be shown to user)"
-msgstr ""
+msgstr "Grund (wird dem Nutzer angezeigt)"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:463
-#, fuzzy
-#| msgid "Announcement text here..."
 msgid "Reason text here..."
-msgstr "Ankündigungstext..."
+msgstr "Grundtext..."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:477
 msgid ""
 "The ban state has changed. You must save the new ban state before it's "
 "applied."
-msgstr ""
+msgstr "Der Bannstatus hat sich geändert. Du musst den neuen Bannstatus speichern, bevor er gültig wird."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:485
 msgid "Save ban state"
-msgstr ""
+msgstr "Bannstatus speichern"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:497
-#, fuzzy
 msgid "Other Actions"
-msgstr "Registrierung"
+msgstr "Andere Aktionen"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
 msgid "View posts"
-msgstr ""
+msgstr "Posts einsehen"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:512
 msgid "Kick"
-msgstr ""
+msgstr "Kicken"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:515
 msgid "Force kick"
-msgstr ""
+msgstr "Zwanghaft kicken"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:536
 msgid "Set permissions"
-msgstr ""
+msgstr "Berechtigungen setzen"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:538
 msgid "View permissions"
-msgstr ""
+msgstr "Berechtigungen einsehen"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:550
-#, fuzzy
 msgid "Delete account"
-msgstr "Löschen"
+msgstr "Konto löschen"
 
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/NetblockNotes.svelte:13
 msgid "Notes for {cidr}"
-msgstr ""
+msgstr "Notizen für {cidr}"
 
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
-#, fuzzy
-#| msgid "View Recent Netblocks"
 msgid "Recent Netblocks"
-msgstr "Neue Netblocks einsehen"
+msgstr "Neue Netblocks"
 
 #: src/lib/modals/moderation/RecentNetblocks.svelte:101
-#, fuzzy
-#| msgid "Error loading results. Please try again."
 msgid "Error loading netblocks. Please try again."
-msgstr "Laden von Ergebnissen fehlgeschlagen. Versuche es bitte noch einmal."
+msgstr "Laden von Netblocks fehlgeschlagen. Versuche es bitte noch einmal."
 
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
-msgstr ""
+msgstr "Keine Netblocks gefunden. Schaue später nach!"
