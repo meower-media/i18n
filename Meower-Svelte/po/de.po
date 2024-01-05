@@ -146,9 +146,8 @@ msgid ""
 "Unfortunately, you may not create a new account at this time. An "
 "administrator has disabled registration. Please try again later."
 msgstr ""
-"Leider kannst du momentan kein Konto erstellen. Ein "
-"Administrator hat die Kontoerstellung ausgeschaltet. Versuche "
-"es bitte später erneut."
+"Leider kannst du momentan kein Konto erstellen. Ein Administrator hat die "
+"Kontoerstellung ausgeschaltet. Versuche es bitte später erneut."
 
 #: src/lib/Setup.svelte:384 src/lib/modals/Signup.svelte:118
 #: src/lib/modals/Signup.svelte:124
@@ -1060,7 +1059,9 @@ msgstr "Netblocks"
 msgid ""
 "{ip} is currently fully blocked from accessing Meower's Cloudlink server and "
 "REST API."
-msgstr "{ip} wird momentan komplett davon abgehalten, den Cloudlink und die REST-API von Meower zu nutzen."
+msgstr ""
+"{ip} wird momentan komplett davon abgehalten, den Cloudlink und die REST-API "
+"von Meower zu nutzen."
 
 #. TRANSLATORS: Do not modify the "{ip}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateIP.svelte:97
@@ -1130,15 +1131,20 @@ msgstr "{username} moderieren"
 msgid ""
 "This account is protected. If you are not a sysadmin, some options will be "
 "unavailable."
-msgstr "Dieses Konto ist geschützt. Wenn du kein Sysadmin bist, sind manche Optionen nicht verfügbar."
+msgstr ""
+"Dieses Konto ist geschützt. Wenn du kein Sysadmin bist, sind manche Optionen "
+"nicht verfügbar."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:173
 msgid "This account has been deleted. Deleted accounts cannot be recovered."
-msgstr "Dieses Konto wurde gelöscht. Gelöschte Konten sind nicht wiederherstellbar."
+msgstr ""
+"Dieses Konto wurde gelöscht. Gelöschte Konten sind nicht wiederherstellbar."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:173
 msgid "You may release the username by purging the account."
-msgstr "Du kannst den Benutzernamen verfügbar machen, indem du dieses Konto auslöschst."
+msgstr ""
+"Du kannst den Benutzernamen verfügbar machen, indem du dieses Konto "
+"auslöschst."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:179
 msgid "This account is scheduled to be deleted after"
@@ -1187,7 +1193,8 @@ msgid ""
 "This list is based on users from their recent IPs. This list may not be "
 "accurate."
 msgstr ""
-"Diese Liste ist auf den neuesten IP-Adressen der User basiert. Die Liste könnte nicht akkurat sein."
+"Diese Liste ist auf den neuesten IP-Adressen der User basiert. Die Liste "
+"könnte nicht akkurat sein."
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:234
@@ -1309,7 +1316,9 @@ msgstr "Grundtext..."
 msgid ""
 "The ban state has changed. You must save the new ban state before it's "
 "applied."
-msgstr "Der Bannstatus hat sich geändert. Du musst den neuen Bannstatus speichern, bevor er gültig wird."
+msgstr ""
+"Der Bannstatus hat sich geändert. Du musst den neuen Bannstatus speichern, "
+"bevor er gültig wird."
 
 #: src/lib/modals/moderation/ModerateUser.svelte:485
 msgid "Save ban state"
@@ -1359,3 +1368,21 @@ msgstr "Laden von Netblocks fehlgeschlagen. Versuche es bitte noch einmal."
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
 msgstr "Keine Netblocks gefunden. Schaue später nach!"
+
+#: src/lib/modals/moderation/RecentUsers.svelte:10
+#, fuzzy
+#| msgid "View Recent Users"
+msgid "Recent Users"
+msgstr "Neue Nutzer einsehen"
+
+#: src/lib/modals/moderation/RecentUsers.svelte:14
+#, fuzzy
+#| msgid "Error loading reports. Please try again."
+msgid "Error loading users. Please try again."
+msgstr "Laden von Meldungen fehlgeschlagen. Versuche es bitte erneut."
+
+#: src/lib/modals/moderation/RecentUsers.svelte:17
+#, fuzzy
+#| msgid "No results found."
+msgid "No users found."
+msgstr "Keine Ergebnisse gefunden."

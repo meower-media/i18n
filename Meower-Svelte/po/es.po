@@ -1372,3 +1372,21 @@ msgstr "Error cargando los netblocks. Por favor, inténtalo de nuevo más tarde.
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
 msgstr "No se han encontrado netblocks. ¡Revisa más tarde!"
+
+#: src/lib/modals/moderation/RecentUsers.svelte:10
+#, fuzzy
+#| msgid "View Recent Users"
+msgid "Recent Users"
+msgstr "Ver los usuarios recientes"
+
+#: src/lib/modals/moderation/RecentUsers.svelte:14
+#, fuzzy
+#| msgid "Error loading reports. Please try again."
+msgid "Error loading users. Please try again."
+msgstr "Error al cargar reportes. Por favor, inténtalo de nuevo."
+
+#: src/lib/modals/moderation/RecentUsers.svelte:17
+#, fuzzy
+#| msgid "No results found."
+msgid "No users found."
+msgstr "No se han encontrado resultados."

@@ -1351,3 +1351,17 @@ msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
 msgstr ""
+
+#: src/lib/modals/moderation/RecentUsers.svelte:10
+msgid "Recent Users"
+msgstr ""
+
+#: src/lib/modals/moderation/RecentUsers.svelte:14
+#, fuzzy
+#| msgid "Too many requests! Please try again later."
+msgid "Error loading users. Please try again."
+msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
+
+#: src/lib/modals/moderation/RecentUsers.svelte:17
+msgid "No users found."
+msgstr ""

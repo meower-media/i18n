@@ -1344,3 +1344,19 @@ msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
 msgstr ""
+
+#: src/lib/modals/moderation/RecentUsers.svelte:10
+msgid "Recent Users"
+msgstr ""
+
+#: src/lib/modals/moderation/RecentUsers.svelte:14
+#, fuzzy
+#| msgid "Error loading results. Please try again."
+msgid "Error loading users. Please try again."
+msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
+
+#: src/lib/modals/moderation/RecentUsers.svelte:17
+#, fuzzy
+#| msgid "No results found."
+msgid "No users found."
+msgstr "Ne rezultoj trovita."
