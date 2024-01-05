@@ -1,12 +1,12 @@
-# gallegonovato <fran-carro@hotmail.es>, 2023.
+# gallegonovato <fran-carro@hotmail.es>, 2023, 2024.
 # notfenixio <josueart40@gmail.com>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-04 21:09+0000\n"
-"Last-Translator: notfenixio <josueart40@gmail.com>\n"
+"PO-Revision-Date: 2024-01-05 13:13+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
 "Language: es\n"
@@ -1374,19 +1374,13 @@ msgid "No netblocks found. Check back later!"
 msgstr "No se han encontrado netblocks. ¡Revisa más tarde!"
 
 #: src/lib/modals/moderation/RecentUsers.svelte:10
-#, fuzzy
-#| msgid "View Recent Users"
 msgid "Recent Users"
-msgstr "Ver los usuarios recientes"
+msgstr "Usuarios recientes"
 
 #: src/lib/modals/moderation/RecentUsers.svelte:14
-#, fuzzy
-#| msgid "Error loading reports. Please try again."
 msgid "Error loading users. Please try again."
-msgstr "Error al cargar reportes. Por favor, inténtalo de nuevo."
+msgstr "Error al cargar usuarios. Por favor, inténtelo de nuevo."
 
 #: src/lib/modals/moderation/RecentUsers.svelte:17
-#, fuzzy
-#| msgid "No results found."
 msgid "No users found."
-msgstr "No se han encontrado resultados."
+msgstr "No se encontraron usuarios."
