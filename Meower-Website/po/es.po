@@ -47,7 +47,7 @@ msgstr "Foros"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: index.html:27
+#: index.html:27 index.html:55
 msgid "GitHub"
 msgstr ""
 
@@ -60,13 +60,16 @@ msgid "Welcome"
 msgstr "Bienvenid@"
 
 #: index.html:36
-msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
+msgid ""
+"Meower is a free, open-source, and nonprofit social media platform free of "
+"tracking, ads, and data collection."
 msgstr ""
 "Meower es una plataforma de redes sociales gratuita, de código abierto y sin "
 "ánimo de lucro, libre de rastreo, anuncios y recopilación de datos."
 
 #: index.html:37
-msgid "Join our community today and start connecting with like-minded individuals."
+msgid ""
+"Join our community today and start connecting with like-minded individuals."
 msgstr ""
 "Únase hoy mismo a nuestra comunidad y empiece a conectar con personas de "
 "ideas afines."
@@ -76,7 +79,10 @@ msgid "Safe for All"
 msgstr "Seguro para todos"
 
 #: index.html:42
-msgid "A friendly place to be. We are committed to keeping Meower safe and welcoming for all. Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
+msgid ""
+"A friendly place to be. We are committed to keeping Meower safe and "
+"welcoming for all. Our dedicated team works tirelessly to enforce community "
+"guidelines and ensure a positive experince for everyone."
 msgstr ""
 "Un lugar acogedor. Nos comprometemos a mantener Meower seguro y acogedor "
 "para todos. Nuestro equipo trabaja incansablemente para hacer cumplir las "
@@ -87,7 +93,9 @@ msgid "all."
 msgstr "todo."
 
 #: index.html:42
-msgid "Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
+msgid ""
+"Our dedicated team works tirelessly to enforce community guidelines and "
+"ensure a positive experince for everyone."
 msgstr ""
 "Nuestro equipo trabaja sin descanso para hacer cumplir las normas de la "
 "comunidad y garantizar una experiencia positiva para todos."
@@ -97,7 +105,10 @@ msgid "Original"
 msgstr "Original"
 
 #: index.html:48
-msgid "Meower started life as a Scratch 3.0-based social media platform. We have a long history, too! WIth the continuous support of our amazing community, we've evolved into a feature-rich platform for all kinds. Explore our"
+msgid ""
+"Meower started life as a Scratch 3.0-based social media platform. We have a "
+"long history, too! WIth the continuous support of our amazing community, "
+"we've evolved into a feature-rich platform for all kinds. Explore our"
 msgstr ""
 "Meower nació como una plataforma de redes sociales basada en Scratch 3.0. "
 "También tenemos una larga historia. Con el apoyo continuo de nuestra "
@@ -117,15 +128,14 @@ msgid "Open-Source"
 msgstr "Código abierto"
 
 #: index.html:55
-msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
+msgid ""
+"Transparency is at the core of Meower. We believe in the power of open-"
+"source collaboration. Anyone is welcome to contribute, fork or view the "
+"Meower source code on our"
 msgstr ""
 "La transparencia es la esencia de Meower. Creemos en el poder de la "
 "colaboración del código abierto. Cualquiera es bienvenido a contribuir, "
 "bifurcar o ver el código fuente de Meower en nuestra página web"
-
-#: index.html:55
-msgid "GitHub"
-msgstr "GitHub"
 
 #: index.html:55
 msgid "repository. Together, we can build a better platform for all."
@@ -145,7 +155,10 @@ msgid "Sign up"
 msgstr "Regístrate"
 
 #: index.html:63
-msgid "for a Meower account today and start sharing your ideas, creations and stories with the world. Let your vice be heard and connect with fellow Meowers!"
+msgid ""
+"for a Meower account today and start sharing your ideas, creations and "
+"stories with the world. Let your vice be heard and connect with fellow "
+"Meowers!"
 msgstr ""
 "y empieza a compartir tus ideas, creaciones e historias con el mundo. ¡Deja "
 "que se oiga tu vicio y conéctate con otros Meowers!"

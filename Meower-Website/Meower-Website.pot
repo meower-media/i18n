@@ -47,6 +47,7 @@ msgid "Wiki"
 msgstr ""
 
 #: index.html:27
+#: index.html:55
 msgid "GitHub"
 msgstr ""
 
@@ -104,10 +105,6 @@ msgstr ""
 
 #: index.html:55
 msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
-msgstr ""
-
-#: index.html:55
-msgid "GitHub"
 msgstr ""
 
 #: index.html:55

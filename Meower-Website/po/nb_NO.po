@@ -46,7 +46,7 @@ msgstr ""
 msgid "Wiki"
 msgstr ""
 
-#: index.html:27
+#: index.html:27 index.html:55
 msgid "GitHub"
 msgstr ""
 
@@ -59,11 +59,14 @@ msgid "Welcome"
 msgstr ""
 
 #: index.html:36
-msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
+msgid ""
+"Meower is a free, open-source, and nonprofit social media platform free of "
+"tracking, ads, and data collection."
 msgstr ""
 
 #: index.html:37
-msgid "Join our community today and start connecting with like-minded individuals."
+msgid ""
+"Join our community today and start connecting with like-minded individuals."
 msgstr ""
 
 #: index.html:41
@@ -71,7 +74,10 @@ msgid "Safe for All"
 msgstr ""
 
 #: index.html:42
-msgid "A friendly place to be. We are committed to keeping Meower safe and welcoming for all. Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
+msgid ""
+"A friendly place to be. We are committed to keeping Meower safe and "
+"welcoming for all. Our dedicated team works tirelessly to enforce community "
+"guidelines and ensure a positive experince for everyone."
 msgstr ""
 
 #: index.html:42
@@ -79,7 +85,9 @@ msgid "all."
 msgstr ""
 
 #: index.html:42
-msgid "Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
+msgid ""
+"Our dedicated team works tirelessly to enforce community guidelines and "
+"ensure a positive experince for everyone."
 msgstr ""
 
 #: index.html:47
@@ -87,7 +95,10 @@ msgid "Original"
 msgstr ""
 
 #: index.html:48
-msgid "Meower started life as a Scratch 3.0-based social media platform. We have a long history, too! WIth the continuous support of our amazing community, we've evolved into a feature-rich platform for all kinds. Explore our"
+msgid ""
+"Meower started life as a Scratch 3.0-based social media platform. We have a "
+"long history, too! WIth the continuous support of our amazing community, "
+"we've evolved into a feature-rich platform for all kinds. Explore our"
 msgstr ""
 
 #: index.html:48
@@ -103,11 +114,10 @@ msgid "Open-Source"
 msgstr ""
 
 #: index.html:55
-msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
-msgstr ""
-
-#: index.html:55
-msgid "GitHub"
+msgid ""
+"Transparency is at the core of Meower. We believe in the power of open-"
+"source collaboration. Anyone is welcome to contribute, fork or view the "
+"Meower source code on our"
 msgstr ""
 
 #: index.html:55
@@ -127,5 +137,8 @@ msgid "Sign up"
 msgstr ""
 
 #: index.html:63
-msgid "for a Meower account today and start sharing your ideas, creations and stories with the world. Let your vice be heard and connect with fellow Meowers!"
+msgid ""
+"for a Meower account today and start sharing your ideas, creations and "
+"stories with the world. Let your vice be heard and connect with fellow "
+"Meowers!"
 msgstr ""

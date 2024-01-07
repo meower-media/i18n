@@ -5,8 +5,8 @@ msgstr ""
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
 "PO-Revision-Date: 2023-12-22 06:13+0000\n"
 "Last-Translator: mybearworld\n"
-"Language-Team: German <https://hosted.weblate.org/projects/meower/website/"
-"de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/meower/website/de/"
+">\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr "Foren"
 msgid "Wiki"
 msgstr "Wiki"
 
-#: index.html:27
+#: index.html:27 index.html:55
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -59,36 +59,61 @@ msgid "Welcome"
 msgstr "Willkommen"
 
 #: index.html:36
-msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
-msgstr "Meower ist eine kostenlose, open-source und gemeinnützige Social-Media-Plattform ohne Tracking, Werbung oder Sammeln von Daten."
+msgid ""
+"Meower is a free, open-source, and nonprofit social media platform free of "
+"tracking, ads, and data collection."
+msgstr ""
+"Meower ist eine kostenlose, open-source und gemeinnützige Social-Media-"
+"Plattform ohne Tracking, Werbung oder Sammeln von Daten."
 
 #: index.html:37
-msgid "Join our community today and start connecting with like-minded individuals."
-msgstr "Trete heute unserer Gemeinschaft bei und vernetze dich mit Menschen mit deinen Interessen."
+msgid ""
+"Join our community today and start connecting with like-minded individuals."
+msgstr ""
+"Trete heute unserer Gemeinschaft bei und vernetze dich mit Menschen mit "
+"deinen Interessen."
 
 #: index.html:41
 msgid "Safe for All"
 msgstr "Sicher für alle"
 
 #: index.html:42
-msgid "A friendly place to be. We are committed to keeping Meower safe and welcoming for all. Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
-msgstr "Ein freundlicher Ort. Es ist uns wichtig, dass Meower sicher und für alle nutzbar ist. Unser engagiertes Team arbeitet immer daran, Gemeinschaftsrichtlinien durchzuführen und eine positive Erfahrung für jeden zu erhalten."
+msgid ""
+"A friendly place to be. We are committed to keeping Meower safe and "
+"welcoming for all. Our dedicated team works tirelessly to enforce community "
+"guidelines and ensure a positive experince for everyone."
+msgstr ""
+"Ein freundlicher Ort. Es ist uns wichtig, dass Meower sicher und für alle "
+"nutzbar ist. Unser engagiertes Team arbeitet immer daran, "
+"Gemeinschaftsrichtlinien durchzuführen und eine positive Erfahrung für jeden "
+"zu erhalten."
 
 #: index.html:42
 msgid "all."
 msgstr "alle."
 
 #: index.html:42
-msgid "Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
-msgstr "Unser engagiertes Team arbeitet immer daran, Gemeinschaftsrichtlinien durchzuführen und eine positive Erfahrung für jeden zu erhalten."
+msgid ""
+"Our dedicated team works tirelessly to enforce community guidelines and "
+"ensure a positive experince for everyone."
+msgstr ""
+"Unser engagiertes Team arbeitet immer daran, Gemeinschaftsrichtlinien "
+"durchzuführen und eine positive Erfahrung für jeden zu erhalten."
 
 #: index.html:47
 msgid "Original"
 msgstr "Originell"
 
 #: index.html:48
-msgid "Meower started life as a Scratch 3.0-based social media platform. We have a long history, too! WIth the continuous support of our amazing community, we've evolved into a feature-rich platform for all kinds. Explore our"
-msgstr "Meower hat als eine auf Scratch 3.0 basierende Social-Media-Plattform angefangen. Wir haben auch eine lange Geschichte. Mit stetiger Unterstützung unserer fantastischen Gemeinschaft sind wir zu einer Plattform voll mit Funktionen geworden. Besucher unser"
+msgid ""
+"Meower started life as a Scratch 3.0-based social media platform. We have a "
+"long history, too! WIth the continuous support of our amazing community, "
+"we've evolved into a feature-rich platform for all kinds. Explore our"
+msgstr ""
+"Meower hat als eine auf Scratch 3.0 basierende Social-Media-Plattform "
+"angefangen. Wir haben auch eine lange Geschichte. Mit stetiger Unterstützung "
+"unserer fantastischen Gemeinschaft sind wir zu einer Plattform voll mit "
+"Funktionen geworden. Besucher unser"
 
 #: index.html:48
 msgid "wiki"
@@ -103,12 +128,14 @@ msgid "Open-Source"
 msgstr "Open-Source"
 
 #: index.html:55
-msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
-msgstr "Transparenz ist der Kern Meowers. Wir glauben an die Macht von Open-Source-Kollaborationen. Jeder ist willkommen zum Meower-Source-Code beizutragen oder ihn einzusehen - er ist auf unserem"
-
-#: index.html:55
-msgid "GitHub"
-msgstr "GitHub"
+msgid ""
+"Transparency is at the core of Meower. We believe in the power of open-"
+"source collaboration. Anyone is welcome to contribute, fork or view the "
+"Meower source code on our"
+msgstr ""
+"Transparenz ist der Kern Meowers. Wir glauben an die Macht von Open-Source-"
+"Kollaborationen. Jeder ist willkommen zum Meower-Source-Code beizutragen "
+"oder ihn einzusehen - er ist auf unserem"
 
 #: index.html:55
 msgid "repository. Together, we can build a better platform for all."
@@ -120,12 +147,19 @@ msgstr "Tritt der Gemeinschaft bei"
 
 #: index.html:63
 msgid "Are you ready to join a vibrant community of creators and enthusiasts?"
-msgstr "Bist du bereit, einer dynamischen Gemeinschaft voller Erstellern und Enthusiasten beizutreten?"
+msgstr ""
+"Bist du bereit, einer dynamischen Gemeinschaft voller Erstellern und "
+"Enthusiasten beizutreten?"
 
 #: index.html:63
 msgid "Sign up"
 msgstr "Erstelle heute ein Meower-Konto"
 
 #: index.html:63
-msgid "for a Meower account today and start sharing your ideas, creations and stories with the world. Let your vice be heard and connect with fellow Meowers!"
-msgstr "und beginne, deine Ideen, Kreationen und Geschichten mit der Welt zu teilen. Lass deine Stimme gehört werden und vernetze dich mit anderen Meowern!"
+msgid ""
+"for a Meower account today and start sharing your ideas, creations and "
+"stories with the world. Let your vice be heard and connect with fellow "
+"Meowers!"
+msgstr ""
+"und beginne, deine Ideen, Kreationen und Geschichten mit der Welt zu teilen. "
+"Lass deine Stimme gehört werden und vernetze dich mit anderen Meowern!"
