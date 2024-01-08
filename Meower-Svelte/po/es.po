@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-05 13:13+0000\n"
+"PO-Revision-Date: 2024-01-08 21:06+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
@@ -863,7 +863,7 @@ msgstr "Usuario moderado"
 #: src/lib/modals/moderation/ModPanel.svelte:197
 #: src/lib/modals/moderation/ModPanel.svelte:218
 msgid "Submit"
-msgstr "Enviar"
+msgstr "Entregar"
 
 #: src/lib/modals/moderation/ModPanel.svelte:147
 msgid "View Recent Users"
@@ -1395,37 +1395,29 @@ msgid "No users found."
 msgstr "No se encontraron usuarios."
 
 #: src/lib/modals/moderation/ReportNotes.svelte:13
-#, fuzzy
-#| msgid "Notes for {cidr}"
 msgid "Notes for {id}"
-msgstr "Notas para {cidr}"
+msgstr "Notas para {id}"
 
 #: src/lib/modals/moderation/RestartServer.svelte:27
 msgid "Server doesn't have a restart command set!"
-msgstr ""
+msgstr "¡El servidor no tiene un conjunto de comandos de reinicio!"
 
 #: src/lib/modals/moderation/RestartServer.svelte:41
-#, fuzzy
-#| msgid "Are you sure you would like to delete this post?"
 msgid "Are you sure you would like to restart the server?"
-msgstr "¿Estás seguro de que quieres eliminar este post?"
+msgstr "¿Está seguro de que desea reiniciar el servidor?"
 
 #: src/lib/modals/moderation/SendAnnouncement.svelte:17
 msgid "Send Announcement"
-msgstr ""
+msgstr "Enviar un anuncio"
 
 #: src/lib/modals/moderation/SendAnnouncement.svelte:19
-#, fuzzy
-#| msgid "Are you sure? This will disconnect everyone!"
 msgid "Are you sure? This will send a message to EVERYONE's inbox!"
-msgstr "¿Estás seguro? ¡Esto echará a todos!"
+msgstr "¿Seguro? ¡Esto enviará un mensaje a la bandeja de entrada de TODOS!"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:14
-#, fuzzy
-#| msgid "View posts"
 msgid "View reports"
-msgstr "Ver posts"
+msgstr "Ver los informes"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:15
 msgid "Allows viewing all pending and completed reports."
-msgstr ""
+msgstr "Permite ver todos los informes pendientes y completados."
