@@ -1,9 +1,10 @@
+# gallegonovato <fran-carro@hotmail.es>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2023-12-06 12:02+0000\n"
+"PO-Revision-Date: 2024-01-08 21:06+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/website/"
 "es/>\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. TRANSLATORS: Do not translate the "|" part of this string. This is used as a divider.
 #: index.html:9
@@ -49,7 +50,7 @@ msgstr "Wiki"
 
 #: index.html:27 index.html:55
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: index.html:28
 msgid "Legal"
