@@ -256,6 +256,8 @@ msgstr ""
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#: src/lib/modals/moderation/SendAnnouncement.svelte:27
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -336,6 +338,8 @@ msgstr "Stores"
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#: src/lib/modals/moderation/RestartServer.svelte:31
+#: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
 msgstr "Antwortcode ist nicht OK; Code ist {code}"
 
@@ -608,6 +612,10 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:57
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
+#: src/lib/modals/moderation/RestartServer.svelte:52
+#: src/lib/modals/moderation/RestartServer.svelte:54
+#: src/lib/modals/moderation/SendAnnouncement.svelte:30
+#: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
 msgstr "Bestätigen"
 
@@ -896,6 +904,7 @@ msgstr ""
 "abgehalten, Meower beizutreten, bis Registration wieder aktiviert ist."
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
+#: src/lib/modals/moderation/RestartServer.svelte:262
 msgid "Restart server"
 msgstr "Server neustarten"
 
@@ -1386,3 +1395,39 @@ msgstr "Laden von Meldungen fehlgeschlagen. Versuche es bitte erneut."
 #| msgid "No results found."
 msgid "No users found."
 msgstr "Keine Ergebnisse gefunden."
+
+#: src/lib/modals/moderation/ReportNotes.svelte:13
+#, fuzzy
+#| msgid "Notes for {cidr}"
+msgid "Notes for {id}"
+msgstr "Notizen für {cidr}"
+
+#: src/lib/modals/moderation/RestartServer.svelte:27
+msgid "Server doesn't have a restart command set!"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#, fuzzy
+#| msgid "Are you sure you would like to delete this post?"
+msgid "Are you sure you would like to restart the server?"
+msgstr "Bist du dir sicher, dass du diesen Post löschen willst?"
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:17
+msgid "Send Announcement"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:19
+#, fuzzy
+#| msgid "Are you sure? This will disconnect everyone!"
+msgid "Are you sure? This will send a message to EVERYONE's inbox!"
+msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden!"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:14
+#, fuzzy
+#| msgid "View posts"
+msgid "View reports"
+msgstr "Posts einsehen"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:15
+msgid "Allows viewing all pending and completed reports."
+msgstr ""

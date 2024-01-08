@@ -262,6 +262,8 @@ msgstr ""
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#: src/lib/modals/moderation/SendAnnouncement.svelte:27
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -343,6 +345,8 @@ msgstr ""
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#: src/lib/modals/moderation/RestartServer.svelte:31
+#: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
 msgstr ""
 
@@ -600,6 +604,10 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:57
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
+#: src/lib/modals/moderation/RestartServer.svelte:52
+#: src/lib/modals/moderation/RestartServer.svelte:54
+#: src/lib/modals/moderation/SendAnnouncement.svelte:30
+#: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
 msgstr ""
 
@@ -877,6 +885,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
+#: src/lib/modals/moderation/RestartServer.svelte:262
 msgid "Restart server"
 msgstr ""
 
@@ -1364,4 +1373,32 @@ msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
 
 #: src/lib/modals/moderation/RecentUsers.svelte:17
 msgid "No users found."
+msgstr ""
+
+#: src/lib/modals/moderation/ReportNotes.svelte:13
+msgid "Notes for {id}"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:27
+msgid "Server doesn't have a restart command set!"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:41
+msgid "Are you sure you would like to restart the server?"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:17
+msgid "Send Announcement"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:19
+msgid "Are you sure? This will send a message to EVERYONE's inbox!"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:14
+msgid "View reports"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:15
+msgid "Allows viewing all pending and completed reports."
 msgstr ""
