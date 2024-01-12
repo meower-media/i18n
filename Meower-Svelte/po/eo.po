@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-12 17:06+0000\n"
+"PO-Revision-Date: 2024-01-12 17:33+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -214,7 +214,7 @@ msgstr "Antaŭrigardo"
 #: src/lib/modals/AddImage.svelte:161 src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
 msgid "{username}'s profile picture"
-msgstr "la profilbildo de {username}"
+msgstr "La profilbildo de {username}"
 
 #: src/lib/modals/AddImage.svelte:210 src/lib/modals/Basic.svelte:16
 #: src/lib/modals/moderation/EditRestrictions.svelte:88
@@ -675,12 +675,12 @@ msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
 msgid "This blocks new account from being created."
-msgstr ""
+msgstr "Ĉi tio blokoj nova kontoj el estulo kreiĝi."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
-msgstr ""
+msgstr "Bonvolu konfirmi la uzantnomo de uzanto ({username}):"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
 msgid ""
@@ -1360,16 +1360,12 @@ msgid "Recent Users"
 msgstr ""
 
 #: src/lib/modals/moderation/RecentUsers.svelte:14
-#, fuzzy
-#| msgid "Error loading results. Please try again."
 msgid "Error loading users. Please try again."
-msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
+msgstr "Eraro ŝarĝante uzantoj. Bonvolu provu denove."
 
 #: src/lib/modals/moderation/RecentUsers.svelte:17
-#, fuzzy
-#| msgid "No results found."
 msgid "No users found."
-msgstr "Ne rezultoj trovita."
+msgstr "Ne uzantoj trovita."
 
 #: src/lib/modals/moderation/ReportNotes.svelte:13
 msgid "Notes for {id}"
