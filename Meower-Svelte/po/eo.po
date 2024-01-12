@@ -1307,10 +1307,8 @@ msgid "Save ban state"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:497
-#, fuzzy
-#| msgid "Restrictions"
 msgid "Other Actions"
-msgstr "Limigoj"
+msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
 msgid "View posts"
@@ -1346,10 +1344,8 @@ msgid "Recent Netblocks"
 msgstr ""
 
 #: src/lib/modals/moderation/RecentNetblocks.svelte:101
-#, fuzzy
-#| msgid "Error loading results. Please try again."
 msgid "Error loading netblocks. Please try again."
-msgstr "Eraro ŝarĝante rezultoj. Bonvolu provu denove."
+msgstr "Eraro ŝarĝante netblocks. Bonvolu provu denove."
 
 #: src/lib/modals/moderation/RecentNetblocks.svelte:112
 msgid "No netblocks found. Check back later!"
