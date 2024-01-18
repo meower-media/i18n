@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-12 17:33+0000\n"
+"PO-Revision-Date: 2024-01-18 15:00+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -615,7 +615,7 @@ msgstr "Konfirmi"
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearQuote.svelte:19
 msgid "Clear {username}'s Quote"
-msgstr "Viŝi La Citaĵo de {username}"
+msgstr "Viŝi la Citaĵo de {username}"
 
 #: src/lib/modals/moderation/ClearQuote.svelte:45
 msgid "Are you sure? This action is irreversible!"
