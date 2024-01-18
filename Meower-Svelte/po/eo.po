@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-18 15:00+0000\n"
+"PO-Revision-Date: 2024-01-18 15:24+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -674,8 +674,6 @@ msgstr ""
 "blokoj ajna REST API peti."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-#, fuzzy
-#| msgid "This blocks new account from being created."
 msgid "This blocks new accounts from being created."
 msgstr "Ĉi tio blokoj nova kontoj el estulo kreiĝi."
 
@@ -690,6 +688,9 @@ msgid ""
 "take responsibility for the consequences of this action. Are you absolutely "
 "sure you wish to continue?"
 msgstr ""
+"Ĉi tio ago povas esti tre detrua! Per konfirmante ĉi tio, vi agnoski kaj "
+"preni respondeco por la sekvoj de ĉi tio ago. Ĉu vi absolute certa vi "
+"deziras al daŭri?"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:29
 msgid "Cancelled!"
