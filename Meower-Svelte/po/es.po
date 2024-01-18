@@ -689,7 +689,9 @@ msgstr ""
 "Meower y bloquea cualquier solicitud de REST API."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-msgid "This blocks new account from being created."
+#, fuzzy
+#| msgid "This blocks new account from being created."
+msgid "This blocks new accounts from being created."
 msgstr "Esto bloquea nuevas cuentas de ser creadas."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.

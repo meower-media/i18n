@@ -649,7 +649,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-msgid "This blocks new account from being created."
+msgid "This blocks new accounts from being created."
 msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
