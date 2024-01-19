@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-18 17:00+0000\n"
+"PO-Revision-Date: 2024-01-19 21:00+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/meower/svelte/es/"
 ">\n"
@@ -1424,69 +1424,53 @@ msgid "Allows viewing all pending and completed reports."
 msgstr "Permite ver todos los informes pendientes y completados."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:20
-#, fuzzy
-#| msgid "View reports"
 msgid "Edit reports"
-msgstr "Ver los informes"
+msgstr "Editar los informes"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:22
 msgid "Allows changing the status of reports."
-msgstr ""
+msgstr "Permite cambiar el estado de los informes."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:22
 msgid "(requires 'View reports' permission)"
-msgstr ""
+msgstr "(requiere el permiso \"Ver informes\")"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:27
-#, fuzzy
-#| msgid "View/edit notes"
 msgid "View notes"
-msgstr "Ver/editar notas"
+msgstr "Ver notas"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:28
-#, fuzzy
-#| msgid "Allows viewing all pending and completed reports."
 msgid "Allows viewing admin notes."
-msgstr "Permite ver todos los informes pendientes y completados."
+msgstr "Permite ver las notas del administrador."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:33
-#, fuzzy
-#| msgid "View/edit notes"
 msgid "Edit notes"
-msgstr "Ver/editar notas"
+msgstr "Editar notas"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:35
-#, fuzzy
-#| msgid "Blocks editing their quote."
 msgid "Allows editing of admin notes."
-msgstr "Bloquea la edición de sus citas."
+msgstr "Permite editar las notas del administrador."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:35
-#, fuzzy
-#| msgid "View permissions"
 msgid "(requires 'View notes' permission)"
-msgstr "Ver permisos"
+msgstr "(requiere el permiso \"Ver notas\")"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:42
 msgid ""
 "Allows viewing all posts, even if they wouldn't usually have access to it or "
 "the post is soft-deleted."
 msgstr ""
+"Permite ver todos los mensajes, aunque normalmente no se tenga acceso a "
+"ellos o se hayan borrado."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:47
-#, fuzzy
-#| msgid "Delete chat"
 msgid "Delete posts"
-msgstr "Eliminar chat"
+msgstr "Borrar mensajes"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:49
-#, fuzzy
-#| msgid "Blocks creating new chat posts."
 msgid "Allows deleting and reinstating posts."
-msgstr "Bloquea la creación de nuevos posts en chats."
+msgstr "Permite borrar y restablecer mensajes."
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:49
-#, fuzzy
-#| msgid "View permissions"
 msgid "(requires 'View posts' permission)"
-msgstr "Ver permisos"
+msgstr "(requiere el permiso \"Ver entradas\")"
