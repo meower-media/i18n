@@ -1342,6 +1342,7 @@ msgid "Other Actions"
 msgstr "Otras acciones"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:40
 msgid "View posts"
 msgstr "Ver posts"
 
@@ -1421,3 +1422,71 @@ msgstr "Ver los informes"
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:15
 msgid "Allows viewing all pending and completed reports."
 msgstr "Permite ver todos los informes pendientes y completados."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:20
+#, fuzzy
+#| msgid "View reports"
+msgid "Edit reports"
+msgstr "Ver los informes"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "Allows changing the status of reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "(requires 'View reports' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:27
+#, fuzzy
+#| msgid "View/edit notes"
+msgid "View notes"
+msgstr "Ver/editar notas"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:28
+#, fuzzy
+#| msgid "Allows viewing all pending and completed reports."
+msgid "Allows viewing admin notes."
+msgstr "Permite ver todos los informes pendientes y completados."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:33
+#, fuzzy
+#| msgid "View/edit notes"
+msgid "Edit notes"
+msgstr "Ver/editar notas"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+#, fuzzy
+#| msgid "Blocks editing their quote."
+msgid "Allows editing of admin notes."
+msgstr "Bloquea la edición de sus citas."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+#, fuzzy
+#| msgid "View permissions"
+msgid "(requires 'View notes' permission)"
+msgstr "Ver permisos"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:42
+msgid ""
+"Allows viewing all posts, even if they wouldn't usually have access to it or "
+"the post is soft-deleted."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:47
+#, fuzzy
+#| msgid "Delete chat"
+msgid "Delete posts"
+msgstr "Eliminar chat"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+#, fuzzy
+#| msgid "Blocks creating new chat posts."
+msgid "Allows deleting and reinstating posts."
+msgstr "Bloquea la creación de nuevos posts en chats."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+#, fuzzy
+#| msgid "View permissions"
+msgid "(requires 'View posts' permission)"
+msgstr "Ver permisos"

@@ -1317,6 +1317,7 @@ msgid "Other Actions"
 msgstr "Inscription désactivée"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:40
 msgid "View posts"
 msgstr ""
 
@@ -1401,4 +1402,56 @@ msgstr ""
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:15
 msgid "Allows viewing all pending and completed reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:20
+msgid "Edit reports"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "Allows changing the status of reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "(requires 'View reports' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:27
+msgid "View notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:28
+msgid "Allows viewing admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:33
+msgid "Edit notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "Allows editing of admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "(requires 'View notes' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:42
+msgid ""
+"Allows viewing all posts, even if they wouldn't usually have access to it or "
+"the post is soft-deleted."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:47
+#, fuzzy
+#| msgid "Create an account"
+msgid "Delete posts"
+msgstr "Créer un compte"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "Allows deleting and reinstating posts."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "(requires 'View posts' permission)"
 msgstr ""
