@@ -1,13 +1,13 @@
-# Max Walters <mdwalters.pm@proton.me>, 2023.
+# Max Walters <mdwalters.pm@proton.me>, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-26 05:08+0000\n"
+"PO-Revision-Date: 2024-01-20 01:00+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/"
-">\n"
+"Language-Team: French <https://hosted.weblate.org/projects/meower/svelte/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -262,6 +262,8 @@ msgstr ""
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#: src/lib/modals/moderation/SendAnnouncement.svelte:27
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -343,6 +345,8 @@ msgstr ""
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#: src/lib/modals/moderation/RestartServer.svelte:31
+#: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
 msgstr ""
 
@@ -600,6 +604,10 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:57
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
+#: src/lib/modals/moderation/RestartServer.svelte:52
+#: src/lib/modals/moderation/RestartServer.svelte:54
+#: src/lib/modals/moderation/SendAnnouncement.svelte:30
+#: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
 msgstr ""
 
@@ -663,7 +671,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-msgid "This blocks new account from being created."
+msgid "This blocks new accounts from being created."
 msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
@@ -877,6 +885,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
+#: src/lib/modals/moderation/RestartServer.svelte:262
 msgid "Restart server"
 msgstr ""
 
@@ -1132,9 +1141,8 @@ msgid "User Info"
 msgstr ""
 
 #: src/lib/modals/moderation/ModerateUser.svelte:185
-#, fuzzy
 msgid "Username:"
-msgstr "Nom d'utilisateur"
+msgstr "Nom d'utilisateur :"
 
 #. TRANSLATORS: The string "PFP" stands for "Profile Picture." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/ModerateUser.svelte:190
@@ -1222,9 +1230,8 @@ msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModerateUser.svelte:320
-#, fuzzy
 msgid "{username} is"
-msgstr "{username} est pris !"
+msgstr "{username} est"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:322
 msgid "permanently"
@@ -1308,6 +1315,7 @@ msgid "Other Actions"
 msgstr "Inscription désactivée"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:40
 msgid "View posts"
 msgstr ""
 
@@ -1364,4 +1372,84 @@ msgstr "Trop beaucoup demandes ! S'il te plaît essayer encore plus tard."
 
 #: src/lib/modals/moderation/RecentUsers.svelte:17
 msgid "No users found."
+msgstr ""
+
+#: src/lib/modals/moderation/ReportNotes.svelte:13
+msgid "Notes for {id}"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:27
+msgid "Server doesn't have a restart command set!"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:41
+msgid "Are you sure you would like to restart the server?"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:17
+msgid "Send Announcement"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:19
+msgid "Are you sure? This will send a message to EVERYONE's inbox!"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:14
+msgid "View reports"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:15
+msgid "Allows viewing all pending and completed reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:20
+msgid "Edit reports"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "Allows changing the status of reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "(requires 'View reports' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:27
+msgid "View notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:28
+msgid "Allows viewing admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:33
+msgid "Edit notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "Allows editing of admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "(requires 'View notes' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:42
+msgid ""
+"Allows viewing all posts, even if they wouldn't usually have access to it or "
+"the post is soft-deleted."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:47
+#, fuzzy
+#| msgid "Create an account"
+msgid "Delete posts"
+msgstr "Créer un compte"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "Allows deleting and reinstating posts."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "(requires 'View posts' permission)"
 msgstr ""

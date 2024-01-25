@@ -256,6 +256,8 @@ msgstr ""
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#: src/lib/modals/moderation/SendAnnouncement.svelte:27
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -336,6 +338,8 @@ msgstr "Stores"
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#: src/lib/modals/moderation/RestartServer.svelte:31
+#: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
 msgstr "Antwortcode ist nicht OK; Code ist {code}"
 
@@ -608,6 +612,10 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:57
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
+#: src/lib/modals/moderation/RestartServer.svelte:52
+#: src/lib/modals/moderation/RestartServer.svelte:54
+#: src/lib/modals/moderation/SendAnnouncement.svelte:30
+#: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
 msgstr "Bestätigen"
 
@@ -673,7 +681,9 @@ msgstr ""
 "jede REST-API-Anfrage."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-msgid "This blocks new account from being created."
+#, fuzzy
+#| msgid "This blocks new account from being created."
+msgid "This blocks new accounts from being created."
 msgstr "Dies blockiert neue Konten davon, erstellt zu werden."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
@@ -896,6 +906,7 @@ msgstr ""
 "abgehalten, Meower beizutreten, bis Registration wieder aktiviert ist."
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
+#: src/lib/modals/moderation/RestartServer.svelte:262
 msgid "Restart server"
 msgstr "Server neustarten"
 
@@ -1329,6 +1340,7 @@ msgid "Other Actions"
 msgstr "Andere Aktionen"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:40
 msgid "View posts"
 msgstr "Posts einsehen"
 
@@ -1386,3 +1398,105 @@ msgstr "Laden von Meldungen fehlgeschlagen. Versuche es bitte erneut."
 #| msgid "No results found."
 msgid "No users found."
 msgstr "Keine Ergebnisse gefunden."
+
+#: src/lib/modals/moderation/ReportNotes.svelte:13
+#, fuzzy
+#| msgid "Notes for {cidr}"
+msgid "Notes for {id}"
+msgstr "Notizen für {cidr}"
+
+#: src/lib/modals/moderation/RestartServer.svelte:27
+msgid "Server doesn't have a restart command set!"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#, fuzzy
+#| msgid "Are you sure you would like to delete this post?"
+msgid "Are you sure you would like to restart the server?"
+msgstr "Bist du dir sicher, dass du diesen Post löschen willst?"
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:17
+msgid "Send Announcement"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:19
+#, fuzzy
+#| msgid "Are you sure? This will disconnect everyone!"
+msgid "Are you sure? This will send a message to EVERYONE's inbox!"
+msgstr "Bist du dir sicher? Dies wird die Verbindung von allen beenden!"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:14
+#, fuzzy
+#| msgid "View posts"
+msgid "View reports"
+msgstr "Posts einsehen"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:15
+msgid "Allows viewing all pending and completed reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:20
+#, fuzzy
+#| msgid "View posts"
+msgid "Edit reports"
+msgstr "Posts einsehen"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "Allows changing the status of reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "(requires 'View reports' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:27
+#, fuzzy
+#| msgid "View/edit notes"
+msgid "View notes"
+msgstr "Notizen einsehen/bearbeiten"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:28
+msgid "Allows viewing admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:33
+#, fuzzy
+#| msgid "View/edit notes"
+msgid "Edit notes"
+msgstr "Notizen einsehen/bearbeiten"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+#, fuzzy
+#| msgid "Blocks editing their quote."
+msgid "Allows editing of admin notes."
+msgstr "Blockiert das Bearbeiten von Zitaten."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+#, fuzzy
+#| msgid "View permissions"
+msgid "(requires 'View notes' permission)"
+msgstr "Berechtigungen einsehen"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:42
+msgid ""
+"Allows viewing all posts, even if they wouldn't usually have access to it or "
+"the post is soft-deleted."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:47
+#, fuzzy
+#| msgid "Delete chat"
+msgid "Delete posts"
+msgstr "Chat löschen"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+#, fuzzy
+#| msgid "Blocks creating new chat posts."
+msgid "Allows deleting and reinstating posts."
+msgstr "Blockiert das erstellen neuer Chatposts."
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+#, fuzzy
+#| msgid "View permissions"
+msgid "(requires 'View posts' permission)"
+msgstr "Berechtigungen einsehen"

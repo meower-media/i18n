@@ -247,6 +247,8 @@ msgstr ""
 #: src/lib/modals/moderation/DeleteNetblock.svelte:53
 #: src/lib/modals/moderation/EnableRepairMode.svelte:52
 #: src/lib/modals/moderation/KickAllUsers.svelte:44
+#: src/lib/modals/moderation/RestartServer.svelte:41
+#: src/lib/modals/moderation/SendAnnouncement.svelte:27
 msgid "Cancel"
 msgstr ""
 
@@ -321,6 +323,8 @@ msgstr ""
 #: src/lib/modals/moderation/ModerateUser.svelte:118
 #: src/lib/modals/moderation/ModerateUser.svelte:143
 #: src/lib/modals/moderation/RecentNetblocks.svelte:30
+#: src/lib/modals/moderation/RestartServer.svelte:31
+#: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
 msgstr ""
 
@@ -578,6 +582,10 @@ msgstr ""
 #: src/lib/modals/moderation/EnableRepairMode.svelte:57
 #: src/lib/modals/moderation/KickAllUsers.svelte:47
 #: src/lib/modals/moderation/KickAllUsers.svelte:49
+#: src/lib/modals/moderation/RestartServer.svelte:52
+#: src/lib/modals/moderation/RestartServer.svelte:54
+#: src/lib/modals/moderation/SendAnnouncement.svelte:30
+#: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
 msgstr ""
 
@@ -641,7 +649,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
-msgid "This blocks new account from being created."
+msgid "This blocks new accounts from being created."
 msgstr ""
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
@@ -857,6 +865,7 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/ModPanel.svelte:262
+#: src/lib/modals/moderation/RestartServer.svelte:262
 msgid "Restart server"
 msgstr ""
 
@@ -1288,6 +1297,7 @@ msgid "Other Actions"
 msgstr "Registrering"
 
 #: src/lib/modals/moderation/ModerateUser.svelte:507
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:40
 msgid "View posts"
 msgstr ""
 
@@ -1338,4 +1348,83 @@ msgstr ""
 
 #: src/lib/modals/moderation/RecentUsers.svelte:17
 msgid "No users found."
+msgstr ""
+
+#: src/lib/modals/moderation/ReportNotes.svelte:13
+msgid "Notes for {id}"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:27
+msgid "Server doesn't have a restart command set!"
+msgstr ""
+
+#: src/lib/modals/moderation/RestartServer.svelte:41
+msgid "Are you sure you would like to restart the server?"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:17
+msgid "Send Announcement"
+msgstr ""
+
+#: src/lib/modals/moderation/SendAnnouncement.svelte:19
+msgid "Are you sure? This will send a message to EVERYONE's inbox!"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:14
+msgid "View reports"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:15
+msgid "Allows viewing all pending and completed reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:20
+#, fuzzy
+msgid "Edit reports"
+msgstr "Registrering"
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "Allows changing the status of reports."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:22
+msgid "(requires 'View reports' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:27
+msgid "View notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:28
+msgid "Allows viewing admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:33
+msgid "Edit notes"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "Allows editing of admin notes."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:35
+msgid "(requires 'View notes' permission)"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:42
+msgid ""
+"Allows viewing all posts, even if they wouldn't usually have access to it or "
+"the post is soft-deleted."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:47
+msgid "Delete posts"
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "Allows deleting and reinstating posts."
+msgstr ""
+
+#: src/lib/modals/moderation/SetAdminPermissions.svelte:49
+msgid "(requires 'View posts' permission)"
 msgstr ""
