@@ -71,6 +71,14 @@ Translation files for Meower
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/nb_NO/svg-badge.svg" alt="Translation status"></td>
         </tr>
         <tr>
+            <td>Polish</td>
+            <td>
+                <b>delusionalzz</b>   
+            </td>
+            <td>No</td>
+            <td><img src="https://hosted.weblate.org/widget/meower/svelte/pl/svg-badge.svg" alt="Translation status"></td>
+        </tr>
+        <tr>
             <td>Spanish</td>
             <td>
                 <b><a href="https://github.com/NotFenixio">@NotFenixio</a></b>
