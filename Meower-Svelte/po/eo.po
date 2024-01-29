@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-25 04:01+0000\n"
+"PO-Revision-Date: 2024-01-29 17:00+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/svelte/"
 "eo/>\n"
@@ -694,7 +694,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:29
 msgid "Cancelled!"
-msgstr ""
+msgstr "Nuligita!"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteAccount.svelte:53
@@ -703,7 +703,7 @@ msgstr "Forigi {username}"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:56
 msgid "Mode"
-msgstr ""
+msgstr "Reĝimo"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:68
 msgid "Cancel scheduled deletion"
@@ -715,7 +715,7 @@ msgstr ""
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:79
 msgid "Purge"
-msgstr ""
+msgstr "Purigi"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:82
 msgid "Cancel scheduled account deletion."
@@ -736,7 +736,7 @@ msgstr ""
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteNetblock.svelte:18
 msgid "Delete {cidr} Netblock"
-msgstr ""
+msgstr "Forigi {cidr} Netblock"
 
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteNetblock.svelte:43
@@ -746,24 +746,24 @@ msgstr ""
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
 #: src/lib/modals/moderation/ModerateUser.svelte:410
 msgid "Block home posts"
-msgstr ""
+msgstr "Bloki domo afiŝij"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:18
 msgid "Blocks creating new home posts."
-msgstr ""
+msgstr "Blokoj kreante novo hejmo afiŝojn."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:22
 #: src/lib/modals/moderation/ModerateUser.svelte:413
 msgid "Block chat posts"
-msgstr ""
+msgstr "Bloki babili afiŝojn"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:23
 msgid "Blocks creating new chat posts."
-msgstr ""
+msgstr "Blokoj kreante novo babili afiŝojn."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:27
 msgid "Block new chats"
-msgstr ""
+msgstr "Bloki novo babilij"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:28
 msgid "Blocks creating new group chats and starting DMs."
@@ -1436,10 +1436,8 @@ msgid ""
 msgstr ""
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:47
-#, fuzzy
-#| msgid "Delete chat"
 msgid "Delete posts"
-msgstr "Forigi babili"
+msgstr "Forigi afiŝi"
 
 #: src/lib/modals/moderation/SetAdminPermissions.svelte:49
 msgid "Allows deleting and reinstating posts."
