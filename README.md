@@ -73,7 +73,7 @@ Translation files for Meower
         <tr>
             <td>Polish</td>
             <td>
-                <b>delusionalzz</b>   
+                <b><a href="https://github.com/zzthebooplister>@zzthebooplister</a></b>   
             </td>
             <td>No</td>
             <td><img src="https://hosted.weblate.org/widget/meower/svelte/pl/svg-badge.svg" alt="Translation status"></td>
