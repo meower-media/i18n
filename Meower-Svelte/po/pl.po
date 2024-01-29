@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-29 17:00+0000\n"
+"PO-Revision-Date: 2024-01-29 17:01+0000\n"
 "Last-Translator: zz abunger <witkowskiadam0@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/meower/svelte/pl/>"
 "\n"
@@ -107,7 +107,7 @@ msgstr "Zaloguj śie do Meower"
 
 #: src/lib/Setup.svelte:274
 msgid "You must specify a username and a password to login!"
-msgstr ""
+msgstr "Musisz podać nazwę użytkownika i hasło żeby się zalogować!"
 
 #: src/lib/Setup.svelte:281
 #: src/lib/Setup.svelte:375
