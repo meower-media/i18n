@@ -1,9 +1,10 @@
+# Max Walters <mdwalters.pm@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2023-12-04 17:02+0000\n"
+"PO-Revision-Date: 2024-01-29 18:01+0000\n"
 "Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/meower/website/"
 "eo/>\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #. TRANSLATORS: Do not translate the "|" part of this string. This is used as a divider.
 #: index.html:9
@@ -45,11 +46,11 @@ msgstr ""
 
 #: index.html:26
 msgid "Wiki"
-msgstr ""
+msgstr "Viki"
 
 #: index.html:27 index.html:55
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: index.html:28
 msgid "Legal"
@@ -57,7 +58,7 @@ msgstr ""
 
 #: index.html:35
 msgid "Welcome"
-msgstr ""
+msgstr "Bonvenon"
 
 #: index.html:36
 msgid ""
@@ -104,7 +105,7 @@ msgstr ""
 
 #: index.html:48
 msgid "wiki"
-msgstr ""
+msgstr "viki"
 
 #: index.html:48
 msgid "to learn about our journey."
@@ -135,7 +136,7 @@ msgstr ""
 
 #: index.html:63
 msgid "Sign up"
-msgstr ""
+msgstr "Signo supren"
 
 #: index.html:63
 msgid ""
