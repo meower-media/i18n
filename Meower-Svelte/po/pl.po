@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-30 18:01+0000\n"
+"PO-Revision-Date: 2024-01-31 18:01+0000\n"
 "Last-Translator: zz abunger <witkowskiadam0@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/meower/svelte/pl/>"
 "\n"
@@ -143,26 +143,29 @@ msgstr "Muśisz dać nazwe użytownika i hasło aby zrobić konto!"
 #: src/lib/modals/Signup.svelte:29
 msgid "Passwords do not match! Make sure you have entered your password correctly."
 msgstr ""
+"Hasła się nie zgadzają! Upewnij się, że hasło zostało wpisane poprawnie."
 
 #: src/lib/Setup.svelte:318
 msgid "Creating account..."
-msgstr ""
+msgstr "Robienie konto..."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:346
 #: src/lib/modals/Signup.svelte:59
 msgid "{username} is taken!"
-msgstr ""
+msgstr "{username} było wzięte!"
 
 #: src/lib/Setup.svelte:364
 #: src/lib/modals/Signup.svelte:74
 msgid "Registration Disabled"
-msgstr ""
+msgstr "Rejestracja Wyłączona"
 
 #: src/lib/Setup.svelte:365
 #: src/lib/modals/Signup.svelte:75
 msgid "Unfortunately, you may not create a new account at this time. An administrator has disabled registration. Please try again later."
 msgstr ""
+"Przepraszamy, ale w tym czaśie nie możesz zrobić nowego konta. Administrator "
+"wyłączył rejestracje. Prosze spróbuj ponownie pózniej."
 
 #: src/lib/Setup.svelte:384
 #: src/lib/modals/Signup.svelte:118
