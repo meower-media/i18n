@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-07-19 18:09+0000\n"
+"PO-Revision-Date: 2024-07-19 19:10+0000\n"
 "Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/svelte/"
 "uk/>\n"
@@ -242,8 +242,8 @@ msgid ""
 "Are you sure you wish to go to {url}? If you confirm this action, it will be "
 "opened in a new tab."
 msgstr ""
-"Ви впевнені, що бажаєте перейти на {url}? Якщо ви підтвердите цю дію, воно "
-"відкриється в новій вкладці."
+"Ви впевнені, що хочете перейти за {url}? Якщо ви підтвердите цю дію, "
+"посилання буде відкрито у новій вкладці."
 
 #: src/lib/modals/ConfirmHyperlink.svelte:19
 #: src/lib/modals/DeletePost.svelte:67 src/lib/modals/Logout.svelte:15
@@ -274,15 +274,15 @@ msgstr "Так"
 
 #: src/lib/modals/ConnectionFailed.svelte:22
 msgid "Connection Failed"
-msgstr "Підключення не вдалося"
+msgstr "Не вділося підключитися"
 
 #: src/lib/modals/ConnectionFailed.svelte:26
 msgid ""
 "Meower is currently down for repairs. You can stay up-to-date with the "
 "current status of this outage by checking"
 msgstr ""
-"Meower зараз виключений на ремонт. Ви можете бути в курсі поточного стану "
-"цього збою, перевіривши"
+"Meower зараз вимкнений для ремонту. Ви можете слідкувати за поточним станом "
+"цього вимкнення, перевіривши"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ConnectionFailed.svelte:35
@@ -290,8 +290,8 @@ msgid ""
 "Your IP address has been blocked because it was used to violate Meower's "
 "Terms of Service or is likely to cause spam."
 msgstr ""
-"Вашу IP-адресу заблоковано, оскільки її використовували для порушення Умов "
-"використання Meower або, ймовірно, спричинили спам."
+"Вашу IP адресу було заблоковано, оскільки її використовували для порушення "
+"умов обслуговування Meower або ймовірно спричиняли спам."
 
 #: src/lib/modals/ConnectionFailed.svelte:38
 msgid "If you think this is a mistake, please email"
