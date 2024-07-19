@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2024-07-19 17:09+0000\n"
+"PO-Revision-Date: 2024-07-19 18:09+0000\n"
 "Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/website/"
 "uk/>\n"
@@ -23,7 +23,7 @@ msgstr "Meower | Головна"
 
 #: index.html:14
 msgid "Meower Header"
-msgstr ""
+msgstr "Заголовок Meower"
 
 #: index.html:18
 msgid "Home"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: index.html:42
 msgid "all."
-msgstr ""
+msgstr "все."
 
 #: index.html:42
 msgid "Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
@@ -106,11 +106,11 @@ msgstr ""
 
 #: index.html:48
 msgid "wiki"
-msgstr "вікі"
+msgstr "вікі,"
 
 #: index.html:48
 msgid "to learn about our journey."
-msgstr ", щоб дізнатися про нашу подорож."
+msgstr "щоб дізнатися про нашу подорож."
 
 #: index.html:54
 msgid "Open-Source"
@@ -119,23 +119,28 @@ msgstr "Відкритий код"
 #: index.html:55
 msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
 msgstr ""
+"Прозорість лежить в основі Meower. Ми віримо у силу відкритої співпраці. "
+"Будь-хто може зробити свій внесок, створити форк або переглянути початковий "
+"код Meower у нашому"
 
 #: index.html:55
 msgid "repository. Together, we can build a better platform for all."
-msgstr ""
+msgstr "репозиторії. Разом ми можемо побудувати кращу платформу для всіх."
 
 #: index.html:62
 msgid "Join the Community"
-msgstr ""
+msgstr "Приєднайтеся до спільноти"
 
 #: index.html:63
 msgid "Are you ready to join a vibrant community of creators and enthusiasts?"
-msgstr ""
+msgstr "Ви готові приєднатися до живої спільноти творців та ентузіастів?"
 
 #: index.html:63
 msgid "Sign up"
-msgstr ""
+msgstr "Зареєструйтеся"
 
 #: index.html:63
 msgid "for a Meower account today and start sharing your ideas, creations and stories with the world. Let your vice be heard and connect with fellow Meowers!"
 msgstr ""
+"на Meower сьогодні та почніть ділитися своїми ідеями, творіннями та "
+"історіями з усім світом. Нехай ваш голос буде почутим та з’єднаним з іншими!"
