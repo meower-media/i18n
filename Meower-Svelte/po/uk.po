@@ -1,41 +1,42 @@
 # Max Walters <mdwalters.pm@proton.me>, 2023.
+# Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2023-12-14 16:49+0000\n"
-"Last-Translator: Max Walters <mdwalters.pm@proton.me>\n"
+"PO-Revision-Date: 2024-07-19 18:09+0000\n"
+"Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/svelte/"
 "uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr "Підключяємось..."
+msgstr "Підключення..."
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr "Заходимо в ваш аккаунт..."
+msgstr "Входження..."
 
 #: src/lib/Setup.svelte:152 src/lib/modals/Login.svelte:43
 #: src/lib/modals/moderation/DeleteAccount.svelte:22
 msgid "Invalid username!"
-msgstr "Неправильний логін!"
+msgstr "Неправильне ім'я користувача!"
 
 #: src/lib/Setup.svelte:155 src/lib/modals/Login.svelte:46
 msgid "This account has been deleted!"
-msgstr "Цей аккаунт видалено!"
+msgstr "Цей обліковий запис було видалено!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr "Сессія закінчилась! Будь ласка увійдіть в ваш аккаунт знову."
+msgstr "Термін дії сесії закінчився! Будь ласка, увійдіть знову."
 
 #: src/lib/Setup.svelte:160 src/lib/modals/Login.svelte:49
 msgid "Invalid password!"
@@ -44,23 +45,25 @@ msgstr "Неправильний пароль!"
 #: src/lib/Setup.svelte:167 src/lib/Setup.svelte:350
 #: src/lib/modals/Login.svelte:55 src/lib/modals/Signup.svelte:63
 msgid "Usernames must not have spaces or other special characters!"
-msgstr "Імена акккаунтаі мають не вміщати пробіли або спеціяльні символи!"
+msgstr ""
+"Імена користувачів не повинні містити пробілів або інших спеціальних "
+"символів!"
 
 #: src/lib/Setup.svelte:170 src/lib/Setup.svelte:354
 #: src/lib/modals/DeletePost.svelte:35 src/lib/modals/Login.svelte:59
 #: src/lib/modals/Signup.svelte:67
 msgid "Too many requests! Please try again later."
-msgstr "Занадто багато запитів! Будь ласка спробуйте пізніше."
+msgstr "Забагато запитів! Спробуйте ще раз пізніше."
 
 #. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173 src/lib/Setup.svelte:370
 #: src/lib/modals/Signup.svelte:79
 msgid "Unexpected {error} error!"
-msgstr "Помилка {error}!"
+msgstr "Неочікувана помилка {error}!"
 
 #: src/lib/Setup.svelte:201
 msgid "Reconnecting..."
-msgstr "Перепідключаємось..."
+msgstr "Перепідключення..."
 
 #: src/lib/Setup.svelte:220 src/lib/Setup.svelte:293
 #: src/lib/modals/Login.svelte:105
@@ -69,7 +72,7 @@ msgstr "Увійти"
 
 #: src/lib/Setup.svelte:224
 msgid "Create an account"
-msgstr "Створити аккаунт"
+msgstr "Створити обліковий запис"
 
 #: src/lib/Setup.svelte:248
 msgid "Skip"
@@ -77,11 +80,13 @@ msgstr "Пропустити"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr "(Деякі функції будуть недоступні, якщо ви не ввійшли.)"
+msgstr ""
+"(Деякі функції будуть недоступні, поки ви не увійдете в свій обліковий "
+"запис.)"
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
-msgstr "(Ви повинні увійти щоб мати доступ до цьої сторінки.)"
+msgstr "(Увійдіть в свій обліковий запис, щоб переглянути цю сторінку.)"
 
 #. TRANSLATORS: Do not translate the "v" part of this string. It is for displaying the version (e.g. v1.2.3).
 #. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
@@ -96,7 +101,7 @@ msgstr "Увійти в Meower"
 
 #: src/lib/Setup.svelte:274
 msgid "You must specify a username and a password to login!"
-msgstr "Ви маєте вказати логін і пароль щоб ввійти!"
+msgstr "Ви маєте вказати ім'я користувача та пароль, щоб увійти!"
 
 #: src/lib/Setup.svelte:281 src/lib/Setup.svelte:375
 #: src/lib/modals/Login.svelte:72 src/lib/modals/Login.svelte:78
@@ -105,7 +110,7 @@ msgstr "Ви маєте вказати логін і пароль щоб вві�
 #: src/lib/modals/chats/AddMember_Search.svelte:24
 #: src/lib/modals/chats/AddMember.svelte:28
 msgid "Username"
-msgstr "Логін"
+msgstr "Ім'я користувача"
 
 #: src/lib/Setup.svelte:282 src/lib/Setup.svelte:378
 #: src/lib/modals/Login.svelte:86 src/lib/modals/Login.svelte:92
@@ -119,7 +124,8 @@ msgstr "Назад"
 
 #: src/lib/Setup.svelte:309
 msgid "You must specify a username and a password to create an account!"
-msgstr "Ви маєте вказати логін і пароль щоб створити аккаунт!"
+msgstr ""
+"Ви маєте вказати ім'я користувача та пароль, щоб створити обліковий запис!"
 
 #: src/lib/Setup.svelte:314 src/lib/modals/Signup.svelte:29
 msgid ""
@@ -129,16 +135,16 @@ msgstr ""
 
 #: src/lib/Setup.svelte:318
 msgid "Creating account..."
-msgstr "Створюємо аккаунт..."
+msgstr "Створення облікового запису..."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:346 src/lib/modals/Signup.svelte:59
 msgid "{username} is taken!"
-msgstr "Уже є користувач з ім'ям {username}!"
+msgstr "{username} вже зайнято!"
 
 #: src/lib/Setup.svelte:364 src/lib/modals/Signup.svelte:74
 msgid "Registration Disabled"
-msgstr "Створювання аккаунтів виключено"
+msgstr "Реєстрація вимкнена"
 
 #: src/lib/Setup.svelte:365 src/lib/modals/Signup.svelte:75
 msgid ""
@@ -146,20 +152,20 @@ msgid ""
 "administrator has disabled registration. Please try again later."
 msgstr ""
 "На жаль, зараз ви не можете створити новий обліковий запис. Адміністратор "
-"відключив реєстрацію. Будь-ласка спробуйте пізніше."
+"вимкнув реєстрацію. Спробуйте ще раз пізніше."
 
 #: src/lib/Setup.svelte:384 src/lib/modals/Signup.svelte:118
 #: src/lib/modals/Signup.svelte:124
 msgid "Confirm password"
-msgstr "Підтвердити пароль"
+msgstr "Підтвердіть пароль"
 
 #: src/lib/Setup.svelte:395 src/lib/modals/Signup.svelte:137
 msgid "I agree to"
-msgstr "Я зроден з"
+msgstr "Я погоджуюсь з"
 
 #: src/lib/Setup.svelte:399 src/lib/modals/Signup.svelte:147
 msgid "Meower's Terms of Service and Privacy Policy"
-msgstr "Умови обслуговування та політика конфіденційності Meower"
+msgstr "умовами надання послуг та політикою конфіденційності Meower"
 
 #: src/lib/Setup.svelte:413
 msgid "Join!"
@@ -171,7 +177,7 @@ msgstr "Вперед!"
 
 #: src/lib/Setup.svelte:424
 msgid "Somehow, you got to a page that doesn't exist..."
-msgstr "Якось ви потрапили на сторінку, якої не існує..."
+msgstr "Якимось чином ви потрапили на сторінку, якої не існує..."
 
 #. TRANSLATORS: Do not modify the "{page}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:426
@@ -186,24 +192,26 @@ msgstr "Зображення повинно мати назву!"
 #. TRANSLATORS: Please do not translate the "https://" part of this string. This is used as an example, and must be left untranslated.
 #: src/lib/modals/AddImage.svelte:95
 msgid "The image URL must start with https://!"
-msgstr "посилання має починатися з https://!"
+msgstr "URL адреса зображення повинна починатися з https://!"
 
 #: src/lib/modals/AddImage.svelte:118
 msgid "This image is not on the image host whitelist! Allowed image hosts are:"
-msgstr "Це зображення не в списку хостів зображень! Дозволені хости зображень:"
+msgstr ""
+"Це зображення відсутнє у білому списку постачальників зображень! Дозволені "
+"постачальники:"
 
 #: src/lib/modals/AddImage.svelte:131
 msgid "Add Image to Post"
-msgstr "Додати зображення в пост"
+msgstr "Додати зображення до допису"
 
 #: src/lib/modals/AddImage.svelte:137
 msgid "Image Name"
-msgstr "Ім'я зображення"
+msgstr "Назва зображення"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/AddImage.svelte:147
 msgid "Image URL"
-msgstr "Посилання на зображення"
+msgstr "URL адреса зображення"
 
 #: src/lib/modals/AddImage.svelte:153
 msgid "Preview"
@@ -213,12 +221,12 @@ msgstr "Попередній перегляд"
 #: src/lib/modals/AddImage.svelte:161 src/lib/modals/AddImage.svelte:167
 #: src/lib/modals/AddImage.svelte:173
 msgid "{username}'s profile picture"
-msgstr "Зображення профілю {username}"
+msgstr "Фото профілю {username}"
 
 #: src/lib/modals/AddImage.svelte:210 src/lib/modals/Basic.svelte:16
 #: src/lib/modals/moderation/EditRestrictions.svelte:88
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #: src/lib/modals/AddImage.svelte:219
 msgid "Add"
