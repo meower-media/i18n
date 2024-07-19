@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Meower-Website\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-30 21:38+0400\n"
-"PO-Revision-Date: 2024-07-19 16:09+0000\n"
+"PO-Revision-Date: 2024-07-19 17:09+0000\n"
 "Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/website/"
 "uk/>\n"
@@ -56,27 +56,32 @@ msgstr "GitHub"
 
 #: index.html:28
 msgid "Legal"
-msgstr ""
+msgstr "Права"
 
 #: index.html:35
 msgid "Welcome"
-msgstr ""
+msgstr "Ласкаво просимо"
 
 #: index.html:36
 msgid "Meower is a free, open-source, and nonprofit social media platform free of tracking, ads, and data collection."
 msgstr ""
+"Meower – це безкоштовна некомерційна соціальна мережа з відкритим початковим "
+"кодом без відстеження, реклами та збору даних."
 
 #: index.html:37
 msgid "Join our community today and start connecting with like-minded individuals."
-msgstr ""
+msgstr "Приєднайтеся до нашої спільноти та почніть спілкування з однодумцями."
 
 #: index.html:41
 msgid "Safe for All"
-msgstr ""
+msgstr "Безпечно для всіх"
 
 #: index.html:42
 msgid "A friendly place to be. We are committed to keeping Meower safe and welcoming for all. Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
 msgstr ""
+"Дружнє місце для перебування. Ми прагнемо зробити Meower безпечним та "
+"гостинним для всіх. Наша віддана команда невтомно працює над дотриманням "
+"правил спільноти та забезпеченням позитивного досвіду для всіх."
 
 #: index.html:42
 msgid "all."
@@ -85,26 +90,31 @@ msgstr ""
 #: index.html:42
 msgid "Our dedicated team works tirelessly to enforce community guidelines and ensure a positive experince for everyone."
 msgstr ""
+"Наша віддана команда невтомно працює над дотриманням правил спільноти та "
+"забезпеченням позитивного досвіду для всіх."
 
 #: index.html:47
 msgid "Original"
-msgstr ""
+msgstr "Оригінальний"
 
 #: index.html:48
 msgid "Meower started life as a Scratch 3.0-based social media platform. We have a long history, too! WIth the continuous support of our amazing community, we've evolved into a feature-rich platform for all kinds. Explore our"
 msgstr ""
+"Meower почав своє життя як соціальна мережа на основі Scratch 3.0. У нас теж "
+"довга історія! Завдяки постійній підтримці нашої дивовижної спільноти, ми "
+"перетворилися на багатофункціональну платформу для всіх. Ознайомтеся з нашою"
 
 #: index.html:48
 msgid "wiki"
-msgstr ""
+msgstr "вікі"
 
 #: index.html:48
 msgid "to learn about our journey."
-msgstr ""
+msgstr ", щоб дізнатися про нашу подорож."
 
 #: index.html:54
 msgid "Open-Source"
-msgstr ""
+msgstr "Відкритий код"
 
 #: index.html:55
 msgid "Transparency is at the core of Meower. We believe in the power of open-source collaboration. Anyone is welcome to contribute, fork or view the Meower source code on our"
