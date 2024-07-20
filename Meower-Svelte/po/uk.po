@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-07-19 19:10+0000\n"
+"PO-Revision-Date: 2024-07-20 11:09+0000\n"
 "Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/svelte/"
 "uk/>\n"
@@ -303,15 +303,15 @@ msgid ""
 "later."
 msgstr ""
 "Не вдалося підключитися до сервера. Перегляньте консоль для отримання "
-"додаткової інформації або повторіть спробу пізніше."
+"додаткової інформації або спробуйте ще раз пізніше."
 
 #: src/lib/modals/ConnectionFailed.svelte:53
 msgid "Reconnect"
-msgstr "Повторне підключення"
+msgstr "Перепідключитися"
 
 #: src/lib/modals/Debug.svelte:21
 msgid "Debug"
-msgstr ""
+msgstr "Відлагодження"
 
 #: src/lib/modals/Debug.svelte:23
 msgid "Stores"
@@ -347,11 +347,11 @@ msgstr ""
 #: src/lib/modals/moderation/RestartServer.svelte:31
 #: src/lib/modals/moderation/SendAnnouncement.svelte:52
 msgid "Response code is not OK; code is {code}"
-msgstr "Код відповіді не в порядку; код {code}"
+msgstr "Код відповіді не в порядку; код – {code}"
 
 #: src/lib/modals/DeletePost.svelte:49
 msgid "Are you sure you would like to delete this post?"
-msgstr "Ви впевнені, що бажаєте видалити цей пост?"
+msgstr "Ви впевнені, що хочете видалити цей допис?"
 
 #: src/lib/modals/DeletePost.svelte:54
 msgid "Report to Meower Moderators"
@@ -377,7 +377,7 @@ msgstr "Вийти з Meower"
 
 #: src/lib/modals/Login.svelte:23 src/lib/modals/Signup.svelte:24
 msgid "You must specify a username and password!"
-msgstr "Необхідно вказати логін і пароль!"
+msgstr "Ви маєте вказати ім'я користувача та пароль!"
 
 #: src/lib/modals/Login.svelte:103 src/lib/modals/Signup.svelte:18
 msgid "Join Meower"
@@ -385,7 +385,7 @@ msgstr "Приєднатися до Meower"
 
 #: src/lib/modals/Logout.svelte:12
 msgid "Are you sure you would like to logout?"
-msgstr "Ви впевнені що хочене вийти?"
+msgstr "Ви впевнені, що хочете вийти?"
 
 #: src/lib/modals/SearchResults.svelte:14
 msgid "Results"
@@ -393,7 +393,7 @@ msgstr "Результати пошуку"
 
 #: src/lib/modals/SearchResults.svelte:25
 msgid "Error loading results. Please try again."
-msgstr "Помилка завантаження результатів пошуку. Будь ласка спробуйте ще раз."
+msgstr "Помилка завантаження результатів пошуку. Спробуйте ще раз."
 
 #: src/lib/modals/SearchResults.svelte:28
 msgid "No results found."
@@ -401,12 +401,12 @@ msgstr "Нічого не знайдено."
 
 #: src/lib/modals/ServerSelector.svelte:15
 msgid "Server Selector"
-msgstr ""
+msgstr "Вибір сервера"
 
 #: src/lib/modals/ServerSelector.svelte:38
 #: src/lib/modals/moderation/ModerateUser.svelte:476
 msgid "WARNING!"
-msgstr ""
+msgstr "ПОПЕРЕДЖЕННЯ!"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:39
@@ -415,33 +415,37 @@ msgid ""
 "address and some details about your device upon connecting. They may also be "
 "running custom code to log passwords or other sensitive information."
 msgstr ""
+"Підключення до інших серверів може бути небезпечним! Вони можуть отримати "
+"вашу IP адресу та деякі подробиці про ваш пристрій при підключенні. Вони "
+"також можуть використовувати власний код для записування паролів або іншої "
+"конфіденційної інформації."
 
 #: src/lib/modals/ServerSelector.svelte:44
 msgid "This feature is intended for developers."
-msgstr ""
+msgstr "Ця функція призначена для розробників."
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:47
 msgid "Cloudlink URL"
-msgstr ""
+msgstr "URL адреса Cloudlink"
 
 #. TRANSLATORS: The string "URL" stands for "Uniform Resource Locator." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:61
 msgid "REST API URL"
-msgstr ""
+msgstr "URL адреса REST API"
 
 #: src/lib/modals/ServerSelector.svelte:85
 msgid "Reset"
-msgstr ""
+msgstr "Скинути"
 
 #: src/lib/modals/ServerSelector.svelte:87
 msgid "Save & Reload"
-msgstr ""
+msgstr "Зберегти та перезавантажити"
 
 #: src/lib/modals/Signup.svelte:92
 #: src/lib/modals/moderation/ModPanel.svelte:138
 msgid "Username..."
-msgstr "Логін..."
+msgstr "Ім'я користувача..."
 
 #: src/lib/modals/Signup.svelte:107
 msgid "Password..."
@@ -466,7 +470,7 @@ msgid ""
 "Someone's privacy settings are preventing you from adding {username} to "
 "{nickname}"
 msgstr ""
-"Чиїсь налаштування конфіденційності не дозволяють вам додати {username} до "
+"Чиїсь налаштування конфіденційності перешкоджають додаванню {username} до "
 "{nickname}"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
@@ -491,7 +495,7 @@ msgstr "Забагато запитів! Спробуйте ще раз пізн
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:17
 msgid "Enter Username"
-msgstr "Вести ім'я"
+msgstr "Введіть ім'я користувача"
 
 #: src/lib/modals/chats/AddMember_Mode.svelte:23
 msgid "Search for Users"
@@ -527,11 +531,11 @@ msgstr "Профіль {username}"
 
 #: src/lib/modals/chats/GCMember.svelte:32
 msgid "View full profile"
-msgstr "Показати повний профіль"
+msgstr "Переглянути увесь профіль"
 
 #: src/lib/modals/chats/GCMember.svelte:40
 msgid "Remove from chat"
-msgstr "Видалити з чату"
+msgstr "Вилучити з чату"
 
 #: src/lib/modals/chats/GCMember.svelte:49
 msgid "Make owner of chat"
@@ -544,7 +548,7 @@ msgstr "Покинути чат"
 #. TRANSLATORS: Do not modify the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/LeaveChat.svelte:45
 msgid "Are you sure you want to leave {nickname}?"
-msgstr "Ви впевнені, що хочете покинутм {nickname}?"
+msgstr "Ви впевнені, що хочете покинути {nickname}?"
 
 #: src/lib/modals/chats/LeaveChat.svelte:57
 msgid "Leave"
@@ -553,39 +557,38 @@ msgstr "Покинути"
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/RemoveMember.svelte:24
 msgid "Remove {username}"
-msgstr "Видалити {username} з чату"
+msgstr "Вилучити {username}"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/RemoveMember.svelte:59
 msgid "Are you sure you want to remove {username} from {nickname}?"
-msgstr "Ви впевнені, що хочете видалити {username} із {nickname}?"
+msgstr "Ви впевнені, що хочете вилучити {username} з {nickname}?"
 
 #: src/lib/modals/chats/RemoveMember.svelte:72
 msgid "Remove member"
-msgstr ""
+msgstr "Вилучити учасника"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/TransferChatOwnership.svelte:25
 msgid "Transfer Ownership to {username}"
-msgstr "Передати право власності до {username}"
+msgstr "Передати власність {username}"
 
 #. TRANSLATORS: Do not modify the "{username}" or the "{nickname}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/chats/TransferChatOwnership.svelte:60
 msgid ""
 "Are you sure you want to transfer ownership of {nickname} to {username}?"
 msgstr ""
-"Ви впевнені, що бажаєте передати право власності на {nickname} користувачу "
-"{username}?"
+"Ви впевнені, що хочете передати власність {nickname} користувачу {username}?"
 
 #: src/lib/modals/chats/TransferChatOwnership.svelte:73
 #: src/lib/modals/chats/TransferChatOwnership.svelte:76
 msgid "Transfer Ownership"
-msgstr ""
+msgstr "Передати власність"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearPosts.svelte:16
 msgid "Clear {username}'s Posts"
-msgstr ""
+msgstr "Очистити дописи від {username}"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearPosts.svelte:44
@@ -593,6 +596,8 @@ msgid ""
 "Are you sure you wish to delete all of {username}'s posts? Currently, there "
 "is no easy way to recover all of their deleted posts!"
 msgstr ""
+"Ви впевнені, що хочете видалити всі дописи користувача {username}? Наразі "
+"немає простого способу відновлення всіх видалених дописів!"
 
 #. TRANSLATORS: Do not modify the "{username}" and the "{origin}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearPosts.svelte:44
@@ -600,6 +605,8 @@ msgid ""
 "Are you sure you wish to delete all of {username}'s posts in {origin}? "
 "Currently, there is no easy way to recover all of their deleted posts!"
 msgstr ""
+"Ви впевнені, що хочете видалити всі дописи користувача {username} у {origin}"
+"? Наразі немає простого способу відновлення всіх видалених дописів!"
 
 #: src/lib/modals/moderation/ClearPosts.svelte:60
 #: src/lib/modals/moderation/DeleteAccount.svelte:105
@@ -612,21 +619,21 @@ msgstr ""
 #: src/lib/modals/moderation/SendAnnouncement.svelte:30
 #: src/lib/modals/moderation/SendAnnouncement.svelte:62
 msgid "Confirm"
-msgstr ""
+msgstr "Підтвердити"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ClearQuote.svelte:19
 msgid "Clear {username}'s Quote"
-msgstr ""
+msgstr "Очистити цитати від {username}"
 
 #: src/lib/modals/moderation/ClearQuote.svelte:45
 msgid "Are you sure? This action is irreversible!"
-msgstr ""
+msgstr "Ви впевнені? Ця дія є незворотньою!"
 
 #: src/lib/modals/moderation/ClearQuote.svelte:58
 #: src/lib/modals/moderation/ModerateUser.svelte:526
 msgid "Clear Quote"
-msgstr ""
+msgstr "Очистити цитати"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
@@ -634,53 +641,55 @@ msgstr ""
 #: src/lib/modals/moderation/RecentNetblocks.svelte:56
 #: src/lib/modals/moderation/RecentNetblocks.svelte:110
 msgid "Create Netblock"
-msgstr ""
+msgstr "Створити Netblock"
 
 #. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/CreateNetblock.svelte:50
 #: src/lib/modals/moderation/ModerateIP.svelte:108
 #: src/lib/modals/moderation/RecentNetblocks.svelte:60
 msgid "CIDR"
-msgstr ""
+msgstr "CIDR"
 
 #. TRANSLATORS: The string "CIDR" stands for "Classless Inter-Domain Routing." Please abbreviate this string, if possible.
 #: src/lib/modals/moderation/CreateNetblock.svelte:57
 msgid "CIDR..."
-msgstr ""
+msgstr "CIDR..."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:62
 #: src/lib/modals/moderation/ModPanel.svelte:316
 #: src/lib/modals/moderation/ModerateIP.svelte:109
 #: src/lib/modals/moderation/RecentNetblocks.svelte:61
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:69
 #: src/lib/modals/moderation/ModerateIP.svelte:115
 #: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Full"
-msgstr ""
+msgstr "Повний"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:70
 #: src/lib/modals/moderation/ModerateIP.svelte:115
 #: src/lib/modals/moderation/RecentNetblocks.svelte:67
 msgid "Registration"
-msgstr ""
+msgstr "Реєстрація"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:73
 msgid ""
 "This blocks any connection request to Meower's CloudLink server and blocks "
 "any REST API request."
 msgstr ""
+"Це блокуватиме будь-які запити на підключення до сервера CloudLink Meower та "
+"блокуватиме будь-які запити до REST API."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
 msgid "This blocks new accounts from being created."
-msgstr ""
+msgstr "Це блокуватиме можливість створення нових облікових записів."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteAccount.svelte:19
 msgid "Please confirm the user's username ({username}):"
-msgstr ""
+msgstr "Підтвердіть ім'я користувача ({username}):"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:26
 msgid ""
@@ -688,142 +697,146 @@ msgid ""
 "take responsibility for the consequences of this action. Are you absolutely "
 "sure you wish to continue?"
 msgstr ""
+"Ця дія може бути дуже руйнівною! Підтверджуючи це, ви визнаєте та берете на "
+"себе відповідальність за наслідки цієї дії. Ви абсолютно впевнені, що хочете "
+"продовжити?"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:29
 msgid "Cancelled!"
-msgstr ""
+msgstr "Скасовано!"
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteAccount.svelte:53
 msgid "Delete {username}"
-msgstr ""
+msgstr "Видалити {username}"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:56
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:68
 msgid "Cancel scheduled deletion"
-msgstr ""
+msgstr "Скасувати заплановане видалення"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:76
 msgid "Immediate deletion"
-msgstr ""
+msgstr "Негайне видалення"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:79
 msgid "Purge"
-msgstr ""
+msgstr "Очистити"
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:82
 msgid "Cancel scheduled account deletion."
-msgstr ""
+msgstr "Скасувати заплановане видалення облікового запису."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:84
 msgid "Schedule account for deletion after 7 days."
-msgstr ""
+msgstr "Запланувати видалення облікового запису через 7 днів."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:86
 msgid "Immediately delete account."
-msgstr ""
+msgstr "Негайно видалити обліковий запис."
 
 #: src/lib/modals/moderation/DeleteAccount.svelte:88
 msgid "Purge everything about the account. It'll be like it never existed."
-msgstr ""
+msgstr "Очистити всі дані про обліковий запис. Ніби його ніколи й не було."
 
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteNetblock.svelte:18
 msgid "Delete {cidr} Netblock"
-msgstr ""
+msgstr "Видалити {cidr} Netblock"
 
 #. TRANSLATORS: Do not modify the "{cidr}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/DeleteNetblock.svelte:43
 msgid "Are you sure you want to delete {cidr} netblock?"
-msgstr ""
+msgstr "Ви впевнені, що хочете видалити {cidr} netblock?"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:17
 #: src/lib/modals/moderation/ModerateUser.svelte:410
 msgid "Block home posts"
-msgstr ""
+msgstr "Заблокувати дописи на головній сторінці"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:18
 msgid "Blocks creating new home posts."
-msgstr ""
+msgstr "Блокувати створення нових дописів на головній сторінці."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:22
 #: src/lib/modals/moderation/ModerateUser.svelte:413
 msgid "Block chat posts"
-msgstr ""
+msgstr "Заблокувати дописи в чаті"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:23
 msgid "Blocks creating new chat posts."
-msgstr ""
+msgstr "Блокувати нові дописи в чаті."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:27
 msgid "Block new chats"
-msgstr ""
+msgstr "Заблокувати нові чати"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:28
 msgid "Blocks creating new group chats and starting DMs."
-msgstr ""
+msgstr "Блокувати створення нових групових чатів та приватні повідомлень."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:32
 msgid "Block editing group chat nicknames"
-msgstr ""
+msgstr "Заблокувати перейменовування групових чатів"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:33
 msgid "Blocks editing group chat nicknames."
-msgstr ""
+msgstr "Блокувати перейменування групових чатів."
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:37
 msgid "Block editing quote"
-msgstr ""
+msgstr "Заблокувати редагування цитат"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:38
 msgid "Blocks editing their quote."
-msgstr ""
+msgstr "Блокувати редагування цитат."
 
 #. TRANSLATORS: Do not modify the "{username}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/EditRestrictions.svelte:38
 msgid "{username}'s Restrictions"
-msgstr ""
+msgstr "Обмежень {username}"
 
 #: src/lib/modals/moderation/EditRestrictions.svelte:91
 #: src/lib/modals/moderation/ModPanel.svelte:237
 msgid "Save"
-msgstr ""
+msgstr "Зберегти"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:267
 msgid "Enable repair mode"
-msgstr ""
+msgstr "Увімкнути режим відновлення"
 
 #: src/lib/modals/moderation/EnableRepairMode.svelte:40
 msgid ""
 "Are you sure? This will disconnect everyone and prevent anyone from being "
 "able to reconnect!"
 msgstr ""
+"Ви впевнені? Це відключить усіх та перешкодить будь-кому підключитися знову!"
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:14
 #: src/lib/modals/moderation/ModPanel.svelte:257
 msgid "Kick all users"
-msgstr ""
+msgstr "Вигнати усіх користувачів"
 
 #: src/lib/modals/moderation/KickAllUsers.svelte:36
 msgid "Are you sure? This will disconnect everyone!"
-msgstr ""
+msgstr "Ви впевнені? Це відключить усіх користувачів!"
 
 #: src/lib/modals/moderation/ModPanel.svelte:51
 msgid "Disabling registration..."
-msgstr ""
+msgstr "Вимкнення реєстрації..."
 
 #: src/lib/modals/moderation/ModPanel.svelte:53
 msgid "Enabling registration..."
-msgstr ""
+msgstr "Увімкнення реєстрації..."
 
 #. TRANSLATORS: Do not modify the "{registration}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModPanel.svelte:71
 msgid "Successfully {registration} registration!"
-msgstr ""
+msgstr "Реєстрація {registration} успішна!"
 
 #. TRANSLATORS: Do not modify the "{registration}" or the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/modals/moderation/ModPanel.svelte:71
