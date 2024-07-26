@@ -1,11 +1,12 @@
 # zz abunger <witkowskiadam0@gmail.com>, 2024.
+# zz booplister <mogusblaster@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-01-31 18:01+0000\n"
-"Last-Translator: zz abunger <witkowskiadam0@gmail.com>\n"
+"PO-Revision-Date: 2024-07-26 23:09+0000\n"
+"Last-Translator: zz booplister <mogusblaster@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/meower/svelte/pl/>"
 "\n"
 "Language: pl\n"
@@ -14,15 +15,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
-msgstr "Łączymy..."
+msgstr "Łączy..."
 
 #: src/lib/Setup.svelte:135
 msgid "Logging in..."
-msgstr "Zalogowamy..."
+msgstr "Zalogowuje..."
 
 #: src/lib/Setup.svelte:152
 #: src/lib/modals/Login.svelte:43
@@ -37,7 +38,7 @@ msgstr "Ten konto był usunięty!"
 
 #: src/lib/Setup.svelte:159
 msgid "Session expired! Please login again."
-msgstr "Sesja wygasła. Prosze śie zaloguj znowu."
+msgstr "Sesja wygasła. Prosze śie zaloguj od nowa."
 
 #: src/lib/Setup.svelte:160
 #: src/lib/modals/Login.svelte:49
@@ -58,7 +59,7 @@ msgstr ""
 #: src/lib/modals/Login.svelte:59
 #: src/lib/modals/Signup.svelte:67
 msgid "Too many requests! Please try again later."
-msgstr "Za dużo próśb! Spróbuj ponownie później."
+msgstr "Za wiele próśb! Spróbuj ponownie później."
 
 #. TRANSLATORS: Do not modify the "{error}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:173
@@ -69,7 +70,7 @@ msgstr "Nieoczekiwany błąd {error}!"
 
 #: src/lib/Setup.svelte:201
 msgid "Reconnecting..."
-msgstr "Ponownie łączymy..."
+msgstr "Ponownie łączy..."
 
 #: src/lib/Setup.svelte:220
 #: src/lib/Setup.svelte:293
@@ -83,11 +84,11 @@ msgstr "Zrób konto"
 
 #: src/lib/Setup.svelte:248
 msgid "Skip"
-msgstr "Pominuj"
+msgstr "Pominój"
 
 #: src/lib/Setup.svelte:251
 msgid "(Several features will be unavailable while not logged in.)"
-msgstr "(Niektóre funkcje będą niedostępne, gdy nie jesteś zalogowany.)"
+msgstr "(Niektóre funkcje będą niedostępne jak nie jesteś zalogowany.)"
 
 #: src/lib/Setup.svelte:256
 msgid "(You need to be logged in for this page.)"
@@ -97,7 +98,7 @@ msgstr "(Musisz być zalogowany na tej stronie.)"
 #. TRANSLATORS: Do not modify the "{version}" part of the string. This section will be automatically populated with the correct text.
 #: src/lib/Setup.svelte:260
 msgid "Meower Svelte v{version}"
-msgstr "Meower Svelte v{version}"
+msgstr "Meower klient Svelte, versja {version}"
 
 #: src/lib/Setup.svelte:267
 #: src/lib/modals/Login.svelte:17
