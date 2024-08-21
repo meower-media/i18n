@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-08-21 02:09+0000\n"
+"PO-Revision-Date: 2024-08-21 03:09+0000\n"
 "Last-Translator: barney86 <shreder95ua@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/svelte/"
 "uk/>\n"
@@ -642,7 +642,6 @@ msgstr "Очистити цитату"
 #: src/lib/modals/moderation/ModerateIP.svelte:104
 #: src/lib/modals/moderation/RecentNetblocks.svelte:56
 #: src/lib/modals/moderation/RecentNetblocks.svelte:110
-#, fuzzy
 msgid "Create Netblock"
 msgstr "Створити Netblock"
 
@@ -682,8 +681,8 @@ msgid ""
 "This blocks any connection request to Meower's CloudLink server and blocks "
 "any REST API request."
 msgstr ""
-"Це блокуватиме будь-які запити на підключення до сервера CloudLink та "
-"блокуватиме будь-які запити до REST API Meower."
+"Це блокуватиме будь-які запити на підключення до сервера CloudLink і будь-"
+"які запити до REST API Meower."
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:76
 msgid "This blocks new accounts from being created."
