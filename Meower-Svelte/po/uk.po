@@ -1,12 +1,13 @@
 # Max Walters <mdwalters.pm@proton.me>, 2023.
 # Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>, 2024.
+# barney86 <shreder95ua@ukr.net>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Meower-Svelte\n"
 "Report-Msgid-Bugs-To: https://github.com/meower-media-co/i18n/issues\n"
 "POT-Creation-Date: 2023-11-29 20:09+0400\n"
-"PO-Revision-Date: 2024-07-20 12:09+0000\n"
-"Last-Translator: Fqwe1 <Fqwe1@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2024-08-21 02:09+0000\n"
+"Last-Translator: barney86 <shreder95ua@ukr.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/meower/svelte/"
 "uk/>\n"
 "Language: uk\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.7\n"
 
 #: src/lib/Setup.svelte:75
 msgid "Connecting..."
@@ -407,7 +408,7 @@ msgstr "Вибір сервера"
 #: src/lib/modals/ServerSelector.svelte:38
 #: src/lib/modals/moderation/ModerateUser.svelte:476
 msgid "WARNING!"
-msgstr "ПОПЕРЕДЖЕННЯ!"
+msgstr "УВАГА!"
 
 #. TRANSLATORS: The string "IP" stands for "Internet Protocol." Please abbreviate this string, if possible.
 #: src/lib/modals/ServerSelector.svelte:39
@@ -417,8 +418,8 @@ msgid ""
 "running custom code to log passwords or other sensitive information."
 msgstr ""
 "Підключення до інших серверів може бути небезпечним! Вони можуть отримати "
-"вашу IP адресу та деякі подробиці про ваш пристрій при підключенні. Вони "
-"також можуть використовувати власний код для записування паролів або іншої "
+"вашу IP адресу та деякі деталі про ваш пристрій при підключенні. Вони також "
+"можуть застосовувати власний код для записування паролів чи іншої "
 "конфіденційної інформації."
 
 #: src/lib/modals/ServerSelector.svelte:44
@@ -634,7 +635,7 @@ msgstr "Ви впевнені? Ця дія є незворотньою!"
 #: src/lib/modals/moderation/ClearQuote.svelte:58
 #: src/lib/modals/moderation/ModerateUser.svelte:526
 msgid "Clear Quote"
-msgstr "Очистити цитати"
+msgstr "Очистити цитату"
 
 #: src/lib/modals/moderation/CreateNetblock.svelte:19
 #: src/lib/modals/moderation/CreateNetblock.svelte:86
